@@ -1,0 +1,11 @@
+FUENTE_TITULO = ("Arial", 16, "bold")
+FUENTE_NORMAL = ("Arial", 12)
+FUENTE_CHICA = ("Arial", 10)
+
+COLOR_FONDO = "#ffffff"
+COLOR_PRIMARIO = "#2a9d8f"
+COLOR_SECUNDARIO = "#264653"
+COLOR_TEXTO = "#333333"
+COLOR_BOTON = "#e76f51"
+COLOR_BOTON_TEXTO = "#ffffff"
+COLOR_ENTRADA = "#ffffff"
