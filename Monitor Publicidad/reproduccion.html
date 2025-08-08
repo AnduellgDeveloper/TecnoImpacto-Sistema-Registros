@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reproducción Cíclica de Videos a Pantalla Completa</title>
+    <style>
+        html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: black;
+        overflow: hidden;
+        }
+
+        video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover; 
+        transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+<video id="videoPlayer" autoplay muted playsinline></video>
+
+<script>
+  const videoPlayer = document.getElementById('videoPlayer');
+
+  const videos = [
+    { src: 'video_tecnoImpacto.mp4', repeat: 1 },
+    { src: 'video_magicSeco.mp4', repeat: 1 }
+  ];
+
+  let currentVideoIndex = 0;
+  let currentRepeat = 0;
+
+  function playVideo() {
+    const current = videos[currentVideoIndex];
+    videoPlayer.src = current.src;
+    videoPlayer.play();
+    currentRepeat = 1;
+  }
+
+  videoPlayer.addEventListener('ended', () => {
+    const current = videos[currentVideoIndex];
+
+    if (currentRepeat < current.repeat) {
+      currentRepeat++;
+      videoPlayer.play(); 
+    } else {
+      currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+      playVideo(); 
+    }
+  });
+
+  playVideo();
+</script>
+
+</body>
+</html>
