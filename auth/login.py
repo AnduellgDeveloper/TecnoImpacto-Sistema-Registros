@@ -5,7 +5,7 @@ import os
 
 # Credenciales predefinidas
 CREDENTIALS = {
-    "admin": "ad123",
+    "admin": "777",
     "user": "123"
 }
 
