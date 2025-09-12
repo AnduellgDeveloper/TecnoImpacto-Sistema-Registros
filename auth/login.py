@@ -1,62 +1,46 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from PIL import Image, ImageTk
-import os
-
-# Credenciales predefinidas
-CREDENTIALS = {
-    "admin": "777",
-    "user": "123"
-}
+from views.admin_view import AdminView
+from views.employee_view import EmployeeView
 
 class LoginApp:
-    def __init__(self, master):
-        self.master = master
-        self.master.title("TecnoImpacto - Ingreso")
-        self.master.configure(bg="#ffffff")
-        self.master.geometry("400x500")
-        self.master.resizable(False, False)
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Sistema TecnoImpacto - Login")
+        self.root.geometry("400x300")
+        self.root.configure(bg="#f0f0f0")
 
-        self.build_interface()
+        frame = tk.Frame(root, bg="white", bd=2, relief="groove")
+        frame.place(relx=0.5, rely=0.5, anchor="center", width=320, height=220)
 
-    def build_interface(self):
-        # Encabezado con logo
-        logo_path = os.path.join("assets", "TecnoImpacto.png")
-        if os.path.exists(logo_path):
-            image = Image.open(logo_path).resize((250, 150))
-            photo = ImageTk.PhotoImage(image)
-            self.logo_label = ttk.Label(self.master, image=photo)
-            self.logo_label.image = photo
-            self.logo_label.pack(pady=10)
-        else:
-            self.logo_label = ttk.Label(self.master, text="TecnoImpacto", font=("Arial", 18, "bold"))
-            self.logo_label.pack(pady=20)
+        title = tk.Label(frame, text="Iniciar Sesión", font=("Arial", 14, "bold"), bg="white")
+        title.pack(pady=10)
 
-        # Campos de ingreso
-        ttk.Label(self.master, text="Usuario:", font=("Arial", 12)).pack(pady=5)
-        self.username_entry = ttk.Entry(self.master, width=30)
+        tk.Label(frame, text="Usuario:", font=("Arial", 11), bg="white").pack(pady=5)
+        self.username_entry = ttk.Entry(frame, font=("Arial", 11))
         self.username_entry.pack()
 
-        ttk.Label(self.master, text="Contraseña:", font=("Arial", 12)).pack(pady=5)
-        self.password_entry = ttk.Entry(self.master, show="*", width=30)
+        tk.Label(frame, text="Contraseña:", font=("Arial", 11), bg="white").pack(pady=5)
+        self.password_entry = ttk.Entry(frame, show="*", font=("Arial", 11))
         self.password_entry.pack()
 
-        # Botón de ingreso
-        self.login_button = ttk.Button(self.master, text="Ingresar", command=self.verify_credentials)
-        self.login_button.pack(pady=20)
+        login_btn = ttk.Button(frame, text="Ingresar", command=self.verify_credentials)
+        login_btn.pack(pady=15)
 
     def verify_credentials(self):
         user = self.username_entry.get().strip()
         password = self.password_entry.get().strip()
 
-        if user in CREDENTIALS and CREDENTIALS[user] == password:
-            messagebox.showinfo("Bienvenido", f"Has ingresado como {user}")
-            self.master.destroy()
-            if user == "admin":
-                import views.admin_view as admin
-                admin.launch_admin_interface()
-            else:
-                import views.employee_view as emp
-                emp.launch_employee_interface()
+        if user == "admin" and password == "7777":
+            new_window = tk.Toplevel(self.root)
+            AdminView(new_window)
+        elif user == "user" and password == "123":
+            new_window = tk.Toplevel(self.root)
+            EmployeeView(new_window)
         else:
-            messagebox.showerror("Error", "Credenciales incorrectas")
+            messagebox.showerror("Error", "Credenciales inválidas")
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = LoginApp(root)
+    root.mainloop()

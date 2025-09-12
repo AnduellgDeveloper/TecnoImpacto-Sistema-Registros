@@ -1,208 +1,104 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from datetime import datetime
-import csv
-import os
-from models.sales import guardar_venta, ventas_por_periodo, ventas_del_dia, leer_ventas, productos_mas_vendidos
-from PIL import Image, ImageTk
-
-VENTAS_FILE = "data/ventas.csv"
-
-def launch_admin_interface():
-    root = tk.Tk()
-    app = AdminView(root)
-    root.mainloop()
+from models.inventory import Inventory
+from models.sales import Sales
+import datetime
 
 class AdminView:
-    def __init__(self, master):
-        self.master = master
-        self.master.title("Panel Administrador - TecnoImpacto")
-        self.master.geometry("800x600")
-        self.master.configure(bg="#f2f2f2")
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Panel Administrador")
+        self.root.geometry("700x400")
 
-        self.encabezado = tk.Frame(self.master, bg="#ffffff")
-        self.encabezado.pack(fill="x")
-        self.agregar_logo_encabezado()
+        frame = tk.Frame(root, bg="white")
+        frame.pack(fill="both", expand=True, padx=10, pady=10)
 
-        self.ventas = []
-        self.build_ui()
-        self.load_ventas()
+        title = tk.Label(frame, text="Panel Administrador", font=("Arial", 16, "bold"), bg="white")
+        title.pack(pady=10)
 
-    def agregar_logo_encabezado(self):
-        logo_path = os.path.join("assets", "TecnoImpacto.png")
-        if os.path.exists(logo_path):
-            img = Image.open(logo_path).resize((400, 120))
-            self.logo_img = ImageTk.PhotoImage(img)
-            logo_label = tk.Label(self.encabezado, image=self.logo_img, bg="#ffffff")
-            logo_label.pack(pady=10)
-        else:
-            label = tk.Label(self.encabezado, text="TecnoImpacto", font=("Arial", 20, "bold"), bg="#ffffff")
-            label.pack(pady=10)
+        btn_frame = tk.Frame(frame, bg="white")
+        btn_frame.pack(pady=20)
 
-    def build_ui(self):
-        # Topbar fija arriba
-        topbar = ttk.Frame(self.master)
-        topbar.pack(fill="x", padx=10, pady=5)
-        ttk.Button(topbar, text="📊 Ver productos más vendidos", command=self.mostrar_ventana_resumen).pack(side="right")
+        ttk.Button(btn_frame, text="📦 Gestionar Inventario", command=self.gestionar_inventario, width=25).grid(row=0, column=0, padx=10, pady=10)
+        ttk.Button(btn_frame, text="📊 Ver Utilidad", command=self.ver_utilidad, width=25).grid(row=0, column=1, padx=10, pady=10)
 
-        # Contenedor principal
-        contenedor = ttk.Frame(self.master)
-        contenedor.pack(fill="both", expand=True)
+    def gestionar_inventario(self):
+        win = tk.Toplevel(self.root)
+        win.title("Gestión de Inventario")
+        win.geometry("700x400")
 
-        # Registro de ventas
-        frame_registro = ttk.LabelFrame(contenedor, text="Registro de Venta")
-        frame_registro.pack(fill="x", padx=10, pady=10)
-
-        ttk.Label(frame_registro, text="Cantidad:").grid(row=0, column=0, padx=5, pady=5)
-        self.cantidad_var = tk.IntVar(value=1)
-        self.cantidad_entry = ttk.Entry(frame_registro, textvariable=self.cantidad_var, width=10)
-        self.cantidad_entry.grid(row=0, column=1)
-
-        ttk.Label(frame_registro, text="Producto:").grid(row=0, column=2, padx=5, pady=5)
-        self.producto_var = tk.StringVar()
-        from widgets.autocomplete import AutocompleteEntry
-        from views.datos_productos import SUGERENCIAS_PRODUCTO
-        self.producto_entry = AutocompleteEntry(
-            palabras_clave=SUGERENCIAS_PRODUCTO,
-            master=frame_registro,
-            textvariable=self.producto_var,
-            width=30
-        )
-        self.producto_entry.grid(row=0, column=3)
-
-        ttk.Label(frame_registro, text="Precio Unitario:").grid(row=0, column=4, padx=5, pady=5)
-        self.precio_var = tk.DoubleVar()
-        self.precio_entry = ttk.Entry(frame_registro, textvariable=self.precio_var, width=10)
-        self.precio_entry.grid(row=0, column=5)
-
-        self.total_label = ttk.Label(frame_registro, text="Total: $0.00", font=("Arial", 10, "bold"))
-        self.total_label.grid(row=0, column=6, padx=10)
-
-        self.precio_var.trace("w", self.update_total)
-        self.cantidad_var.trace("w", self.update_total)
-
-        ttk.Button(frame_registro, text="Registrar", command=self.registrar_venta).grid(row=0, column=7, padx=10)
-
-        # Tabla de ventas con scrollbar
-        frame_tabla = ttk.Frame(contenedor)
-        frame_tabla.pack(fill="both", expand=True, padx=10, pady=10)
-
-        scrollbar = ttk.Scrollbar(frame_tabla, orient="vertical")
-        scrollbar.pack(side="right", fill="y")
-
-        self.tree = ttk.Treeview(
-            frame_tabla,
-            columns=("fecha", "cantidad", "producto", "unitario", "total"),
-            show="headings",
-            yscrollcommand=scrollbar.set
-        )
-        for col in ("fecha", "cantidad", "producto", "unitario", "total"):
-            self.tree.heading(col, text=col.capitalize())
-
+        cols = ("ID", "Nombre", "Costo", "Precio", "Stock")
+        self.tree = ttk.Treeview(win, columns=cols, show="headings")
+        for col in cols:
+            self.tree.heading(col, text=col)
         self.tree.pack(fill="both", expand=True)
-        scrollbar.config(command=self.tree.yview)
 
-        self.tree.bind("<Double-1>", self.edit_item)
+        self.cargar_productos()
 
-        # Totales
-        self.total_frame = ttk.LabelFrame(contenedor, text="Totales")
-        self.total_frame.pack(fill="x", padx=10, pady=10)
+        btns = tk.Frame(win)
+        btns.pack(pady=5)
+        ttk.Button(btns, text="Agregar Producto", command=self.agregar_producto).pack(side="left", padx=10)
+        ttk.Button(btns, text="Eliminar Producto", command=self.eliminar_producto).pack(side="left", padx=10)
 
-        self.total_dia = ttk.Label(self.total_frame, text="Ventas del día: $0.00")
-        self.total_dia.pack(side="left", padx=10)
+    def cargar_productos(self):
+        for row in self.tree.get_children():
+            self.tree.delete(row)
+        inventario = Inventory.cargar_inventario()
+        for p in inventario:
+            self.tree.insert("", "end", values=(p["id"], p["nombre"], p["costo"], p["precio"], p["stock"]))
 
-        self.total_semana = ttk.Label(self.total_frame, text="Semana: $0.00")
-        self.total_semana.pack(side="left", padx=10)
+    def agregar_producto(self):
+        win = tk.Toplevel(self.root)
+        win.title("Nuevo Producto")
 
-        self.total_mes = ttk.Label(self.total_frame, text="Mes: $0.00")
-        self.total_mes.pack(side="left", padx=10)
+        form = tk.Frame(win)
+        form.pack(padx=10, pady=10)
 
-        self.total_anio = ttk.Label(self.total_frame, text="Año: $0.00")
-        self.total_anio.pack(side="left", padx=10)
+        labels = ["ID", "Nombre", "Costo", "Precio", "Stock"]
+        self.entries = {}
+        for i, label in enumerate(labels):
+            tk.Label(form, text=label).grid(row=i, column=0, padx=5, pady=5)
+            entry = ttk.Entry(form)
+            entry.grid(row=i, column=1, padx=5, pady=5)
+            self.entries[label.lower()] = entry
 
-    def update_total(self, *args):
-        try:
-            cantidad = self.cantidad_var.get()
-            precio = self.precio_var.get()
-            total = cantidad * precio
-            self.total_label.config(text=f"Total: ${total:2}")
-        except:
-            self.total_label.config(text="Total: $0.00")
+        def guardar():
+            producto = {k: v.get() for k, v in self.entries.items()}
+            Inventory.agregar_producto(producto)
+            messagebox.showinfo("Éxito", "Producto agregado")
+            win.destroy()
+            self.cargar_productos()
 
-    def registrar_venta(self):
-        fecha = datetime.now().strftime("%Y-%m-%d")
-        cantidad = self.cantidad_var.get()
-        producto = self.producto_var.get()
-        unitario = self.precio_var.get()
-        total = cantidad * unitario
+        ttk.Button(win, text="Guardar", command=guardar).pack(pady=10)
 
-        if not producto or unitario <= 0:
-            messagebox.showerror("Error", "Ingrese todos los datos correctamente.")
+    def eliminar_producto(self):
+        item = self.tree.selection()
+        if not item:
+            messagebox.showerror("Error", "Seleccione un producto")
             return
+        producto_id = self.tree.item(item, "values")[0]
+        Inventory.eliminar_producto(producto_id)
+        self.cargar_productos()
 
-        guardar_venta(fecha, cantidad, producto, unitario, total)
+    def ver_utilidad(self):
+        win = tk.Toplevel(self.root)
+        win.title("Consulta de Utilidad")
 
-        self.tree.insert("", "end", values=(fecha, cantidad, producto, f"${unitario:2}", f"${total:2}"))
-        self.reset_fields()
-        self.actualizar_totales()
+        tk.Label(win, text="Fecha inicio (YYYY-MM-DD)").pack()
+        entry_inicio = ttk.Entry(win)
+        entry_inicio.pack()
 
-    def load_ventas(self):
-        for venta in leer_ventas():
-            self.tree.insert("", "end", values=(
-                venta["fecha"].strftime("%Y-%m-%d"),
-                venta["cantidad"],
-                venta["producto"],
-                f"${venta['unitario']:2}",
-                f"${venta['total']:2}"
-            ))
-        self.actualizar_totales()
+        tk.Label(win, text="Fecha fin (YYYY-MM-DD)").pack()
+        entry_fin = ttk.Entry(win)
+        entry_fin.pack()
 
-    def reset_fields(self):
-        self.cantidad_var.set(1)
-        self.producto_var.set("")
-        self.precio_var.set(0.0)
+        def calcular():
+            try:
+                inicio = datetime.date.fromisoformat(entry_inicio.get())
+                fin = datetime.date.fromisoformat(entry_fin.get())
+                utilidad = Sales.calcular_utilidad(inicio, fin)
+                messagebox.showinfo("Resultado", f"Utilidad: {utilidad}")
+            except Exception:
+                messagebox.showerror("Error", "Formato de fecha incorrecto")
 
-    def actualizar_totales(self):
-        self.total_dia.config(text=f"Ventas del día: ${ventas_por_periodo('dia'):2}")
-        self.total_semana.config(text=f"Semana: ${ventas_por_periodo('semana'):2}")
-        self.total_mes.config(text=f"Mes: ${ventas_por_periodo('mes'):2}")
-        self.total_anio.config(text=f"Año: ${ventas_por_periodo('anio'):2}")
-
-    def edit_item(self, event):
-        selected = self.tree.focus()
-        if not selected:
-            return
-        valores = self.tree.item(selected)["values"]
-        self.cantidad_var.set(valores[1])
-        self.producto_var.set(valores[2])
-        self.precio_var.set(float(str(valores[3]).replace("$", "")))
-        self.tree.delete(selected)
-
-    def mostrar_ventana_resumen(self):
-        resumen_window = tk.Toplevel(self.master)
-        resumen_window.title("Resumen de productos más vendidos")
-        resumen_window.geometry("500x400")
-
-        periodo_var = tk.StringVar(value="dia")
-
-        def cargar_tabla():
-            for row in tree.get_children():
-                tree.delete(row)
-            data = productos_mas_vendidos(periodo_var.get())
-            for producto, cantidad, total in data:
-                tree.insert("", "end", values=(producto, cantidad, f"${total:2}"))
-
-        frame_select = ttk.Frame(resumen_window)
-        frame_select.pack(pady=10)
-
-        ttk.Label(frame_select, text="Ver por:").pack(side="left", padx=5)
-        ttk.Combobox(frame_select, textvariable=periodo_var, values=["dia", "semana", "mes", "anio"], width=10).pack(side="left", padx=5)
-        ttk.Button(frame_select, text="Actualizar", command=cargar_tabla).pack(side="left", padx=5)
-
-        tree = ttk.Treeview(resumen_window, columns=("producto", "cantidad", "total"), show="headings")
-        tree.heading("producto", text="Producto")
-        tree.heading("cantidad", text="Cantidad")
-        tree.heading("total", text="Total")
-        tree.pack(fill="both", expand=True, padx=10, pady=10)
-
-        cargar_tabla()
+        ttk.Button(win, text="Calcular", command=calcular).pack(pady=10)

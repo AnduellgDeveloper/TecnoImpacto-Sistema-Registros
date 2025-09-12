@@ -1,138 +1,139 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from datetime import datetime
-import csv
-import os
-from PIL import Image, ImageTk
-import os
+from models.sales import Sales
+from models.inventory import Inventory
+import datetime
+import unicodedata
 
-
-VENTAS_FILE = "data/ventas.csv"
-
-def launch_employee_interface():
-    root = tk.Tk()
-    app = EmployeeView(root)
-    root.mainloop()
 
 class EmployeeView:
-    def __init__(self, master):
-        self.master = master
-        self.master.title("Panel Empleado - TecnoImpacto")
-        self.master.geometry("700x550")
-        self.master.configure(bg="#f9f9f9")
-        self.encabezado = tk.Frame(self.master, bg="#ffffff")
-        self.encabezado.pack(fill="x")
-        self.agregar_logo_encabezado()
-        self.build_ui()
-        self.load_ventas_dia()
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Panel Vendedor")
+        self.root.geometry("700x500")
 
-    def agregar_logo_encabezado(self):
-        logo_path = os.path.join("assets", "TecnoImpacto.png")
-        if os.path.exists(logo_path):
-            img = Image.open(logo_path)
-            img = img.resize((400, 120))
-            self.logo_img = ImageTk.PhotoImage(img)
-            logo_label = tk.Label(self.encabezado, image=self.logo_img, bg="#ffffff")
-            logo_label.pack(pady=10)
-        else:
-            label = tk.Label(self.encabezado, text="TecnoImpacto", font=("Arial", 20, "bold"), bg="#ffffff")
-            label.pack(pady=10)
+        frame = tk.Frame(root, bg="white")
+        frame.pack(fill="both", expand=True, padx=10, pady=10)
 
-    def build_ui(self):
-        # Sección registro
-        frame_registro = ttk.LabelFrame(self.master, text="Registrar Venta")
-        frame_registro.pack(fill="x", padx=10, pady=10)
+        title = tk.Label(frame, text="Registrar Venta", font=("Arial", 16, "bold"), bg="white")
+        title.pack(pady=10)
 
-        ttk.Label(frame_registro, text="Cantidad:").grid(row=0, column=0, padx=5, pady=5)
-        self.cantidad_var = tk.IntVar(value=1)
-        self.cantidad_entry = ttk.Entry(frame_registro, textvariable=self.cantidad_var, width=10)
-        self.cantidad_entry.grid(row=0, column=1)
-
-        ttk.Label(frame_registro, text="Producto:").grid(row=0, column=2, padx=5, pady=5)
-        self.producto_var = tk.StringVar()
-
-        from widgets.autocomplete import AutocompleteEntry
-        from views.datos_productos import SUGERENCIAS_PRODUCTO
-        self.producto_entry = AutocompleteEntry(
-            palabras_clave=SUGERENCIAS_PRODUCTO,
-            master=frame_registro,
-            textvariable=self.producto_var,
-            width=30
+        # --- Autocompletado ---
+        tk.Label(frame, text="Producto:", bg="white").pack()
+        self.entry_producto = tk.Entry(frame)
+        self.entry_producto.pack(pady=5)
+        self.entry_producto.bind("<KeyRelease>", self.sugerir_productos)
+        # --- Tabla sugerencias ---
+        scroll_y = tk.Scrollbar(frame, orient="vertical")
+        scroll_y.pack(side="right", fill="y")
+        self.listbox_sugerencias = tk.Listbox(
+            frame, height=10, width=50, yscrollcommand=scroll_y.set
         )
-        self.producto_entry.grid(row=0, column=3)
+        self.listbox_sugerencias.pack(pady=5, fill="x")
+        scroll_y.config(command=self.listbox_sugerencias.yview)
+        self.listbox_sugerencias.bind("<<ListboxSelect>>", self.seleccionar_producto)
 
-        ttk.Label(frame_registro, text="Precio Unitario:").grid(row=0, column=4, padx=5, pady=5)
-        self.precio_var = tk.DoubleVar()
-        self.precio_entry = ttk.Entry(frame_registro, textvariable=self.precio_var, width=10)
-        self.precio_entry.grid(row=0, column=5)
+        # --- Info del producto ---
+        self.lbl_info = tk.Label(frame, text="Costo: - | Precio: -", bg="white", font=("Arial", 11))
+        self.lbl_info.pack(pady=5)
 
-        self.total_label = ttk.Label(frame_registro, text="Total: $0.00", font=("Arial", 10, "bold"))
-        self.total_label.grid(row=0, column=6, padx=10)
+        # --- Cantidad ---
+        tk.Label(frame, text="Cantidad:", bg="white").pack()
+        self.entry_cantidad = ttk.Entry(frame)
+        self.entry_cantidad.pack(pady=5)
 
-        self.precio_var.trace("w", self.update_total)
-        self.cantidad_var.trace("w", self.update_total)
+        # --- Descuento ---
+        tk.Label(frame, text="Descuento (en $):", bg="white").pack()
+        self.entry_descuento = ttk.Entry(frame)
+        self.entry_descuento.pack(pady=5)
 
-        ttk.Button(frame_registro, text="Registrar", command=self.registrar_venta).grid(row=0, column=7, padx=10)
+        # --- Botón ---
+        ttk.Button(frame, text="Registrar Venta", command=self.registrar_venta).pack(pady=10)
 
-        # Tabla de ventas del día
-        self.tree = ttk.Treeview(self.master, columns=("fecha", "cantidad", "producto", "unitario", "total"), show="headings")
-        for col in ("fecha", "cantidad", "producto", "unitario", "total"):
-            self.tree.heading(col, text=col.capitalize())
-        self.tree.pack(fill="both", expand=True, padx=10, pady=10)
+        # --- Tabla de ventas del día ---
+        cols = ("Producto", "Cantidad", "Precio Final", "Descuento", "Total", "Utilidad")
+        self.tree = ttk.Treeview(frame, columns=cols, show="headings", height=8)
+        for col in cols:
+            self.tree.heading(col, text=col)
+        self.tree.pack(fill="both", expand=True, pady=10)
 
-        # Total diario
-        self.total_dia_label = ttk.Label(self.master, text="Total del día: $0.00", font=("Arial", 12))
-        self.total_dia_label.pack(pady=5)
+        self.producto_seleccionado = None
 
-    def update_total(self, *args):
-        try:
-            cantidad = self.cantidad_var.get()
-            precio = self.precio_var.get()
-            total = cantidad * precio
-            self.total_label.config(text=f"Total: ${total:.2f}")
-        except:
-            self.total_label.config(text="Total: $0.00")
+    # --- Función de normalización ---
+    @staticmethod
+    def normalizar_texto(texto):
+        """Convierte texto a minúsculas y sin acentos."""
+        return ''.join(
+            c for c in unicodedata.normalize('NFD', texto.lower())
+            if unicodedata.category(c) != 'Mn'
+        )
 
+    # --- Autocompletado ---
+    def sugerir_productos(self, event):
+        texto = self.normalizar_texto(self.entry_producto.get())
+        self.listbox_sugerencias.delete(0, tk.END)
+
+        if texto:
+            inventario = Inventory.cargar_inventario()
+            resultados = []
+            for p in inventario:
+                nombre = self.normalizar_texto(p["nombre"])
+                pid = self.normalizar_texto(p["id"])
+                if texto in nombre or texto in pid:
+                    resultados.append(f'{p["id"]} - {p["nombre"]}')
+
+            # Ordenar resultados: primero los que empiezan con el texto
+            resultados = sorted(resultados, key=lambda x: not self.normalizar_texto(x).startswith(texto))
+
+            for r in resultados:
+                self.listbox_sugerencias.insert(tk.END, r)
+
+    # --- Seleccionar producto ---
+    def seleccionar_producto(self, event):
+        seleccion = self.listbox_sugerencias.get(tk.ACTIVE)
+        if not seleccion:
+            return
+        producto_id = seleccion.split(" - ")[0]
+        inventario = Inventory.cargar_inventario()
+        self.producto_seleccionado = next((p for p in inventario if p["id"] == producto_id), None)
+        if self.producto_seleccionado:
+            self.lbl_info.config(text=f'Costo: {self.producto_seleccionado["costo"]} | '
+                                      f'Precio: {self.producto_seleccionado["precio"]}')
+
+    # --- Registrar venta ---
     def registrar_venta(self):
-        fecha = datetime.now().strftime("%Y-%m-%d")
-        cantidad = self.cantidad_var.get()
-        producto = self.producto_var.get()
-        unitario = self.precio_var.get()
-        total = cantidad * unitario
-
-        if not producto or unitario <= 0:
-            messagebox.showerror("Error", "Complete todos los campos correctamente.")
+        if not self.producto_seleccionado:
+            messagebox.showerror("Error", "Seleccione un producto válido")
             return
 
-        with open(VENTAS_FILE, "a", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow([fecha, cantidad, producto, unitario, total])
+        try:
+            cantidad = int(self.entry_cantidad.get())
+            descuento = int(self.entry_descuento.get() or 0)
+        except ValueError:
+            messagebox.showerror("Error", "Ingrese números válidos en cantidad y descuento")
+            return
 
-        self.tree.insert("", "end", values=(fecha, cantidad, producto, unitario, total))
-        self.reset_fields()
-        self.actualizar_total_dia()
+        precio_unit = int(self.producto_seleccionado["precio"])
+        costo = int(self.producto_seleccionado["costo"])
+        precio_final = max(precio_unit - descuento, 0)
+        total = precio_final * cantidad
+        utilidad = (precio_final - costo) * cantidad
 
-    def load_ventas_dia(self):
-        hoy = datetime.now().strftime("%Y-%m-%d")
-        total_dia = 0
+        # Registrar venta en CSV
+        try:
+            Sales.registrar_venta(self.producto_seleccionado["id"], cantidad)
+        except Exception as e:
+            messagebox.showerror("Error", str(e))
+            return
 
-        if os.path.exists(VENTAS_FILE):
-            with open(VENTAS_FILE, newline="", encoding="utf-8") as f:
-                reader = csv.reader(f)
-                for row in reader:
-                    if row[0] == hoy:
-                        self.tree.insert("", "end", values=row)
-                        total_dia += float(row[4])
+        # Mostrar en tabla
+        self.tree.insert("", "end", values=(
+            self.producto_seleccionado["nombre"],
+            cantidad,
+            precio_final,
+            descuento,
+            total,
+            utilidad
+        ))
 
-        self.total_dia_label.config(text=f"Total del día: ${total_dia:2}")
-
-    def reset_fields(self):
-        self.cantidad_var.set(1)
-        self.producto_var.set("")
-        self.precio_var.set(0.0)
-
-    def actualizar_total_dia(self):
-        total = 0.0
-        for item in self.tree.get_children():
-            total += float(self.tree.item(item)['values'][4])
-        self.total_dia_label.config(text=f"Total del día: ${total:2}")
+        messagebox.showinfo("Éxito", "Venta registrada")

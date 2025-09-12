@@ -1,4 +1,42 @@
 SUGERENCIAS_PRODUCTO = {
+    "gorr": [
+        "Gorra Yankees",
+        "Gorra Raider",
+        "Gorra Hornets",
+        "Gorra Los Angeles",
+        "Gorra Cardinals",
+        "Gorra Detroit",
+        "Gorra Manchester City",
+        "Gorra Colombia",
+        "Gorra Sox",
+        "Gorra Red Sox",
+        "Gorra Gucci",
+        "Gorra Carolina Herrera",
+        "Gorra Clemont",
+        "Gorra Amiri",
+        "Gorra Bass Pro",
+        "Gorra Bass Angels",
+        "Gorra Nike",
+        "Gorra Belica",
+        "Gorra Gorin Bros",
+        "Gorra Hugo Boss",
+        "Gorra Agropecuaria",
+        "Gorra Fendi",
+        "Gorra Coach",
+        "Gorra Balenciaga",
+        "Gorra Burberry",
+        "Gorra solo fondo",
+        "Gorra Adidas",
+        "Gorra Monastery",
+        "Gorra WestCol",
+        "Gorra Niño",
+        "Gorra Niña"
+    ],
+
+    "magic": [
+        "Magic Seco",
+    ],
+    
     "vape": [
         "Vape Rodman",
         "Vape SnoopySmoke",
