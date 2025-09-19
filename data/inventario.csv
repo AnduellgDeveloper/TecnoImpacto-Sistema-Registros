@@ -1,4 +1,56 @@
-id,nombre,costo,precio,stock
-02,Vidrio Templado blindado RM 13c,3000,15000,8
-03,Vidrio Templado blindado RM Note 13 4G,3000,15000, 9
-04,Vidrio Templado blindado RM Note 13 5G,3000,15000, 9
+id,nombre,costo,precio,stock,proveedor
+GO-1,Gorra ,25000,45000,1,Caps Store 
+GO-2,Gorra ,25000,45000,1,Caps Store 
+GO-3,Gorra ,25000,45000,1,Caps Store 
+GO-4,Gorra ,25000,45000,1,Caps Store 
+GO-5,Gorra ,25000,45000,1,Caps Store 
+VA,Vidrio TB iPhone 16 PM,25000,48000,6,Nulo
+FA-1,Forro iPhone 16 PM,12000,28000,5,Nulo
+FA-2,Forro iPhone 16 PM,17000,30000,5,Nulo
+FA-3,Forro iPhone 16 PM,7500,20000,3,Nulo
+FA-4,Forro iPhone 16 PM,8500,20000,3,Nulo
+FA-5,Forro iPhone 16 PM,12000,25000,6,Nulo
+FA-6,Forro iPhone 16 PM,17000,32000,4,Nulo
+FA-7,Forro iPhone 16 PM,15000,30000,2,Nulo
+FA-8,Forro iPhone 16 PM,10000,25000,2,Nulo
+FA-9,Forro iPhone 16 Pro,18000,30000,4,Nulo
+FA-10,Forro iPhone 16 Pro,12000,28000,6,Nulo
+FA-11,Forro iPhone 16 Pro,17000,32000,3,Nulo
+FA-12,Forro iPhone 16 Pro,14000,28000,2,Nulo
+FA-13,Forro iPhone 16 Pro,10000,25000,3,Nulo
+FA-14,Forro iPhone 16 Pro,8500,20000,2,Nulo
+FA-15,Forro iPhone 16 Pro,7500,20000,3,Nulo
+FA-16,Forro iPhone 16,15000,30000,5,Nulo
+FA-17,Forro iPhone 16,17000,30000,5,Nulo
+FA-18,Forro iPhone 16,8500,20000,2,Nulo
+FA-19,Forro iPhone 16,7500,20000,3,Nulo
+FA-20,Forro iPhone 16,12000,25000,6,Nulo
+FA-21,Forro iPhone 16 PM Silicona,5500,15000,16,Nulo
+FA-22,Forro iPhone 16 Pro Silicona,5500,15000,17,Nulo
+FA-23,Forro iPhone 16 Silicona,5500,15000,12,Nulo
+FA-24,Forro iPhone 15 Silicona,5500,15000,14,Nulo
+FA-25,Forro iPhone 15 Pro Silicona,5500,15000,19,Nulo
+FA-26,Forro iPhone 15 Pro Max Silicona,5500,15000,14,Nulo
+FA-27,Forro iPhone 13/14 Silicona,5500,15000,13,Nulo
+FA-28,Forro iPhone 14 Pro Silicona,5500,15000,16,Nulo
+FA-29,Forro iPhone 14 Pro Max Silicona,5500,15000,22,Nulo
+FA-30,Forro iPhone 13 Pro Silicona,5500,15000,12,Nulo
+FA-31,Forro iPhone 13 Pro Max Silicona,5500,15000,8,Nulo
+FA-32,Forro iPhone 13 Mini Silicona,5500,15000,7,Nulo
+FA-33,Forro iPhone 12 Pro Silicona,5500,15000,16,Nulo
+FA-34,Forro iPhone 12 Pro Max Silicona,5500,15000,0,Nulo
+FA-35,Forro iPhone XR Silicona,5500,15000,7,Nulo
+FA-36,Forro iPhone XS Max Silicona,5500,15000,13,Nulo
+FA-37,Forro iPhone 11 Silicona,5500,15000,15,Nulo
+FA-38,Forro iPhone 11 Pro Silicona,5500,15000,22,Nulo
+MG-01,Magic Seco,2800,6000,62,Leonardo
+VP-01,Vaper Priv Bar,14000,25000,11,Juan Felipe
+VP-02,Vaper Spaceman,15000,30000,5,Juan Felipe
+VP-03,Vaper Snoopy Smoke,14000,28000,8,Juan Felipe
+VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
+VP-05,Vaper Death Row,9000,20000,1,Juan Felipe
+VP-06,Vaper Archer,13000,25000,6,Juan Felipe
+VP-07,Vaper Lost Mary Pequeño,7000,22000,6,Juan Felipe
+VP-08,Vaper Lost Mary Grande,8000,22000,8,Juan Felipe
+VP-09,Mizzle 9000,9000,22000,2,Juan Felipe
+VP-10,South Connect,30000,60000,2,Juan Felipe

@@ -1,3 +1,4 @@
-2025-09-12,24,Vidrio Templado A15,1,2000,10000,8000
-2025-09-12,25,funda silicona A15,1,5000,15000,10000
-2025-09-12,01,Vidrio Templado,1,3000,15000,12000
+fecha,producto_id,nombre,cantidad,costo_unit,precio_unit,descuento,precio_final,total,utilidad
+2025-09-19,VP-01,Vaper Priv Bar,1,14000,25000,0,25000,25000,11000
+2025-09-19,VP-09,Mizzle 9000,1,9000,22000,0,22000,22000,13000
+

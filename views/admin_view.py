@@ -2,13 +2,28 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from models.inventory import Inventory
 from models.sales import Sales
+from models.providers import Providers  # 👈 Importar proveedores
+from tkcalendar import Calendar
 import datetime
+
+
+def centrar_ventana(ventana, ancho, alto):
+    """Centra la ventana en la pantalla"""
+    ventana.update_idletasks()
+    screen_width = ventana.winfo_screenwidth()
+    screen_height = ventana.winfo_screenheight()
+    x = (screen_width // 2) - (ancho // 2)
+    y = (screen_height // 2) - (alto // 2)
+    ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
+
 
 class AdminView:
     def __init__(self, root):
         self.root = root
         self.root.title("Panel Administrador")
-        self.root.geometry("700x400")
+
+        centrar_ventana(self.root, 1000, 720)
+        self.root.configure(bg="#f0f0f0")
 
         frame = tk.Frame(root, bg="white")
         frame.pack(fill="both", expand=True, padx=10, pady=10)
@@ -21,13 +36,18 @@ class AdminView:
 
         ttk.Button(btn_frame, text="📦 Gestionar Inventario", command=self.gestionar_inventario, width=25).grid(row=0, column=0, padx=10, pady=10)
         ttk.Button(btn_frame, text="📊 Ver Utilidad", command=self.ver_utilidad, width=25).grid(row=0, column=1, padx=10, pady=10)
+        ttk.Button(btn_frame, text="👤 Gestionar Proveedores", command=self.gestionar_proveedores, width=25).grid(row=0, column=2, padx=10, pady=10)
 
+    # ----------------------------
+    # Inventario
+    # ----------------------------
     def gestionar_inventario(self):
         win = tk.Toplevel(self.root)
         win.title("Gestión de Inventario")
-        win.geometry("700x400")
+        centrar_ventana(win, 1000, 720)
+        win.configure(bg="#f0f0f0")
 
-        cols = ("ID", "Nombre", "Costo", "Precio", "Stock")
+        cols = ("ID", "Nombre", "Costo", "Precio", "Stock", "Proveedor")
         self.tree = ttk.Treeview(win, columns=cols, show="headings")
         for col in cols:
             self.tree.heading(col, text=col)
@@ -35,7 +55,7 @@ class AdminView:
 
         self.cargar_productos()
 
-        btns = tk.Frame(win)
+        btns = tk.Frame(win, bg="white")
         btns.pack(pady=5)
         ttk.Button(btns, text="Agregar Producto", command=self.agregar_producto).pack(side="left", padx=10)
         ttk.Button(btns, text="Eliminar Producto", command=self.eliminar_producto).pack(side="left", padx=10)
@@ -45,11 +65,12 @@ class AdminView:
             self.tree.delete(row)
         inventario = Inventory.cargar_inventario()
         for p in inventario:
-            self.tree.insert("", "end", values=(p["id"], p["nombre"], p["costo"], p["precio"], p["stock"]))
+            self.tree.insert("", "end", values=(p.get("id"), p.get("nombre"), p.get("costo"), p.get("precio"), p.get("stock"), p.get("proveedor", "")))
 
     def agregar_producto(self):
         win = tk.Toplevel(self.root)
         win.title("Nuevo Producto")
+        centrar_ventana(win, 400, 400)
 
         form = tk.Frame(win)
         form.pack(padx=10, pady=10)
@@ -62,8 +83,16 @@ class AdminView:
             entry.grid(row=i, column=1, padx=5, pady=5)
             self.entries[label.lower()] = entry
 
+        # Combobox de proveedor
+        tk.Label(form, text="Proveedor").grid(row=len(labels), column=0, padx=5, pady=5)
+        proveedores = Providers.cargar_proveedores()
+        lista_proveedores = [p["nombre"] for p in proveedores] if proveedores else []
+        self.combo_proveedor = ttk.Combobox(form, values=lista_proveedores, state="readonly")
+        self.combo_proveedor.grid(row=len(labels), column=1, padx=5, pady=5)
+
         def guardar():
             producto = {k: v.get() for k, v in self.entries.items()}
+            producto["proveedor"] = self.combo_proveedor.get()
             Inventory.agregar_producto(producto)
             messagebox.showinfo("Éxito", "Producto agregado")
             win.destroy()
@@ -80,25 +109,91 @@ class AdminView:
         Inventory.eliminar_producto(producto_id)
         self.cargar_productos()
 
+    # ----------------------------
+    # Proveedores
+    # ----------------------------
+    def gestionar_proveedores(self):
+        win = tk.Toplevel(self.root)
+        win.title("Gestión de Proveedores")
+        centrar_ventana(win, 600, 400)
+
+        cols = ("ID", "Nombre", "Telefono", "Email")
+        tree = ttk.Treeview(win, columns=cols, show="headings")
+        for col in cols:
+            tree.heading(col, text=col)
+        tree.pack(fill="both", expand=True)
+
+        def cargar():
+            for row in tree.get_children():
+                tree.delete(row)
+            for p in Providers.cargar_proveedores():
+                tree.insert("", "end", values=(p["id"], p["nombre"], p["telefono"], p["email"]))
+
+        def agregar():
+            sub = tk.Toplevel(win)
+            sub.title("Nuevo Proveedor")
+            centrar_ventana(sub, 400, 300)
+
+            labels = ["ID", "Nombre", "Telefono", "Email"]
+            entradas = {}
+            for i, label in enumerate(labels):
+                tk.Label(sub, text=label).grid(row=i, column=0, padx=5, pady=5)
+                entry = ttk.Entry(sub)
+                entry.grid(row=i, column=1, padx=5, pady=5)
+                entradas[label.lower()] = entry
+
+            def guardar():
+                proveedor = {k: v.get() for k, v in entradas.items()}
+                Providers.agregar_proveedor(proveedor)
+                sub.destroy()
+                cargar()
+
+            ttk.Button(sub, text="Guardar", command=guardar).grid(row=len(labels), column=0, columnspan=2, pady=10)
+
+        def eliminar():
+            item = tree.selection()
+            if not item:
+                messagebox.showerror("Error", "Seleccione un proveedor")
+                return
+            proveedor_id = tree.item(item, "values")[0]
+            Providers.eliminar_proveedor(proveedor_id)
+            cargar()
+
+        btns = tk.Frame(win, bg="white")
+        btns.pack(pady=5)
+        ttk.Button(btns, text="Agregar Proveedor", command=agregar).pack(side="left", padx=10)
+        ttk.Button(btns, text="Eliminar Proveedor", command=eliminar).pack(side="left", padx=10)
+
+        cargar()
+
+    # ----------------------------
+    # Reporte de Utilidad
+    # ----------------------------
     def ver_utilidad(self):
         win = tk.Toplevel(self.root)
         win.title("Consulta de Utilidad")
 
-        tk.Label(win, text="Fecha inicio (YYYY-MM-DD)").pack()
-        entry_inicio = ttk.Entry(win)
-        entry_inicio.pack()
+        centrar_ventana(win, 600, 400)
+        win.configure(bg="white")
 
-        tk.Label(win, text="Fecha fin (YYYY-MM-DD)").pack()
-        entry_fin = ttk.Entry(win)
-        entry_fin.pack()
+        frame = tk.Frame(win, bg="white")
+        frame.pack(fill="both", expand=True, padx=20, pady=20)
+
+        tk.Label(frame, text="Fecha inicio:", bg="white", font=("Arial", 11)).pack(pady=5)
+        cal_inicio = Calendar(frame, selectmode="day", date_pattern="yyyy-mm-dd")
+        cal_inicio.pack(pady=5)
+
+        tk.Label(frame, text="Fecha fin:", bg="white", font=("Arial", 11)).pack(pady=5)
+        cal_fin = Calendar(frame, selectmode="day", date_pattern="yyyy-mm-dd")
+        cal_fin.pack(pady=5)
 
         def calcular():
             try:
-                inicio = datetime.date.fromisoformat(entry_inicio.get())
-                fin = datetime.date.fromisoformat(entry_fin.get())
+                inicio = datetime.date.fromisoformat(cal_inicio.get_date())
+                fin = datetime.date.fromisoformat(cal_fin.get_date())
                 utilidad = Sales.calcular_utilidad(inicio, fin)
-                messagebox.showinfo("Resultado", f"Utilidad: {utilidad}")
-            except Exception:
-                messagebox.showerror("Error", "Formato de fecha incorrecto")
+                messagebox.showinfo("Resultado", f"Utilidad entre {inicio} y {fin}: {utilidad}")
+            except Exception as e:
+                messagebox.showerror("Error", f"Ocurrió un problema: {e}")
 
-        ttk.Button(win, text="Calcular", command=calcular).pack(pady=10)
+        ttk.Button(frame, text="Calcular Utilidad", command=calcular).pack(pady=15)

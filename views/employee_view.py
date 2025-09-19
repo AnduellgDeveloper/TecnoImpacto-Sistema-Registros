@@ -5,12 +5,22 @@ from models.inventory import Inventory
 import datetime
 import unicodedata
 
+def centrar_ventana(ventana, ancho, alto):
+    """Centra la ventana en la pantalla"""
+    ventana.update_idletasks()
+    screen_width = ventana.winfo_screenwidth()
+    screen_height = ventana.winfo_screenheight()
+    x = (screen_width // 2) - (ancho // 2)
+    y = (screen_height // 2) - (alto // 2)
+    ventana.geometry(f"{ancho}x{alto}+{x}+{y}")
 
 class EmployeeView:
     def __init__(self, root):
         self.root = root
         self.root.title("Panel Vendedor")
-        self.root.geometry("700x500")
+        
+        centrar_ventana(self.root,1000, 720)
+        self.root.configure(bg="#f0f0f0")
 
         frame = tk.Frame(root, bg="white")
         frame.pack(fill="both", expand=True, padx=10, pady=10)
@@ -23,14 +33,9 @@ class EmployeeView:
         self.entry_producto = tk.Entry(frame)
         self.entry_producto.pack(pady=5)
         self.entry_producto.bind("<KeyRelease>", self.sugerir_productos)
-        # --- Tabla sugerencias ---
-        scroll_y = tk.Scrollbar(frame, orient="vertical")
-        scroll_y.pack(side="right", fill="y")
-        self.listbox_sugerencias = tk.Listbox(
-            frame, height=10, width=50, yscrollcommand=scroll_y.set
-        )
+
+        self.listbox_sugerencias = tk.Listbox(frame, height=8, width=60)
         self.listbox_sugerencias.pack(pady=5, fill="x")
-        scroll_y.config(command=self.listbox_sugerencias.yview)
         self.listbox_sugerencias.bind("<<ListboxSelect>>", self.seleccionar_producto)
 
         # --- Info del producto ---
@@ -52,23 +57,25 @@ class EmployeeView:
 
         # --- Tabla de ventas del día ---
         cols = ("Producto", "Cantidad", "Precio Final", "Descuento", "Total", "Utilidad")
-        self.tree = ttk.Treeview(frame, columns=cols, show="headings", height=8)
+        self.tree = ttk.Treeview(frame, columns=cols, show="headings", height=10)
         for col in cols:
             self.tree.heading(col, text=col)
         self.tree.pack(fill="both", expand=True, pady=10)
 
         self.producto_seleccionado = None
 
+        # 🚀 Cargar ventas del día al iniciar
+        self.cargar_ventas_del_dia()
+
     # --- Función de normalización ---
     @staticmethod
     def normalizar_texto(texto):
-        """Convierte texto a minúsculas y sin acentos."""
         return ''.join(
             c for c in unicodedata.normalize('NFD', texto.lower())
             if unicodedata.category(c) != 'Mn'
         )
 
-    # --- Autocompletado ---
+    # --- Autocompletar ---
     def sugerir_productos(self, event):
         texto = self.normalizar_texto(self.entry_producto.get())
         self.listbox_sugerencias.delete(0, tk.END)
@@ -82,9 +89,7 @@ class EmployeeView:
                 if texto in nombre or texto in pid:
                     resultados.append(f'{p["id"]} - {p["nombre"]}')
 
-            # Ordenar resultados: primero los que empiezan con el texto
             resultados = sorted(resultados, key=lambda x: not self.normalizar_texto(x).startswith(texto))
-
             for r in resultados:
                 self.listbox_sugerencias.insert(tk.END, r)
 
@@ -113,27 +118,31 @@ class EmployeeView:
             messagebox.showerror("Error", "Ingrese números válidos en cantidad y descuento")
             return
 
-        precio_unit = int(self.producto_seleccionado["precio"])
-        costo = int(self.producto_seleccionado["costo"])
-        precio_final = max(precio_unit - descuento, 0)
-        total = precio_final * cantidad
-        utilidad = (precio_final - costo) * cantidad
-
-        # Registrar venta en CSV
+        # Guardar en CSV con descuento y precio final
         try:
-            Sales.registrar_venta(self.producto_seleccionado["id"], cantidad)
+            Sales.registrar_venta(self.producto_seleccionado["id"], cantidad, descuento)
         except Exception as e:
             messagebox.showerror("Error", str(e))
             return
 
-        # Mostrar en tabla
-        self.tree.insert("", "end", values=(
-            self.producto_seleccionado["nombre"],
-            cantidad,
-            precio_final,
-            descuento,
-            total,
-            utilidad
-        ))
-
+        # Refrescar ventas del día
+        self.cargar_ventas_del_dia()
         messagebox.showinfo("Éxito", "Venta registrada")
+
+    # --- Cargar ventas del día ---
+    def cargar_ventas_del_dia(self):
+        self.tree.delete(*self.tree.get_children())
+        ventas = Sales.cargar_ventas()
+        hoy = datetime.date.today()
+
+        for v in ventas:
+            fecha = datetime.datetime.strptime(v["fecha"], "%Y-%m-%d").date()
+            if fecha == hoy:
+                self.tree.insert("", "end", values=(
+                    v["nombre"],
+                    v["cantidad"],
+                    v["precio_final"],
+                    v["descuento"],
+                    v["total"],
+                    v["utilidad"]
+                ))
