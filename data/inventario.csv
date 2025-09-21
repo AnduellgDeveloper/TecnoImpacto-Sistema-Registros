@@ -1,9 +1,91 @@
 id,nombre,costo,precio,stock,proveedor
-GO-1,Gorra ,25000,45000,1,Caps Store 
-GO-2,Gorra ,25000,45000,1,Caps Store 
-GO-3,Gorra ,25000,45000,1,Caps Store 
-GO-4,Gorra ,25000,45000,1,Caps Store 
-GO-5,Gorra ,25000,45000,1,Caps Store 
+GO-1,Gorra agropecuaria,26000,50000,6,Caps Store
+GO-2,Gorra agropecuaria malla,26000,50000,4,Caps Store
+GO-3,Gorra agropecuaria cuero,32000,55000,2,Caps Store
+GO-4,Gorra Honda,25000,50000,2,Caps Store
+GO-5,Gorra Superdry,26000,50000,2,Caps Store
+GO-6,Gorra clandestino,28000,50000,2,Caps Store
+GO-7,Gorra básica mazter,18000,35000,9,Caps Store
+GO-8,Gorra básica,9000,22000,11,Caps Store
+GO-9,Gorra antifluidos,18000,35000,8,Nicolas Diablillo
+GO-10,Gorra mawa,20000,35000,2,Caps Store
+GO-11,Gorra Oakley,25000,45000,1,Caps Store
+GO-12,Gorra BMW,20000,35000,2,Caps Store
+GO-13,Gorra Tommy y chicago,20000,35000,3,Caps Store
+GO-14,Gorra estampado niño económica,7000,15000,7,Nicolas Diablillo
+GO-15,Gorra agropecuario niño,16000,32000,3,Caps Store
+GO-16,Gorra estampado anime niño,20000,32000,2,Caps Store
+GO-17,Gorra económica solo fondo,6500,15000,4,Nicolas Diablillo
+GO-18,Gorra Boston tubular,32000,60000,3,Caps Store
+GO-19,Gorra LA tubular,32000,60000,2,Caps Store
+GO-20,Gorra Yankees normal,26000,48000,6,Caps Store
+GO-21,Gorra anime adulto,20000,32000,1,Caps Store
+GO-22,Gorra solo fondo buena,9000,22000,7,Nicolas Diablillo
+GO-23,Gorra Toronto Jays,26000,48000,5,Caps Store
+GO-24,Gorra Houston,34000,60000,1,Caps Store
+GO-25,Gorra Raiders,25000,50000,2,Caps Store
+GO-26,Gorra Supreme tubular,34000,60000,1,Caps Store
+GO-27,Gorra Los Angeles normal,26000,50000,8,Caps Store
+GO-28,Gorra Detroit,26000,48000,1,Caps Store
+GO-29,Gorra Colorado,26000,48000,1,Caps Store
+GO-30,Gorra Boston Red Sox normal,26000,48000,7,Caps Store
+GO-31,Gorra Cardinals,26000,48000,1,Caps Store
+GO-32,Gorra Atlanta,28000,50000,4,Caps Store
+GO-33,Gorra San Francisco,28000,50000,4,Caps Store
+GO-34,Gorra Syrawse,28000,48000,1,Caps Store
+GO-35,Gorra Milwaukee,28000,48000,1,Caps Store
+GO-36,Gorra Georgia Bulldog,27000,50000,1,Caps Store
+GO-37,Gorra Texas Rangers,27000,50000,2,Caps Store
+GO-38,Gorra Minnesota,27000,48000,1,Caps Store
+GO-39,Gorra Athletics,27000,48000,2,Caps Store
+GO-40,Gorra Vancouver Grizlie,27000,48000,2,Caps Store
+GO-41,Gorra Mariners tubular,34000,60000,1,Caps Store
+GO-42,Gorra Mariners tubular,27000,48000,3,Caps Store
+GO-43,Gorra Sidewinders,27000,48000,1,Caps Store
+GO-44,Gorra Hoyas Navy,27000,48000,1,Caps Store
+GO-45,Gorra Oregon,27000,50000,1,Caps Store
+GO-46,Gorra Zephyr,27000,50000,1,Caps Store
+GO-47,Gorra Padres San Diego,27000,50000,1,Caps Store
+GO-48,Gorra Arizona,27000,48000,2,Caps Store
+GO-49,Gorra Dodgers,27000,50000,1,Caps Store
+GO-50,Gorra Dsquared,27000,50000,5,Caps Store
+GO-51,Gorra Adidas,27000,50000,2,Caps Store
+GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
+GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
+GO-54,Gorra Coach Gruesa,32000,55000,3,Caps Store
+GO-55,Gorra Coach normal,27000,50000,6,Caps Store
+GO-56,Gorra Fendi,27000,50000,4,Caps Store
+GO-57,Gorra amiri,27000,50000,3,Caps Store
+GO-58,Gorra Dolce Gabbana,27000,50000,1,Caps Store
+GO-59,Gorra Gucci,27000,50000,3,Caps Store
+GO-60,Gorra Cincinnati,27000,50000,2,Caps Store
+GO-61,Gorra Psycho Bunny,27000,50000,2,Caps Store
+GO-62,Gorra Puma,27000,50000,2,Caps Store
+GO-63,Gorra Full Caos,20000,40000,1,Caps Store
+GO-64,Gorra Quiksilver,27000,50000,1,Caps Store
+GO-65,Gorra Valentino,27000,50000,1,Caps Store
+GO-66,Gorra Balenciaga,25000,45000,2,Caps Store
+GO-67,Gorra Burberry,27000,50000,2,Caps Store
+GO-68,Gorra horners,27000,48000,1,Caps Store
+GO-69,Gorra royal enfield,27000,48000,1,Caps Store
+GO-70,Gorra rancing,30000,55000,2,Caps Store
+GO-71,Gorra Hermes,30000,55000,3,Caps Store
+GO-72,Gorra bass pro shops,27000,50000,2,Caps Store
+GO-73,Gorra salty,27000,48000,7,Caps Store
+GO-74,Gorra antrax,27000,48000,1,Caps Store
+GO-75,Gorra barrow,27000,50000,3,Caps Store
+GO-76,Gorra Houston tubular,30000,60000,1,Caps Store
+GO-77,Gorra Cristiana,27000,55000,2,Caps Store
+GO-78,Gorra monastery,27000,50000,9,Caps Store
+GO-79,Gorra westcol,27000,55000,5,Caps Store
+GO-80,Gorra blessed,28000,55000,1,Caps Store
+GO-81,Gorra clemont,27000,50000,5,Caps Store
+GO-82,Gorra Hugo BOSS,27000,50000,13,Caps Store
+GO-83,Gorra Hugo BOSS AA,30000,55000,1,Caps Store
+GO-84,Gorra Nike llama 🔥,30000,55000,4,Caps Store
+GO-85,Gorra la coste,27000,50000,2,Caps Store
+GO-86,Gorra de Colombia básica,20000,32000,2,Caps Store
+GO-87,Gorra champions,27000,50000,2,Caps Store
 VA,Vidrio TB iPhone 16 PM,25000,48000,6,Nulo
 FA-1,Forro iPhone 16 PM,12000,28000,5,Nulo
 FA-2,Forro iPhone 16 PM,17000,30000,5,Nulo
@@ -44,13 +126,41 @@ FA-36,Forro iPhone XS Max Silicona,5500,15000,13,Nulo
 FA-37,Forro iPhone 11 Silicona,5500,15000,15,Nulo
 FA-38,Forro iPhone 11 Pro Silicona,5500,15000,22,Nulo
 MG-01,Magic Seco,2800,6000,62,Leonardo
-VP-01,Vaper Priv Bar,14000,25000,11,Juan Felipe
-VP-02,Vaper Spaceman,15000,30000,5,Juan Felipe
+VP-01,Vaper Priv Bar,14000,25000,9,Juan Felipe
+VP-02,Vaper Spaceman,15000,30000,4,Juan Felipe
 VP-03,Vaper Snoopy Smoke,14000,28000,8,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row,9000,20000,1,Juan Felipe
 VP-06,Vaper Archer,13000,25000,6,Juan Felipe
 VP-07,Vaper Lost Mary Pequeño,7000,22000,6,Juan Felipe
-VP-08,Vaper Lost Mary Grande,8000,22000,8,Juan Felipe
-VP-09,Mizzle 9000,9000,22000,2,Juan Felipe
+VP-08,Vaper Lost Mary Grande,8000,22000,7,Juan Felipe
+VP-09,Mizzle 9000,9000,22000,1,Juan Felipe
 VP-10,South Connect,30000,60000,2,Juan Felipe
+LN-01,Pure Explosive ,30000,55000,0,Yeison la mina 
+LN-02,Victorius ,30000,55000,1,Yeison la mina 
+LN-03,White only ,30000,55000,1,Yeison la mina 
+LN-04,2y2 vp red ,30000,55000,1,Yeison la mina 
+LN-05,Out black ,30000,55000,1,Yeison la mina 
+LN-06,Night life ,30000,55000,1,Yeison la mina 
+LN-07,Fantastic ,30000,55000,1,Yeison la mina 
+LN-08,Candy ,30000,55000,1,Yeison la mina 
+LN-09,Felina ,30000,55000,1,Yeison la mina 
+LN-10,Amethists ,30000,55000,1,Yeison la mina 
+LN-11,2y2 vp rose ,30000,55000,1,Yeison la mina 
+LN-12,Sweet air ,30000,55000,1,Yeison la mina 
+LNE-01,Hugreen ,20000,40000,1,Yeison la mina  
+LNE-02,Intus ,20000,40000,1,Yeison la mina  
+LNE-03,Millenium ,20000,40000,1,Yeison la mina  
+LNE-04,Sos red ,20000,40000,1,Yeison la mina  
+LNE-05,Sos distintive ,20000,40000,1,Yeison la mina  
+LNE-06,Am Red Rosse ,20000,40000,1,Yeison la mina  
+LNE-07,Kan cun ,20000,40000,1,Yeison la mina  
+LNE-08,Lady Crystall ,20000,40000,2,Yeison la mina  
+CMS-01,Seulement, 30000,49000,1,zona chic
+CMF-01,Faze III, 40000,69000,1,zona chic
+CMB-01,Blessed, 35000,59000,1,zona chic
+CMC-01,Company, 40000,69000,1,zona chic
+CMB-02,Blessed, 35000,60000,1,zona chic
+CMK-01,Kllejeros,35000,65000,1,zona chic
+CMK-02,Kllejeros,30000,59000,1,zona chic
+CG-01, Classic, 13000,22000,5,zona chic
