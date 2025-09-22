@@ -38,6 +38,7 @@ class AdminView:
         ttk.Button(btn_frame, text="📊 Ver Utilidad", command=self.ver_utilidad, width=25).grid(row=0, column=1, padx=10, pady=10)
         ttk.Button(btn_frame, text="👤 Gestionar Proveedores", command=self.gestionar_proveedores, width=25).grid(row=0, column=2, padx=10, pady=10)
         ttk.Button(btn_frame, text="🧾 Reporte de Ventas", command=self.ver_ventas, width=25).grid(row=0, column=3, padx=10, pady=10)
+        ttk.Button(btn_frame, text="🏆 Productos más vendidos", command=self.ver_top_productos, width=25).grid(row=1, column=0, padx=10, pady=10)
 
     # ----------------------------
     # Inventario
@@ -47,6 +48,25 @@ class AdminView:
         win.title("Gestión de Inventario")
         centrar_ventana(win, 1000, 720)
         win.configure(bg="#f0f0f0")
+        search_frame = tk.Frame(win, bg="white")
+        search_frame.pack(pady=5)
+
+        tk.Label(search_frame, text="Buscar:", bg="white").pack(side="left", padx=5)
+        search_entry = ttk.Entry(search_frame)
+        search_entry.pack(side="left", padx=5)
+
+        def buscar():
+            query = search_entry.get().lower()
+            for row in self.tree.get_children():
+                self.tree.delete(row)
+            inventario = Inventory.cargar_inventario()
+            for p in inventario:
+                if query in p["nombre"].lower() or query in p["id"].lower():
+                    self.tree.insert("", "end", values=(p.get("id"), p.get("nombre"), p.get("costo"),
+                                                        p.get("precio"), p.get("stock"), p.get("proveedor", "")))
+
+        ttk.Button(search_frame, text="Buscar", command=buscar).pack(side="left", padx=5)
+
 
         cols = ("ID", "Nombre", "Costo", "Precio", "Stock", "Proveedor")
         self.tree = ttk.Treeview(win, columns=cols, show="headings")
@@ -231,3 +251,41 @@ class AdminView:
                 messagebox.showerror("Error", f"Ocurrió un problema: {e}")
 
         ttk.Button(frame, text="Calcular Ventas", command=calcular_ventas).pack(pady=15)
+
+    # ----------------------------
+    # Ranking de productos más vendidos
+    # ----------------------------
+
+    def ver_top_productos(self):
+        win = tk.Toplevel(self.root)
+        win.title("Productos más vendidos")
+        centrar_ventana(win, 600, 400)
+        win.configure(bg="white")
+
+        frame = tk.Frame(win, bg="white")
+        frame.pack(fill="both", expand=True, padx=20, pady=20)
+
+        cols = ("Producto", "Cantidad Vendida")
+        tree = ttk.Treeview(frame, columns=cols, show="headings")
+        for col in cols:
+            tree.heading(col, text=col)
+        tree.pack(fill="both", expand=True)
+
+        def cargar_ranking(dias):
+            for row in tree.get_children():
+                tree.delete(row)
+            hoy = datetime.date.today()
+            inicio = hoy - datetime.timedelta(days=dias)
+            ranking = Sales.productos_mas_vendidos(inicio, hoy)
+            for nombre, cantidad in ranking:
+                tree.insert("", "end", values=(nombre, cantidad))
+
+        btns = tk.Frame(win, bg="white")
+        btns.pack(pady=10)
+
+        ttk.Button(btns, text="Hoy", command=lambda: cargar_ranking(0)).pack(side="left", padx=5)
+        ttk.Button(btns, text="Últimos 7 días", command=lambda: cargar_ranking(7)).pack(side="left", padx=5)
+        ttk.Button(btns, text="Últimos 30 días", command=lambda: cargar_ranking(30)).pack(side="left", padx=5)
+
+        cargar_ranking(0)  # Mostrar por defecto los de hoy
+ 

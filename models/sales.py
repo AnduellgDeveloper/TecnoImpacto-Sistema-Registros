@@ -2,7 +2,7 @@ import csv
 import os
 import datetime
 from models.inventory import Inventory
-
+from collections import Counter
 VENTAS_FILE = "data/ventas.csv"
 
 
@@ -79,3 +79,13 @@ class Sales:
                 ventas_total += int(v["total"])
         return ventas_total
 
+    @staticmethod
+    def productos_mas_vendidos(fecha_inicio, fecha_fin, top=10):
+        """Retorna los productos más vendidos en un rango de fechas"""
+        ventas = Sales.cargar_ventas()
+        contador = Counter()
+        for v in ventas:
+            fecha = datetime.datetime.strptime(v["fecha"], "%Y-%m-%d").date()
+            if fecha_inicio <= fecha <= fecha_fin:
+                contador[v["nombre"]] += int(v["cantidad"])
+        return contador.most_common(top)
