@@ -67,3 +67,15 @@ class Sales:
             if fecha_inicio <= fecha <= fecha_fin:
                 utilidad_total += int(v["utilidad"])
         return utilidad_total
+    
+    @staticmethod
+    def calcular_ventas(fecha_inicio, fecha_fin):
+        """Calcula el total de ventas entre dos fechas"""
+        ventas = Sales.cargar_ventas()
+        ventas_total = 0
+        for v in ventas:
+            fecha = datetime.datetime.strptime(v["fecha"], "%Y-%m-%d").date()
+            if fecha_inicio <= fecha <= fecha_fin:
+                ventas_total += int(v["total"])
+        return ventas_total
+

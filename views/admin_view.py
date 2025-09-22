@@ -37,6 +37,7 @@ class AdminView:
         ttk.Button(btn_frame, text="📦 Gestionar Inventario", command=self.gestionar_inventario, width=25).grid(row=0, column=0, padx=10, pady=10)
         ttk.Button(btn_frame, text="📊 Ver Utilidad", command=self.ver_utilidad, width=25).grid(row=0, column=1, padx=10, pady=10)
         ttk.Button(btn_frame, text="👤 Gestionar Proveedores", command=self.gestionar_proveedores, width=25).grid(row=0, column=2, padx=10, pady=10)
+        ttk.Button(btn_frame, text="🧾 Reporte de Ventas", command=self.ver_ventas, width=25).grid(row=0, column=3, padx=10, pady=10)
 
     # ----------------------------
     # Inventario
@@ -197,3 +198,36 @@ class AdminView:
                 messagebox.showerror("Error", f"Ocurrió un problema: {e}")
 
         ttk.Button(frame, text="Calcular Utilidad", command=calcular).pack(pady=15)
+
+
+    # ----------------------------
+    # Reporte de Ventas
+    # ----------------------------
+    def ver_ventas(self):
+        win = tk.Toplevel(self.root)
+        win.title("Consulta de Ventas")
+
+        centrar_ventana(win, 600, 400)
+        win.configure(bg="white")
+
+        frame = tk.Frame(win, bg="white")
+        frame.pack(fill="both", expand=True, padx=20, pady=20)
+
+        tk.Label(frame, text="Fecha inicio:", bg="white", font=("Arial", 11)).pack(pady=5)
+        cal_inicio = Calendar(frame, selectmode="day", date_pattern="yyyy-mm-dd")
+        cal_inicio.pack(pady=5)
+
+        tk.Label(frame, text="Fecha fin:", bg="white", font=("Arial", 11)).pack(pady=5)
+        cal_fin = Calendar(frame, selectmode="day", date_pattern="yyyy-mm-dd")
+        cal_fin.pack(pady=5)
+
+        def calcular_ventas():
+            try:
+                inicio = datetime.date.fromisoformat(cal_inicio.get_date())
+                fin = datetime.date.fromisoformat(cal_fin.get_date())
+                ventas = Sales.calcular_ventas(inicio, fin)
+                messagebox.showinfo("Resultado", f"Ventas entre {inicio} y {fin}: {ventas}")
+            except Exception as e:
+                messagebox.showerror("Error", f"Ocurrió un problema: {e}")
+
+        ttk.Button(frame, text="Calcular Ventas", command=calcular_ventas).pack(pady=15)

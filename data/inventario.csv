@@ -7,24 +7,24 @@ GO-5,Gorra Superdry,26000,50000,2,Caps Store
 GO-6,Gorra clandestino,28000,50000,2,Caps Store
 GO-7,Gorra básica mazter,18000,35000,9,Caps Store
 GO-8,Gorra básica,9000,22000,11,Caps Store
-GO-9,Gorra antifluidos,18000,35000,8,Nicolas Diablillo
+GO-9,Gorra antifluidos,18000,35000,7,Nicolas Diablillo
 GO-10,Gorra mawa,20000,35000,2,Caps Store
 GO-11,Gorra Oakley,25000,45000,1,Caps Store
 GO-12,Gorra BMW,20000,35000,2,Caps Store
 GO-13,Gorra Tommy y chicago,20000,35000,3,Caps Store
-GO-14,Gorra estampado niño económica,7000,15000,7,Nicolas Diablillo
+GO-14,Gorra estampado niño económica,7000,15000,6,Nicolas Diablillo
 GO-15,Gorra agropecuario niño,16000,32000,3,Caps Store
-GO-16,Gorra estampado anime niño,20000,32000,2,Caps Store
+GO-16,Gorra estampado anime niño,20000,32000,1,Caps Store
 GO-17,Gorra económica solo fondo,6500,15000,4,Nicolas Diablillo
 GO-18,Gorra Boston tubular,32000,60000,3,Caps Store
 GO-19,Gorra LA tubular,32000,60000,2,Caps Store
-GO-20,Gorra Yankees normal,26000,48000,6,Caps Store
+GO-20,Gorra Yankees normal,26000,48000,5,Caps Store
 GO-21,Gorra anime adulto,20000,32000,1,Caps Store
 GO-22,Gorra solo fondo buena,9000,22000,7,Nicolas Diablillo
 GO-23,Gorra Toronto Jays,26000,48000,5,Caps Store
 GO-24,Gorra Houston,34000,60000,1,Caps Store
 GO-25,Gorra Raiders,25000,50000,2,Caps Store
-GO-26,Gorra Supreme tubular,34000,60000,1,Caps Store
+GO-26,Gorra Supreme tubular,34000,60000,0,Caps Store
 GO-27,Gorra Los Angeles normal,26000,50000,8,Caps Store
 GO-28,Gorra Detroit,26000,48000,1,Caps Store
 GO-29,Gorra Colorado,26000,48000,1,Caps Store
@@ -52,7 +52,7 @@ GO-50,Gorra Dsquared,27000,50000,5,Caps Store
 GO-51,Gorra Adidas,27000,50000,2,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
-GO-54,Gorra Coach Gruesa,32000,55000,3,Caps Store
+GO-54,Gorra Coach Gruesa,32000,55000,2,Caps Store
 GO-55,Gorra Coach normal,27000,50000,6,Caps Store
 GO-56,Gorra Fendi,27000,50000,4,Caps Store
 GO-57,Gorra amiri,27000,50000,3,Caps Store
@@ -75,7 +75,7 @@ GO-73,Gorra salty,27000,48000,7,Caps Store
 GO-74,Gorra antrax,27000,48000,1,Caps Store
 GO-75,Gorra barrow,27000,50000,3,Caps Store
 GO-76,Gorra Houston tubular,30000,60000,1,Caps Store
-GO-77,Gorra Cristiana,27000,55000,2,Caps Store
+GO-77,Gorra Cristiana,27000,55000,1,Caps Store
 GO-78,Gorra monastery,27000,50000,9,Caps Store
 GO-79,Gorra westcol,27000,55000,5,Caps Store
 GO-80,Gorra blessed,28000,55000,1,Caps Store
@@ -126,7 +126,7 @@ FA-36,Forro iPhone XS Max Silicona,5500,15000,13,Nulo
 FA-37,Forro iPhone 11 Silicona,5500,15000,15,Nulo
 FA-38,Forro iPhone 11 Pro Silicona,5500,15000,22,Nulo
 MG-01,Magic Seco,2800,6000,62,Leonardo
-VP-01,Vaper Priv Bar,14000,25000,9,Juan Felipe
+VP-01,Vaper Priv Bar,14000,25000,7,Juan Felipe
 VP-02,Vaper Spaceman,15000,30000,4,Juan Felipe
 VP-03,Vaper Snoopy Smoke,14000,28000,8,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
@@ -144,7 +144,7 @@ LN-05,Out black ,30000,55000,1,Yeison la mina
 LN-06,Night life ,30000,55000,1,Yeison la mina 
 LN-07,Fantastic ,30000,55000,1,Yeison la mina 
 LN-08,Candy ,30000,55000,1,Yeison la mina 
-LN-09,Felina ,30000,55000,1,Yeison la mina 
+LN-09,Felina ,30000,55000,0,Yeison la mina 
 LN-10,Amethists ,30000,55000,1,Yeison la mina 
 LN-11,2y2 vp rose ,30000,55000,1,Yeison la mina 
 LN-12,Sweet air ,30000,55000,1,Yeison la mina 
@@ -164,10 +164,86 @@ CMB-02,Blessed, 35000,60000,1,zona chic
 CMK-01,Kllejeros,35000,65000,1,zona chic
 CMK-02,Kllejeros,30000,59000,1,zona chic
 CG-01, Classic, 13000,22000,5,zona chic
-CDC-01, Correa de cuero,15000,25000,6,zona chic
+CDC-01, Correa de cuero,15000,25000,5,zona chic
 PR-01, Piernero,16000,35000,2,zona chic
 CR-01,Carriel,25000,40000,1,zona chic 
 BA-01,Bolso amelie blanco,30000,58000,1,zona chic 
 BD-01,Bolso denis azul,55000,95000,1,zona chic
 CRD-01,Carriel dama,22000,45000,11,zona chic 
-BH-01,Billetera hombre,15000,25000,10,zona chic
+BH-01,Billetera hombre economica,15000,25000,9,zona chic
+BH-02,Billetera hombre,35000,60000,4,nulo
+BH-03,Billetera dama economica,15000,22000,5,zona chic
+BH-04,Billetera dama moschino,28000,50000,1,nulo
+BH-05,Billetera dama CH,35000,60000,1,nulo
+RJ-01,Reloj de lujo economico,35000,60000,15,nulo
+RJ-02,Reloj de lujo, 40000,70000,10,nulo
+RJ-03,Reloj rolex,45000,80000,1,nulo
+RJ-04,Reloj caro,60000,100000,3,nulo
+RJ-05,Reloj sport de lujo,40000,70000,5,nulo
+RJ-06,Reloj de caja rolex,40000,70000,1,nulo
+RJ-07,Reloj saint,36000,65000,3,nulo
+RJ-08,Reloj max antiagua,30000,55000,1,nulo
+RJ-09,Reloj santy antiagua,16000,30000,3,Nulo
+RJ-10,Reloj economico,12000,22000,5,nulo
+RJ-11,Reloj antiagua sport,20000,50000,12,nulo
+BLN-01,Blones,1800,4000,44,nulo
+CR-01,Cueros raro,4500,10000,20,nulo
+CR-02,Cueros OCB,1500,4000,49,nulo
+CR-03,Cueros Fumanchu,3600,8000,24,nulo
+CR-04,Cueros smocking,660,2000,49,nulo
+RC-01,Rasca 3 pisos,3500,9000,6,nulo
+RC-02,Rasca 1 piso,2300,6000,11,nulo
+FL-01,Filtro pluma roja,600,2000,46,nulo
+PP-01,Pipa de madera,700,2500,10,nulo
+PP-02,Pipa de vidrio pequeña,1000,3000,4,nulo
+PP-03,Pipa de vidrio grande,2000,6000,2,nulo
+CHR-01,Cucharita🌬 grande,1500,5000,7,nulo
+CHR-02,Cucharita🌬 pequeña,1000,2000,2,nulo
+BS-01,Bolsa de exotica pequeña,700,1500,10,nulo
+BS-02,Bolsa de exotica grande,1000,2500,20,nulo
+AC-01,Armador de cigarros,3000,6000,4,nulo
+GR-01,Gramera,9500,15000,6,nulo
+BR-01,Banda de radio,15000,25000,2,Nulo
+CB-01,Cable 3 en 1,8000,20000,10,nulo
+CCV-01,Cargador cigarrero tipo C-USB,14000,28000,2,volt pro
+CCV-02,Cargador cigarrero tipo USB-USB,6000,14000,6,volt pro
+CCV-03,Cargador cigarrero UNIVERSAL,23000,40000,3,volt pro
+CM-01,Car magnetico,10000,20000,4,nulo
+CM-02,Car magnetico mini,9800,23000,3,nulo
+CM-01,Cargador multiple,5800,15000,10,nulo
+AUS-01,Adaptador iphone-aux,6500,14000,5,nulo
+AUS-02,Adaptador USB-TIPO C ,2500,8000,7,nulo
+BP-01,Bateria portatil,85000,150000,2,nulo
+MU-01,Memoria USB 32G,16000,25000,4,nulo
+MU-02,Memoria USB 64G,16000,30000,6,nulo
+MM-01,Micro memoria 4G,3500,6000,4,nulo
+MM-02,Micro memoria 8G,4500,10000,1,nulo
+MM-03,Micro memoria 16G,9000,18000,4,nulo
+MM-04,Micro memoria 32G,16000,26000,1,nulo
+MM-05,Micro memoria 64G,16000,30000,4,nulo
+VDG-01,Vidrio hidrogel claro,3000,13000,47,nulo
+VDG-02,Vidrio hidrogel mate,3000,15000,11,nulo
+VDG-03,Vidrio hidrogel antiespias,5000,20000,18,nulo
+HS-01,Audifonos estereo,18000,35000,5,volt pro
+AP-01,Airpods pro,46000,80000,3,nulo
+AP-02,Airpods,46000,80000,2,nulo
+IP-01,Inpods,19000,40000,2,nulo
+VV-01,funda silicona vivo Y51S,4500,15000,2,nulo
+VV-02,funda silicona vivo Y28 4G,4500,15000,5,nulo
+VV-03,funda silicona vivo Y20 Y20S Y11S,4500,15000,11,nulo
+VV-04,funda silicona vivo Y36 4G,4500,15000,5,nulo
+VV-05,funda silicona vivo Y38 5G,4500,15000,4,nulo
+VV-06,funda vivo Y38 5G anticaídas,12000,25000,6,nulo
+VV-07,funda vivo Y03 anticaídas,12000,25000,6,nulo
+OP-01,Funda silicona Oppo RENO8,4500,15000,5,nulo
+OP-02,Funda silicona Oppo RENO105G,4500,15000,8,nulo
+OP-03,Funda silicona Oppo RENO 11 5G,4500,15000,8,nulo
+OP-04,Funda silicona Oppo A38 4G,4500,15000,1,nulo
+OP-05,Funda silicona Oppo A54 4G,4500,15000,2,nulo
+OP-06,Funda silicona Oppo A57-A77 4G,4500,15000,2,nulo
+OP-07,Funda silicona Oppo A58 4G,4500,15000,1,nulo
+OP-08,Funda silicona Oppo A78 4G,4500,15000,10,nulo
+OP-09,Funda silicona Oppo A79 5G,4500,15000,21,nulo
+OP-10,Funda muñequitos Oppo A59 5G,10000,20000,5,nulo
+OP-11,Funda muñequitos Oppo A79 5G,10000,20000,8,nulo
+OP-12,Funda anticaídas Oppo A78 4G,12000,25000,3,nulo
