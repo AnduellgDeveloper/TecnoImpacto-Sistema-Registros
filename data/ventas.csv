@@ -48,3 +48,4 @@ fecha,producto_id,nombre,cantidad,costo_unit,precio_unit,descuento,precio_final,
 2025-09-22,VP-01,Vaper Priv Bar,1,14000,25000,0,25000,25000,11000
 2025-09-22,VDG-02,Vidrio hidrogel mate,1,3000,15000,0,15000,15000,12000
 2025-09-22,VDG-02,Vidrio hidrogel mate,1,3000,15000,0,15000,15000,12000
+2025-09-22,VDG-03,Vidrio hidrogel antiespias,1,5000,20000,0,20000,20000,15000
