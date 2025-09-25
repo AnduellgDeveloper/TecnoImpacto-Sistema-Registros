@@ -30,7 +30,7 @@ GO-28,Gorra Detroit,26000,48000,1,Caps Store
 GO-29,Gorra Colorado,26000,48000,1,Caps Store
 GO-30,Gorra Boston Red Sox normal,26000,48000,7,Caps Store
 GO-31,Gorra Cardinals,26000,48000,1,Caps Store
-GO-32,Gorra Atlanta,28000,50000,4,Caps Store
+GO-32,Gorra Atlanta,28000,50000,3,Caps Store
 GO-33,Gorra San Francisco,28000,50000,4,Caps Store
 GO-34,Gorra Syrawse,28000,48000,1,Caps Store
 GO-35,Gorra Milwaukee,28000,48000,1,Caps Store
@@ -53,7 +53,7 @@ GO-51,Gorra Adidas,27000,50000,2,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
 GO-54,Gorra Coach Gruesa,32000,55000,2,Caps Store
-GO-55,Gorra Coach normal,27000,50000,6,Caps Store
+GO-55,Gorra Coach normal,27000,50000,4,Caps Store
 GO-56,Gorra Fendi,27000,50000,4,Caps Store
 GO-57,Gorra amiri,27000,50000,3,Caps Store
 GO-58,Gorra Dolce Gabbana,27000,50000,1,Caps Store
@@ -82,7 +82,7 @@ GO-80,Gorra blessed,28000,55000,1,Caps Store
 GO-81,Gorra clemont,27000,50000,5,Caps Store
 GO-82,Gorra Hugo BOSS,27000,50000,13,Caps Store
 GO-83,Gorra Hugo BOSS AA,30000,55000,1,Caps Store
-GO-84,Gorra Nike llama 🔥,30000,55000,4,Caps Store
+GO-84,Gorra Nike llama 🔥,30000,55000,3,Caps Store
 GO-85,Gorra la coste,27000,50000,2,Caps Store
 GO-86,Gorra de Colombia básica,20000,32000,2,Caps Store
 GO-87,Gorra champions,27000,50000,2,Caps Store
@@ -125,14 +125,14 @@ FA-35,Forro iPhone XR Silicona,5500,15000,7,Nulo
 FA-36,Forro iPhone XS Max Silicona,5500,15000,13,Nulo
 FA-37,Forro iPhone 11 Silicona,5500,15000,15,Nulo
 FA-38,Forro iPhone 11 Pro Silicona,5500,15000,22,Nulo
-MG-01,Magic Seco,2800,6000,62,Leonardo
-VP-01,Vaper Priv Bar,14000,25000,7,Juan Felipe
+MG-01,Magic Seco,2800,6000,61,Leonardo
+VP-01,Vaper Priv Bar,14000,25000,5,Juan Felipe
 VP-02,Vaper Spaceman,15000,30000,4,Juan Felipe
 VP-03,Vaper Snoopy Smoke,14000,28000,8,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row,9000,20000,1,Juan Felipe
 VP-06,Vaper Archer,13000,25000,6,Juan Felipe
-VP-07,Vaper Lost Mary Pequeño,7000,22000,6,Juan Felipe
+VP-07,Vaper Lost Mary Pequeño,7000,22000,5,Juan Felipe
 VP-08,Vaper Lost Mary Grande,8000,22000,7,Juan Felipe
 VP-09,Mizzle 9000,9000,22000,1,Juan Felipe
 VP-10,South Connect,30000,60000,2,Juan Felipe
@@ -218,12 +218,12 @@ MU-01,Memoria USB 32G,16000,25000,4,nulo
 MU-02,Memoria USB 64G,16000,30000,6,nulo
 MM-01,Micro memoria 4G,3500,6000,4,nulo
 MM-02,Micro memoria 8G,4500,10000,1,nulo
-MM-03,Micro memoria 16G,9000,18000,4,nulo
+MM-03,Micro memoria 16G,9000,18000,3,nulo
 MM-04,Micro memoria 32G,16000,26000,1,nulo
 MM-05,Micro memoria 64G,16000,30000,4,nulo
 VDG-01,Vidrio hidrogel claro,3000,13000,47,nulo
-VDG-02,Vidrio hidrogel mate,3000,15000,11,nulo
-VDG-03,Vidrio hidrogel antiespias,5000,20000,18,nulo
+VDG-02,Vidrio hidrogel mate,3000,15000,10,nulo
+VDG-03,Vidrio hidrogel antiespias,5000,20000,16,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 AP-01,Airpods pro,46000,80000,3,nulo
 AP-02,Airpods,46000,80000,2,nulo
@@ -262,7 +262,7 @@ MT-12,Funda silicona Motorola G31,4500,15000,6,nulo
 MT-13,Funda silicona Motorola G32,4500,15000,5,nulo
 MT-14,Funda silicona Motorola G34,4500,15000,8,nulo
 MT-15,Funda silicona Motorola G35,4500,15000,6,nulo
-MT-16,Funda silicona Motorola G42 4G,4500,15000,11,nulo
+MT-16,Funda silicona Motorola G42 4G,4500,15000,10,nulo
 MT-17,Funda silicona Motorola G50,4500,15000,13,nulo
 MT-18,Funda silicona Motorola G51,4500,15000,13,nulo
 MT-19,Funda silicona Motorola G52,4500,15000,8,nulo
@@ -341,7 +341,7 @@ RM-17,Funda Redmi Note 13 Piedritas,10000,20000,3,nulo
 RM-18,Funda Redmi 13C Diseños,6000,15000,9,nulo
 RM-19,Funda Redmi 10 Diseños,6000,15000,4,nulo
 RM-20,Funda Redmi 10 Antichoque,12000,15000,1,nulo
-LG-01,Funda de silicona LG-K61,4500,15000,8,nulo
+LG-01,Funda de silicona LG-K61,4500,15000,7,nulo
 ZF-01,Funda de silicona Z Flip 6,4500,15000,1,nulo
 RA-01,Funda silicona realme C35,4500,15000,10,nulo
 RA-02,Funda silicona realme C11,4500,15000,3,nulo
@@ -349,3 +349,117 @@ RA-03,Funda silicona realme 7,4500,15000,1,nulo
 IX-01,Funda silicona INFINIX Hot 40 pro,4500,15000,1,nulo
 IX-02,Funda silicona INFINIX Hot 50 pro,4500,15000,8,nulo
 IX-03,Funda silicona INFINIX Hot 50 pro plus,4500,15000,6,nulo
+SM-27,Funda Samsung transparente A05s,4500,15000,5,nulo
+SM-28,Funda Samsung transparente A05,4500,15000,6,nulo
+SM-29,Funda Samsung transparente A06,4500,15000,4,nulo
+SM-30,Funda Samsung transparente A12,4500,15000,6,nulo
+SM-31,Funda Samsung transparente A13,4500,15000,6,nulo
+SM-32,Funda Samsung transparente A14,4500,15000,5,nulo
+SM-33,Funda Samsung transparente A20,4500,15000,2,nulo
+SM-34,Funda Samsung transparente A21s,4500,15000,3,nulo
+SM-35,Funda Samsung transparente A22/4g,4500,15000,6,nulo
+SM-36,Funda Samsung transparente A24,4500,15000,5,nulo
+SM-37,Funda Samsung transparente A25,4500,15000,5,nulo
+SM-38,Funda Samsung transparente A26,4500,15000,6,nulo
+SM-39,Funda Samsung transparente A32/4g,4500,15000,5,nulo
+SM-40,Funda Samsung transparente A33,4500,15000,6,nulo
+SM-41,Funda Samsung transparente A34,4500,15000,5,nulo
+SM-42,Funda Samsung transparente A36,4500,15000,2,nulo
+SM-43,Funda Samsung transparente A53,4500,15000,2,nulo
+SM-44,Funda Samsung transparente A55,4500,15000,3,nulo
+SM-45,Funda Samsung transparente A56,4500,15000,6,nulo
+SM-46,Funda Samsung transparente S20Fe,4500,15000,3,nulo
+SM-47,Funda Samsung transparente S23Ultra,4500,15000,6,nulo
+SM-48,Funda Samsung transparente S24,4500,15000,5,nulo
+SM-49,Funda Samsung transparente S24Fe,4500,15000,5,nulo
+SM-50,Funda Samsung transparente S24Ultra,4500,15000,5,nulo
+MT-49,Funda transparente Motorola E4C,4500,15000,5,nulo
+MT-50,Funda transparente Motorola E13,4500,15000,6,nulo
+MT-51,Funda transparente Motorola E20,4500,15000,3,nulo
+MT-52,Funda transparente Motorola E22,4500,15000,6,nulo
+MT-53,Funda transparente Motorola E30,4500,15000,6,nulo
+MT-54,Funda transparente Motorola G04,4500,15000,6,nulo
+MT-55,Funda transparente Motorola G05,4500,15000,6,nulo
+MT-56,Funda transparente Motorola G13,4500,15000,6,nulo
+MT-57,Funda transparente Motorola G15,4500,15000,6,nulo
+MT-58,Funda transparente Motorola G22,4500,15000,1,nulo
+MT-59,Funda transparente Motorola G24 Power,4500,15000,5,nulo
+MT-60,Funda transparente Motorola G30,4500,15000,4,nulo
+MT-61,Funda transparente Motorola G34,4500,15000,6,nulo
+MT-62,Funda transparente Motorola G35,4500,15000,6,nulo
+MT-63,Funda transparente Motorola G52,4500,15000,2,nulo
+MT-64,Funda transparente Motorola G54,4500,15000,6,nulo
+MT-65,Funda transparente Motorola G55,4500,15000,6,nulo
+MT-66,Funda transparente Motorola G84,4500,15000,6,nulo
+MT-67,Funda transparente Motorola G85,4500,15000,6,nulo
+MT-68,Funda transparente Motorola Edge 30,4500,15000,6,nulo
+MT-69,Funda transparente Motorola Edge 40,4500,15000,3,nulo
+IP-01,Funda transparente iPhone 6/7/8,4500,15000,12,nulo
+IP-02,Funda transparente iPhone XS Max,4500,15000,6,nulo
+IP-03,Funda transparente iPhone 11,4500,15000,2,nulo
+IP-04,Funda transparente iPhone 11 Pro,4500,15000,6,nulo
+IP-05,Funda transparente iPhone 11 Pro Max,4500,15000,3,nulo
+IP-06,Funda transparente iPhone 12,4500,15000,4,nulo
+IP-07,Funda transparente iPhone 12 Pro Max,4500,15000,5,nulo
+IP-08,Funda transparente iPhone 13/14,4500,15000,5,nulo
+IP-09,Funda transparente iPhone 13 Pro Max,4500,15000,5,nulo
+IP-10,Funda transparente iPhone 14 Pro,4500,15000,3,nulo
+IP-11,Funda transparente iPhone 14 Pro Max,4500,15000,5,nulo
+IP-12,Funda transparente iPhone 13,4500,15000,5,nulo
+IP-13,Funda transparente iPhone 15 Pro,4500,15000,5,nulo
+IP-14,Funda transparente iPhone 15 Pro Max,4500,15000,4,nulo
+IP-15,Funda transparente iPhone 16,4500,15000,5,nulo
+IP-16,Funda transparente iPhone 16 Pro,4500,15000,8,nulo
+IP-17,Funda transparente iPhone 16 Pro Max,4500,15000,5,nulo
+IP-18,Funda transparente iPhone X,4500,15000,5,nulo
+RM-21,Funda transparente Redmi A03,4500,15000,4,nulo
+RM-22,Funda transparente Redmi Note 8,4500,15000,11,nulo
+RM-23,Funda transparente Redmi Note 8 Pro,4500,15000,1,nulo
+RM-24,Funda transparente Redmi Note 9,4500,15000,6,nulo
+RM-25,Funda transparente Redmi Note 10 4G,4500,15000,6,nulo
+RM-26,Funda transparente Redmi 10C,4500,15000,5,nulo
+RM-27,Funda transparente Redmi 10S,4500,15000,4,nulo
+RM-28,Funda transparente Redmi Note 11/11S,4500,15000,4,nulo
+RM-29,Funda transparente Redmi 12,4500,15000,8,nulo
+RM-30,Funda transparente Redmi 12C,4500,15000,6,nulo
+RM-31,Funda transparente Redmi Note 12,4500,15000,10,nulo
+RM-32,Funda transparente Redmi Note 12S,4500,15000,6,nulo
+RM-33,Funda transparente Redmi 13C 4G,4500,15000,4,nulo
+RM-34,Funda transparente Redmi 13 4G,4500,15000,6,nulo
+RM-35,Funda transparente Redmi Note 13 4G,4500,15000,5,nulo
+RM-36,Funda transparente Redmi Note 13 Pro,4500,15000,12,nulo
+RM-37,Funda transparente Redmi Note 13 Pro Plus,4500,15000,4,nulo
+RM-38,Funda transparente Redmi 14C,4500,15000,5,nulo
+RM-39,Funda transparente Redmi Note 14,4500,15000,3,nulo
+RM-40,Funda transparente Redmi Note 14 Pro,4500,15000,6,nulo
+HR-01,Funda transparente Honor X6A,4500,15000,6,nulo
+HR-02,Funda transparente Honor X7B,4500,15000,6,nulo
+HR-03,Funda transparente Honor X8A,4500,15000,6,nulo
+HR-04,Funda transparente Honor X8B,4500,15000,6,nulo
+HR-05,Funda transparente Honor X8C,4500,15000,5,nulo
+HR-06,Funda transparente Honor X9B,4500,15000,6,nulo
+HR-07,Funda transparente Honor 90,4500,15000,5,nulo
+HR-08,Funda transparente Honor 90 Lite,4500,15000,5,nulo
+HR-09,Funda transparente Honor Magic 5 Lite,4500,15000,6,nulo
+HR-10,Funda transparente Honor Magic 6 Lite,4500,15000,6,nulo
+HR-11,Funda transparente Honor Magic 7 Lite,4500,15000,5,nulo
+OP-13,Funda transparente Oppo Reno 11 5G,4500,15000,5,nulo
+OP-14,Funda transparente Oppo A57,4500,15000,4,nulo
+OP-15,Funda transparente Oppo A58,4500,15000,2,nulo
+OP-16,Funda transparente Oppo A58 4G,4500,15000,2,nulo
+OP-17,Funda transparente Oppo A78 4G,4500,15000,4,nulo
+XM-01,Funda transparente Poco X6,4500,15000,6,nulo
+XM-02,Funda transparente Poco X3,4500,15000,6,nulo
+XM-03,Funda transparente Poco X6 Pro,4500,15000,5,nulo
+VV-08,Funda transparente Vivo Y03 4G,4500,15000,6,nulo
+VV-09,Funda transparente Vivo Y20s,4500,15000,5,nulo
+VV-10,Funda transparente Vivo Y33s,4500,15000,6,nulo
+VV-11,Funda transparente Vivo Y35,4500,15000,7,nulo
+SK-01,Funda transparente Spark 10C,4500,15000,12,nulo
+SK-02,Funda transparente Spark GO 2024,4500,15000,4,nulo
+SK-03,Funda transparente Spark 20,4500,15000,5,nulo
+SK-04,Funda transparente Spark 30C,4500,15000,6,nulo
+CMN-01,Funda trasparente Camon 30 pro 5G,4500,15000,6,nulo
+IX-04,Funda transparente Infinix Hot 40i,4500,15000,6,nulo
+IX-05,Funda transparente Infinix Note 40 4G,4500,15000,4,nulo
+IX-06,Funda transparente Infinix Note 40 Pro 4G,4500,15000,4,nulo
