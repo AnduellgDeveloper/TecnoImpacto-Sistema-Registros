@@ -38,8 +38,8 @@ class EmployeeView:
         self.listbox_sugerencias.pack(pady=5, fill="x")
         self.listbox_sugerencias.bind("<<ListboxSelect>>", self.seleccionar_producto)
 
-        # --- Info del producto ---
-        self.lbl_info = tk.Label(frame, text="Costo: - | Precio: -", bg="white", font=("Arial", 11))
+        # --- Info del producto (Visual)---
+        self.lbl_info = tk.Label(frame, text="Nombre: - | Stock: - | Precio: -", bg="white", font=("Arial", 11))
         self.lbl_info.pack(pady=5)
 
         # --- Cantidad ---
@@ -56,7 +56,7 @@ class EmployeeView:
         ttk.Button(frame, text="Registrar Venta", command=self.registrar_venta).pack(pady=10)
 
         # --- Tabla de ventas del día ---
-        cols = ("Producto", "Cantidad", "Precio Final", "Descuento", "Total", "Utilidad")
+        cols = ("Producto", "Cantidad", "Precio Final", "Descuento", "Total")
         self.tree = ttk.Treeview(frame, columns=cols, show="headings", height=10)
         for col in cols:
             self.tree.heading(col, text=col)
@@ -102,8 +102,10 @@ class EmployeeView:
         inventario = Inventory.cargar_inventario()
         self.producto_seleccionado = next((p for p in inventario if p["id"] == producto_id), None)
         if self.producto_seleccionado:
-            self.lbl_info.config(text=f'Costo: {self.producto_seleccionado["costo"]} | '
-                                      f'Precio: {self.producto_seleccionado["precio"]}')
+            self.lbl_info.config(text=f'Nombre: {self.producto_seleccionado["nombre"]} | '
+                                      f'Stock: {self.producto_seleccionado["stock"]} | '
+                                      f'Precio: {self.producto_seleccionado["precio"]} | '
+                                      )
 
     # --- Registrar venta ---
     def registrar_venta(self):
@@ -144,5 +146,5 @@ class EmployeeView:
                     v["precio_final"],
                     v["descuento"],
                     v["total"],
-                    v["utilidad"]
+                    #v["utilidad"]
                 ))

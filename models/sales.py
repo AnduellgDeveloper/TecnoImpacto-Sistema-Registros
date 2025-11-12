@@ -78,6 +78,23 @@ class Sales:
             if fecha_inicio <= fecha <= fecha_fin:
                 ventas_total += int(v["total"])
         return ventas_total
+    
+    @staticmethod
+    def calcular_ventas_actual(localDateTime=None):
+        """Calcula el total de ventas del día actual"""
+        # Si no se pasa fecha, tomar la fecha de hoy
+        if localDateTime is None:
+            fecha_hoy = datetime.date.today()
+        else:
+            fecha_hoy = localDateTime.date() if isinstance(localDateTime, datetime.datetime) else localDateTime
+
+        ventas = Sales.cargar_ventas()
+        ventas_total = 0
+        for v in ventas:
+            fecha = datetime.datetime.strptime(v["fecha"], "%Y-%m-%d").date()
+            if fecha == fecha_hoy:  # Solo ventas del día actual
+                ventas_total += int(v["total"])
+        return ventas_total
 
     @staticmethod
     def productos_mas_vendidos(fecha_inicio, fecha_fin, top=10):
