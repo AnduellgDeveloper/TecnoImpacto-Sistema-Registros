@@ -19,7 +19,7 @@ class LoginApp:
         self.root = root
         self.root.title("Sistema TecnoImpacto - Login")
 
-        centrar_ventana(self.root, 650, 420)
+        centrar_ventana(self.root, 450, 320)
         self.root.configure(bg="#f0f0f0")
         
         frame = tk.Frame(root, bg="white", bd=2, relief="groove")
