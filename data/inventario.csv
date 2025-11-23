@@ -1,13 +1,13 @@
 id,nombre,costo,precio,stock,proveedor
-GO-1,Gorra agropecuaria,26000,50000,5,Caps Store
-GO-2,Gorra agropecuaria gorin bros,28000,50000,7,Caps Store
-GO-3,Gorra agropecuaria cuero,32000,55000,1,Caps Store
-GO-4,Gorra Honda,25000,50000,1,Caps Store
-GO-5,Gorra Superdry,26000,50000,2,Caps Store
-GO-6,Gorra clandestino,28000,50000,1,Caps Store
-GO-7,Gorra básica mazter,18000,35000,6,Caps Store
-GO-8,Gorra básica,9000,22000,20,Caps Store
-GO-9,Gorra antifluidos,18000,35000,6,Nicolas Diablillo
+GO-01,Gorra agropecuaria,26000,50000,5,Caps Store
+GO-02,Gorra agropecuaria gorin bros,28000,50000,7,Caps Store
+GO-03,Gorra agropecuaria cuero,32000,55000,1,Caps Store
+GO-04,Gorra Honda,25000,50000,1,Caps Store
+GO-05,Gorra Superdry,26000,50000,2,Caps Store
+GO-06,Gorra clandestino,28000,50000,1,Caps Store
+GO-07,Gorra básica mater,18000,35000,6,Caps Store
+GO-08,Gorra básica,14000,25000,28,Caps Store
+GO-09,Gorra antifluidos,18000,35000,6,Nicolas Diablillo
 GO-10,Gorra mawa,20000,35000,2,Caps Store
 GO-11,Gorra Oakley,28000,50000,0,Caps Store
 GO-12,Gorra BMW,20000,35000,1,Caps Store
@@ -16,17 +16,17 @@ GO-14,Gorra estampado niño económica,7000,15000,8,Nicolas Diablillo
 GO-15,Gorra agropecuario niño,16000,32000,4,Caps Store
 GO-16,Gorra estampado anime niño,20000,32000,1,Caps Store
 GO-17,Gorra económica solo fondo,6500,15000,2,Nicolas Diablillo
-GO-18,Gorra Boston tubular,32000,60000,0,Caps Store
-GO-19,Gorra LA tubular,30000,60000,0,Caps Store
-GO-20,Gorra Yankees normal,26000,48000,3,Caps Store
+GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
+GO-19,Gorra LA tubular,30000,60000,1,Caps Store
+GO-20,Gorra Yankees normal,26000,50000,9,Caps Store
 GO-21,Gorra anime adulto,20000,32000,1,Caps Store
-GO-22,Gorra solo fondo buena,9000,22000,4,Nicolas Diablillo
+GO-22,Gorra solo fondo buena,9000,22000,3,Nicolas Diablillo
 GO-23,Gorra Toronto Jays,26000,48000,2,Caps Store
 GO-24,Gorra Houston,34000,60000,1,Caps Store
 GO-25,Gorra Raiders,25000,50000,1,Caps Store
 GO-26,Gorra Supreme tubular,34000,60000,0,Caps Store
 GO-91,Gorra Supreme,30000,5000,1,Caps Store
-GO-27,Gorra Los Angeles normal,26000,50000,8,Caps Store
+GO-27,Gorra Los Angeles normal,26000,50000,13,Caps Store
 GO-28,Gorra Detroit,26000,48000,1,Caps Store
 GO-29,Gorra Colorado,26000,48000,1,Caps Store
 GO-30,Gorra Boston Red Sox normal,26000,50000,1,Caps Store
@@ -54,8 +54,8 @@ GO-51,Gorra Adidas,27000,50000,4,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
 GO-54,Gorra Coach Gruesa,32000,55000,1,Caps Store
-GO-55,Gorra Coach normal,22000,48000,2,Caps Store
-GO-90,Gorra Coach malla,29000,50000,2,Caps Store
+GO-55,Gorra Coach normal,22000,48000,0,Caps Store
+GO-90,Gorra Coach malla,29000,50000,1,Caps Store
 GO-56,Gorra Fendi,27000,50000,4,Caps Store
 GO-57,Gorra amiri,27000,50000,2,Caps Store
 GO-58,Gorra Dolce Gabbana,27000,50000,1,Caps Store
@@ -78,14 +78,14 @@ GO-74,Gorra antrax,27000,48000,1,Caps Store
 GO-75,Gorra barrow,27000,50000,3,Caps Store
 GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica,27000,55000,2,Caps Store
-GO-78,Gorra monastery,27000,50000,3,Caps Store
-GO-79,Gorra westcol,27000,55000,1,Caps Store
+GO-78,Gorra monastery,27000,50000,6,Caps Store
+GO-79,Gorra westcol,30000,55000,1,Caps Store
 GO-80,Gorra blessed,28000,55000,0,Caps Store
 GO-81,Gorra clemont,27000,50000,1,Caps Store
 GO-82,Gorra Hugo BOSS,28000,50000,5,Caps Store
-GO-83,Gorra Hugo BOSS AA,30000,55000,0,Caps Store
-GO-84,Gorra Nike llama 🔥,32000,55000,3,Caps Store
-GO-85,Gorra la coste,27000,50000,1,Caps Store
+GO-83,Gorra Hugo BOSS Golden,25000,48000,1,Caps Store
+GO-84,Gorra Nike llama 🔥,35000,60000,8,Caps Store
+GO-85,Gorra lacoste,27000,50000,2,Caps Store
 GO-86,Gorra de Colombia básica,20000,32000,2,Caps Store
 GO-87,Gorra champions,27000,50000,2,Caps Store
 GO-88,Gorra Gorin Bros economica,18000,35000,3,zona chic
@@ -93,7 +93,7 @@ GO-89,Gorra Nike economica,20000,35000,1,zona chic
 GO-92,Gorra Jean Abolish,18000,35000,1,Nicolas Diablillo
 GO-93,Gorra New Era,28000,50000,2,Nicolas Diablillo
 GO-94,Gorra Yankees economica,16000,32000,0,Nicolas Diablillo
-GO-95,Gorra Phillip Plein normal,28000,50000,0,Caps Store
+GO-95,Gorra Phillip Plein normal,28000,50000,3,Caps Store
 GO-96,Gorra Belica cruz economica,22000,48000,3,Nicolas Diablillo
 GO-97,Gorra Dsquared 2 economica,22000,48000,2,Nicolas Diablillo
 GO-98,Gorra Visera economica,9000,20000,3,Nicolas Diablillo
@@ -111,6 +111,20 @@ GO-109,Gorra de colombia,35000,60000,1,Caps Store
 GO-110,Gorra Lakers tubular,29000,60000,1,Caps Store
 GO-111,Gorra Boston normal,24000,50000,3,Caps Store
 GO-112,Gorra Hugo piedritas,20000,45000,1,Caps Store
+GO-113,Gorra Yankees tubular,30000,60000,2,Caps Store
+GO-114,Gorra Chicago White Sox tubular,30000,60000,3,Caps Store
+GO-115,Gorra Detroits Tubular,30000,60000,1,Caps Store
+GO-116,Gorra Pablo escobar belica,32000,60000,4,Caps Store
+GO-117,Gorra cruz pequeña con gamusa,26000,50000,2,Caps Store
+GO-118,Gorra Bayern Munich,28000,50000,2,Caps Store
+GO-119,Gorra Inter de Miami Messi,28000,50000,1,Caps Store
+GO-120,Gorra Chevrolet,20000,37000,3,Caps Store
+GO-121,Gorra basica jean y textura,20000,37000,3,Caps Store
+GO-122,Gorra Athletics tubular,30000,60000,3,Caps Store
+GO-123,Gorra American Exchange,26000,50000,1,Caps Store
+GO-124,Gorra Jordan,26000,48000,1,Caps Store
+GO-125,Gorra Orioles,26000,48000,1,Caps Store
+GO-126,Gorra Nacional,18000,35000,4,Caps Store
 VA,Vidrio TB iPhone 16 PM,25000,48000,5,Nulo
 FA-1,Forro iPhone 16 PM,12000,28000,5,Nulo
 FA-2,Forro iPhone 16 PM,17000,30000,5,Nulo
@@ -122,7 +136,7 @@ FA-7,Forro iPhone 16 PM,15000,30000,2,Nulo
 FA-8,Forro iPhone 16 PM,10000,25000,2,Nulo
 FA-9,Forro iPhone 16 Pro,18000,30000,3,Nulo
 FA-10,Forro iPhone 16 Pro,12000,28000,6,Nulo
-FA-11,Forro iPhone 16 Pro,17000,32000,3,Nulo
+FA-11,Forro iPhone 16 Pro Metal Stand,15000,32000,7,Nulo
 FA-12,Forro iPhone 16 Pro,14000,28000,1,Nulo
 FA-13,Forro iPhone 16 Pro,10000,25000,2,Nulo
 FA-14,Forro iPhone 16 Pro,8500,20000,2,Nulo
@@ -141,14 +155,14 @@ FA-26,Forro iPhone 15 Pro Max Silicona,5500,15000,11,Nulo
 FA-27,Forro iPhone 13/14 Silicona,5500,15000,11,Nulo
 FA-28,Forro iPhone 14 Pro Silicona,5500,15000,15,Nulo
 FA-29,Forro iPhone 14 Pro Max Silicona,5500,15000,21,Nulo
-FA-30,Forro iPhone 13 Pro Silicona,5500,15000,19,Nulo
+FA-30,Forro iPhone 13 Pro Silicona,5500,15000,18,Nulo
 FA-31,Forro iPhone 13 Pro Max Silicona,5500,15000,10,Nulo
 FA-32,Forro iPhone 13 Mini Silicona,5500,15000,5,Nulo
 FA-33,Forro iPhone 12/12 Pro Silicona,5500,15000,16,Nulo
 FA-34,Forro iPhone 12 Pro Max Silicona,5500,15000,10,Nulo
 FA-35,Forro iPhone XR Silicona,5500,15000,15,Nulo
 FA-36,Forro iPhone XS Max Silicona,5500,15000,20,Nulo
-FA-37,Forro iPhone 11 Silicona,5500,15000,15,Nulo
+FA-37,Forro iPhone 11 Silicona,5500,15000,14,Nulo
 FA-38,Forro iPhone 11 Pro Silicona,5500,15000,21,Nulo
 FA-39,Forro iPhone 7 plus/8 plus Silicona,5500,15000,16,Nulo
 FA-40,Forro iPhone X/XS Silicona,5500,15000,4,Nulo
@@ -156,16 +170,16 @@ FA-41,Forro iPhone 12 Pro Silicona,5500,15000,6,Nulo
 FA-42,Forro iPhone 12 Silicona,5500,15000,3,Nulo
 FA-43,Forro iPhone 12 mini Silicona,5500,15000,3,Nulo
 FA-43,Forro iPhone 11 Pro Max Silicona,5500,15000,1,Nulo
-MG-01,Magic Seco,2800,6000,58,Leonardo
+MG-01,Magic Seco,2800,6000,57,Leonardo
 LN-02,Victorius ,30000,55000,0,Yeison la mina 
 LN-03,White only ,30000,55000,0,Yeison la mina 
 LN-04,2y2 vp red ,30000,55000,0,Yeison la mina 
 LN-05,Out black ,30000,55000,1,Yeison la mina
 LN-07,Fantastic ,30000,55000,0,Yeison la mina 
 LN-08,Candy ,30000,55000,0,Yeison la mina 
-LN-09,Felina ,30000,55000,2,Yeison la mina 
+LN-09,Felina ,30000,55000,1,Yeison la mina 
 LN-10,Amethists ,30000,55000,1,Yeison la mina 
-LN-11,2y2 vp rose ,30000,55000,1,Yeison la mina 
+LN-11,2y2 vp rose ,30000,55000,0,Yeison la mina 
 LN-12,Sweet air ,30000,55000,0,Yeison la mina 
 LN-13,Explosion X Calavera negra,30000,55000,0,Yeison la mina 
 LNE-01,Hugreen ,20000,40000,0,Yeison la mina  
@@ -188,32 +202,32 @@ CG-02,Canguros Cat,15000,27000,2,Nicolas
 CG-03,Canguros de tela marcas,15000,35000,11,Albeiro
 CG-04,Canguros AAA marcas,21000,39000,9,Albeiro
 PR-01,Piernero,16000,35000,1,zona chic
-CRA-01,Carriel hombre Marcas economico,15000,27000,11,zona chic 
+CRA-01,Carriel hombre Marcas economico,15000,27000,6,zona chic 
 CRA-02,Carriel hombre Marcas,39000,62000,1,zona chic 
 BA-01,Bolso amelie blanco,30000,58000,0,zona chic 
 BD-01,Bolso denis azul,55000,95000,1,zona chic
 CRD-01,Carriel dama marcas,23000,45000,14,zona chic
 CDC-01,Correa de cuero panchos,16000,27000,2,zona chic
 CDC-02,Correa de marcas,35000,60000,0,Armyn Watches
-CDC-03,Correa de cuero,16000,27000,1,zona chic
+CDC-03,Correa de cuero,16000,27000,0,zona chic
 CDC-04,Correa de riata,12000,20000,4,zona chic
-CDC-05,Correa Velez cuero,16000,27000,13,zona chic
+CDC-05,Correa Velez cuero,16000,27000,19,zona chic
 CDC-06,Correa sintetica,10000,17000,2,zona chic
-CDC-07,Correa sintetica marcas,10000,18000,2,zona chic
-CDC-08,Correa sintetica taches larga,11000,25000,6,Albeiro Marroquineria
+CDC-07,Correa sintetica marcas,10000,18000,1,zona chic
+CDC-08,Correa sintetica taches larga,11000,25000,5,Albeiro Marroquineria
 CDC-09,Correa sintetica taches corta,10000,23000,6,Albeiro Marroquineria
-CDC-10,Correa sintetica hombre chapa marcas AAA,16000,29000,5,Albeiro Marroquineria
+CDC-10,Correa sintetica hombre chapa marcas AAA,16000,29000,3,Albeiro Marroquineria
 CDC-11,Correa sintetica mujer chapa piedras AAA,8000,17000,6,Albeiro Marroquineria
 CDC-12,Correa sintetica mujer sencilla,5500,13000,6,Albeiro Marroquineria
-BH-01,Billetera hombre economica,15000,25000,6,Albeiro Marroquineria
-BH-02,Billetera hombre,35000,60000,4,nulo
+BH-01,Billetera hombre economica,15000,25000,5,Albeiro Marroquineria
+BH-02,Billetera hombre,35000,60000,3,nulo
 BH-03,Billetera dama economica,15000,22000,2,zona chic
 BH-04,Billetera dama moschino,28000,50000,1,nulo
 BH-05,Billetera dama CH,35000,60000,0,nulo
 RJ-01,Reloj de lujo economico,35000,60000,13,nulo
-RJ-02,Reloj de lujo, 40000,70000,7,nulo
-RJ-03,Reloj rolex cubano,70000,120000,1,nulo
-RJ-04,Reloj cartier piedras,65000,100000,1,nulo
+RJ-02,Reloj de lujo, 40000,70000,6,nulo
+RJ-03,Reloj rolex cubano,65000,100000,0,nulo
+RJ-04,Reloj cartier piedras,65000,100000,0,nulo
 RJ-05,Reloj sport de lujo,40000,70000,1,nulo
 RJ-06,Reloj de caja rolex,40000,70000,0,nulo
 RJ-07,Reloj saint,36000,65000,3,nulo
@@ -222,32 +236,36 @@ RJ-09,Reloj santy antiagua,16000,30000,3,Nulo
 RJ-10,Reloj economico,12000,22000,3,nulo
 RJ-11,Reloj antiagua sport,20000,50000,11,nulo
 RJ-12,Reloj rolex submarino,45000,75000,2,nulo
-RJ-13,Reloj rolex ,45000,75000,1,nulo
-RJ-14,Reloj rolex cuero,38000,70000,4,nulo
+RJ-13,Reloj rolex ,45000,75000,,nulo
+RJ-14,Reloj rolex cuero,38000,70000,5,nulo
 RJ-15,Reloj digital pequeño,14000,30000,3,nulo
 RJ-16,Reloj digital grande,18000,40000,3,nulo
+RJ-17,Reloj de lujo Richard Mille, 40000,72000,3,nulo
+RJ-18,Reloj de lujo philipp plein,40000,82000,2,nulo
+RJ-19,Reloj replica patek philippe,40000,82000,2,nulo
 CRJ-01,Caja de reloj,3000,8000,3,nulo
 VP-01,Vaper Priv Bar,14000,27000,2,Juan Felipe
-VP-02,Vaper Spaceman,15000,30000,0,Juan Felipe
-VP-03,Vaper Snoopy Smoke,14000,28000,1,Juan Felipe
+VP-02,Vaper Spaceman 18k,15000,30000,0,Juan Felipe
+VP-03,Vaper Snoopy Smoke,14000,28000,7,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row,8000,17000,1,Juan Felipe
 VP-06,Vaper Archer,13000,25000,2,Juan Felipe
-VP-07,Vaper Lost Mary Pequeño,7000,22000,10,Juan Felipe
-VP-08,Vaper Lost Mary Grande,8000,22000,3,Juan Felipe
+VP-07,Vaper Lost Mary Pequeño,7000,22000,0,Juan Felipe
+VP-08,Vaper Lost Mary Grande,8000,22000,0,Juan Felipe
 VP-09,Vaper Mizzle 9000,9000,22000,1,Juan Felipe
 VP-10,Vaper South Connect,30000,60000,0,Juan Felipe
 VP-11,Vaper MTRX 25,20000,40000,3,Juan Felipe
 VP-12,Vaper Yogurt Bar,90000,15000,0,Juan Felipe
-VP-13,Vaper True Story,15000,32000,2,Juan Felipe
+VP-13,Vaper True Story,15000,32000,1,Juan Felipe
 VP-14,Vaper Waka largo,29000,50000,0,Juan Felipe
-VP-15,Vaper motti,13000,25000,4,Juan Felipe
-VP-16,Vaper Yovo,9500,24000,6,Juan Felipe
-VP-17,Destilado Fume,9500,24000,9,Juan Felipe
-VP-18,Vaper hulk,12000,25000,2,Juan Felipe
+VP-15,Vaper motti,13000,25000,3,Juan Felipe
+VP-16,Vaper Yovo,9500,24000,4,Juan Felipe
+VP-17,Destilado Fume,40000,75000,8,Juan Felipe
+VP-18,Vaper hulk,12000,25000,9,Juan Felipe
+VP-19,Vaper Spaceman 20k,16000,32000,8,Juan Felipe
 BLN-01,Blones,1800,4000,44,nulo
 CR-01,Cueros raro,4500,10000,13,nulo
-CR-02,Cueros OCB,1500,4000,48,nulo
+CR-02,Cueros OCB,1500,4000,47,nulo
 CR-03,Cueros Fumanchu,3600,8000,24,nulo
 CR-04,Cueros smocking,660,2000,49,nulo
 RC-01,Rasca 3 pisos,3500,9000,5,nulo
@@ -264,7 +282,7 @@ AC-01,Armador de cigarros,3000,6000,4,nulo
 GR-01,Gramera,9500,15000,5,nulo
 BR-01,Banda de radio,15000,25000,2,Nulo
 CB-01,Cable 3 en 1,8000,20000,9,nulo
-CCV-01,Cargador cigarrero tipo C-USB,14000,28000,1,volt pro
+CCV-01,Cargador cigarrero tipo C-USB,14000,28000,0,volt pro
 CCV-02,Cargador cigarrero tipo USB-USB,6000,14000,5,volt pro
 CCV-03,Cargador cigarrero UNIVERSAL,23000,40000,2,volt pro
 CM-01,Car magnetico,10000,20000,4,nulo
@@ -280,25 +298,25 @@ MM-02,Micro memoria 8G,4500,10000,0,nulo
 MM-03,Micro memoria 16G,9000,18000,1,nulo
 MM-04,Micro memoria 32G,16000,26000,0,nulo
 MM-05,Micro memoria 64G,16000,30000,3,nulo
-VDG-01,Hidrogel claro,3000,13000,56,nulo
-VDG-02,Hidrogel mate,3200,15000,43,nulo
+VDG-01,Hidrogel claro,3000,13000,54,nulo
+VDG-02,Hidrogel mate,3200,15000,35,nulo
 VDG-03,Hidrogel antiespias,4800,20000,49,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
-AP-01,Airpods pro,46000,80000,3,nulo
-AP-02,Airpods,46000,80000,0,nulo
+AP-01,Airpods pro 2nd generacion,38000,70000,6,nulo
+AP-02,Airpods 4ta generacion,48000,85000,6,nulo
 IP-01,Inpods,19000,40000,2,nulo
 IP-02,air pods muñecos,35000,70000,4,nulo
 VV-01,funda silicona vivo Y51S,4500,15000,2,nulo
 VV-02,funda silicona vivo Y28 4G,4500,15000,4,nulo
-VV-03,funda silicona vivo Y20 Y20S Y11S,4500,15000,8,nulo
+VV-03,funda silicona vivo Y20 Y20S Y11S,4500,15000,7,nulo
 VV-04,funda silicona vivo Y36 4G,4500,15000,5,nulo
 VV-05,funda silicona vivo Y38 5G,4500,15000,3,nulo
 VV-06,funda vivo Y38 5G anticaídas,12000,25000,6,nulo
 VV-07,funda vivo Y03 anticaídas,12000,25000,6,nulo
-OP-01,Funda silicona Oppo RENO8,4500,15000,5,nulo
-OP-02,Funda silicona Oppo RENO105G,4500,15000,8,nulo
+OP-01,Funda silicona Oppo RENO 8,4500,15000,5,nulo
+OP-02,Funda silicona Oppo RENO 10 5G,4500,15000,8,nulo  
 OP-03,Funda silicona Oppo RENO 11 5G,4500,15000,8,nulo
-OP-04,Funda silicona Oppo A38 4G,4500,15000,1,nulo
+OP-04,Funda silicona Oppo A38 4G,4500,15000,0,nulo
 OP-05,Funda silicona Oppo A54 4G,4500,15000,1,nulo
 OP-06,Funda silicona Oppo A57-A77 4G,4500,15000,1,nulo
 OP-07,Funda silicona Oppo A58 4G,4500,15000,1,nulo
@@ -306,14 +324,15 @@ OP-08,Funda silicona Oppo A78 4G,4500,15000,10,nulo
 OP-09,Funda silicona Oppo A79 5G,4500,15000,21,nulo
 OP-10,Funda muñequitos Oppo A59 5G,10000,20000,5,nulo
 OP-11,Funda muñequitos Oppo A79 5G,10000,20000,8,nulo
-OP-12,Funda anticaídas Oppo A78 4G,12000,25000,3,nulo
+OP-12,Funda anticaídas Oppo A78 4G,12000,25000,3,nulo 
+OP-13,Funda silicona Oppo RENO 12,5500,15000,5,nulo
 MT-01,Funda silicona Motorola G04-04S/E14,4500,15000,3,nulo
 MT-02,Funda silicona Motorola One Macro G8 Play,4500,15000,2,nulo
 MT-03,Funda silicona Motorola G7 Power,4500,15000,13,nulo
 MT-04,Funda silicona Motorola G8 Power,4500,15000,5,nulo
 MT-05,Funda silicona Motorola G8 Powerline,4500,15000,10,nulo
 MT-06,Funda silicona Motorola G9 Play,4500,15000,6,nulo
-MT-07,Funda silicona Motorola G13/G23,4500,15000,3,nulo
+MT-07,Funda silicona Motorola G13/G23/G53,4500,15000,5,nulo
 MT-08,Funda silicona Motorola G15,4500,15000,4,nulo
 MT-09,Funda silicona Motorola G20/G35,4500,15000,5,nulo
 MT-10,Funda silicona Motorola G22,4500,15000,11,nulo
@@ -337,16 +356,16 @@ MT-27,Funda silicona Motorola E6s,4500,15000,0,nulo
 MT-28,Funda silicona Motorola E7 2020,4500,15000,13,nulo
 MT-29,Funda silicona Motorola E7,4500,15000,11,nulo
 MT-30,Funda silicona Motorola E7 Power,4500,15000,23,nulo
-MT-31,Funda silicona Motorola E13,4500,15000,1,nulo
-MT-32,Funda silicona Motorola E20,4500,15000,12,nulo
+MT-31,Funda silicona Motorola E13,4500,15000,5,nulo
+MT-32,Funda silicona Motorola E20,4500,15000,11,nulo
 MT-33,Funda silicona Motorola E22 4G/E22-I,4500,15000,1,nulo
-MT-34,Funda silicona Motorola E30/E40,4500,15000,2,nulo
+MT-34,Funda silicona Motorola E30/E40,4500,15000,6,nulo
 MT-35,Funda silicona Motorola E32,4500,15000,16,nulo
 MT-36,Funda silicona Motorola One/P30 Play,4500,15000,13,nulo
 MT-37,Funda silicona Motorola NOE Zoom,4500,15000,4,nulo
 MT-38,Funda silicona Motorola One Hyper,4500,15000,12,nulo
 MT-39,Funda silicona Motorola One Power,4500,15000,12,nulo
-MT-40,Funda silicona Motorola Edge 50 Fusión,4500,15000,3,nulo
+MT-40,Funda silicona Motorola Edge 50 Fusión,4500,15000,2,nulo
 MT-41,Funda silicona Motorola Edge 40 Neo,4500,15000,8,nulo
 MT-42,Funda de muñequitos Motorola G04,6000,15000,1,nulo
 MT-43,Funda de muñequitos Motorola G10,6000,15000,7,nulo
@@ -355,6 +374,11 @@ MT-45,Funda de muñequitos Motorola G34,6000,15000,5,nulo
 MT-46,Funda de muñequitos Motorola G54,6000,15000,8,nulo
 MT-47,Funda de muñequitos Motorola Edge 50 Fusión,6000,15000,2,nulo
 MT-48,Funda anticaidas Motorola G24,12000,25000,3,nulo
+MT-49,Funda silicona Motorola G30,5000,15000,4,Fabian Rionegro
+MT-50,Funda silicona Motorola G04,5000,15000,4,Fabian Rionegro
+MT-51,Funda silicona Motorola G14,5000,15000,4,Fabian Rionegro
+MT-52,Funda silicona Motorola G14,5000,15000,4,Fabian Rionegro
+MT-53,Funda silicona Motorola G05/E15,7000,15000,4,Fabian Rionegro
 SM-01,Funda Samsung A05 diseños,6000,15000,8,nulo
 SM-02,Funda Samsung A05 Piedritas,10000,20000,4,nulo
 SM-03,Funda Samsung A05S Diseños,6000,15000,2,nulo
@@ -370,7 +394,7 @@ SM-12,Funda Samsung A32 Piedritas,10000,20000,4,nulo
 SM-13,Funda Samsung A34 Diseños,6000,15000,3,nulo
 SM-14,Funda Samsung A34 Piedritas,10000,20000,6,nulo
 SM-15,Funda Samsung A35 Diseños,6000,15000,9,nulo
-SM-16,Funda Samsung A55 Diseños,6000,15000,18,nulo
+SM-16,Funda Samsung A55 Diseños,6000,15000,17,nulo
 SM-17,Funda Samsung A55 Piedritas,10000,20000,1,nulo
 SM-18,Funda Samsung A59 anticaidas,12000,25000,7,nulo
 SM-19,Funda Samsung S23 Diseños,12000,25000,8,nulo
@@ -409,6 +433,11 @@ RA-03,Funda silicona realme 7,4500,15000,1,nulo
 IX-01,Funda silicona INFINIX Hot 40 pro,4500,15000,1,nulo
 IX-02,Funda silicona INFINIX Hot 50 pro,4500,15000,8,nulo
 IX-03,Funda silicona INFINIX Hot 50 pro plus,4500,15000,6,nulo
+IX-04,Funda silicona INFINIX hot 60/60i,9500,15000,6,nulo
+IX-05,Funda silicona INFINIX hot 60 pro,9500,15000,6,nulo
+IX-06,Funda silicona INFINIX hot 60 pro+,9500,15000,6,nulo
+IX-07,Funda silicona INFINIX hot 50,6500,15000,6,nulo
+IX-08,Funda silicona INFINIX hot 50i,6500,15000,6,nulo
 SM-27,Funda Samsung transparente A05s,4500,15000,5,nulo
 SM-28,Funda Samsung transparente A05,4500,15000,6,nulo
 SM-29,Funda Samsung transparente A06,4500,15000,4,nulo
@@ -421,13 +450,13 @@ SM-35,Funda Samsung transparente A22/4g,4500,15000,6,nulo
 SM-36,Funda Samsung transparente A24,4500,15000,5,nulo
 SM-37,Funda Samsung transparente A25,4500,15000,5,nulo
 SM-38,Funda Samsung transparente A26,4500,15000,5,nulo
-SM-39,Funda Samsung transparente A32/4g,4500,15000,4,nulo
+SM-39,Funda Samsung transparente A32/4g,4500,15000,3,nulo
 SM-40,Funda Samsung transparente A33,4500,15000,6,nulo
 SM-41,Funda Samsung transparente A34,4500,15000,5,nulo
-SM-42,Funda Samsung transparente A36,4500,15000,1,nulo
+SM-42,Funda Samsung transparente A36,4500,15000,0,nulo
 SM-43,Funda Samsung transparente A53,4500,15000,1,nulo
 SM-44,Funda Samsung transparente A55,4500,15000,2,nulo
-SM-45,Funda Samsung transparente A56,4500,15000,4,nulo
+SM-45,Funda Samsung transparente A56,4500,15000,3,nulo
 SM-46,Funda Samsung transparente S20Fe,4500,15000,3,nulo
 SM-47,Funda Samsung transparente S23Ultra,4500,15000,6,nulo
 SM-48,Funda Samsung transparente S24,4500,15000,5,nulo
@@ -507,6 +536,7 @@ HRS-01,Funda silicona Honor X7C,8000,15000,5,Fabian Rionegro
 HRS-02,Funda silicona Honor X8C,8000,15000,6,Fabian Rionegro
 VVS-01,Funda silicona VIVO Y33S,8000,15000,6,Fabian Rionegro
 HRS-04,Funda silicona Honor X7C,8000,15000,6,Fabian Rionegro
+HRS-05,Funda silicona Honor 200 pro,6500,15000,5,Fabian Rionegro
 OP-13,Funda transparente Oppo Reno 11 5G,4500,15000,5,nulo
 OP-14,Funda transparente Oppo A57,4500,15000,3,nulo
 OP-15,Funda transparente Oppo A58,4500,15000,1,nulo
@@ -537,17 +567,17 @@ SM-54,Funda silicona Samsung A04s,4500,15000,6,nulo
 SM-55,Funda silicona Samsung A05,4500,15000,10,nulo
 SM-56,Funda silicona Samsung A05s,4500,15000,0,nulo
 SM-57,Funda silicona Samsung A06,4500,15000,8,nulo
-SM-58,Funda silicona Samsung J5 Prime,4500,15000,12,nulo
+SM-58,Funda silicona Samsung J5 Prime,4500,15000,11,nulo
 SM-59,Funda silicona Samsung A10,4500,15000,10,nulo
 SM-60,Funda silicona Samsung A10s,4500,15000,7,nulo
 SM-61,Funda silicona Samsung A12,4500,15000,5,nulo
 SM-62,Funda silicona Samsung A13 4G,4500,15000,10,nulo
-SM-63,Funda silicona Samsung A14 5G,4500,15000,1,nulo
+SM-63,Funda silicona Samsung A14 5G,5000,15000,8,nulo
 SM-64,Funda silicona Samsung A15,4500,15000,5,nulo
 SM-65,Funda silicona Samsung A16,7000,15000,5,nulo
 SM-66,Funda silicona Samsung A20/30,4500,15000,9,nulo
-SM-67,Funda silicona Samsung A21s,4500,15000,7,nulo
-SM-68,Funda silicona Samsung A22 5G,4500,15000,6,nulo
+SM-67,Funda silicona Samsung A21s,4500,15000,6,nulo
+SM-68,Funda silicona Samsung A22 5G,4500,15000,5,nulo
 SM-69,Funda silicona Samsung A23 4G,4500,15000,10,nulo
 SM-70,Funda silicona Samsung A25,4500,15000,8,nulo
 SM-71,Funda silicona Samsung A30,4500,15000,6,nulo
@@ -578,6 +608,8 @@ SM-95,Funda silicona Samsung S24 FE,4500,15000,7,nulo
 SM-96,Funda silicona Samsung Note 10,4500,15000,10,nulo
 SM-97,Funda silicona Samsung A04,4500,15000,9,nulo
 SM-98,Funda silicona Samsung A26 5G,4500,15000,8,nulo
+SM-99,Funda silicona Samsung S24,5000,15000,6,nulo
+SM-100,Funda silicona Samsung A30S,5000,15000,4,nulo
 TS-01,Funda silicona Tecno Spark 10 Pro,4500,15000,5,nulo
 TS-02,Funda silicona Tecno Spark 20 Pro,4500,15000,7,nulo
 TS-03,Funda silicona Tecno Spark 10C,4500,15000,6,nulo
@@ -586,8 +618,14 @@ TS-05,Funda silicona Tecno Go 2023/Smart 7 Pop,4500,15000,7,nulo
 TS-06,Funda silicona Tecno Go 2024/20C/Smart 8/Pop 8/Hot 40I,4500,15000,2,nulo
 TS-07,Funda silicona Tecno 20,4500,15000,4,nulo
 TS-08,Funda silicona Tecno 20 Pro+,4500,15000,4,nulo
-AE-01,cable apple tipo LGT - C,6500,18000,7,Apple
-AE-02,cable tipo USB - LGT,4500,18000,20,Apple
+TS-09,Funda silicona Tecno Spark 30C,4500,15000,6,nulo
+TS-10,Funda silicona Tecno Camon 30S,6500,15000,6,nulo
+TS-11,Funda silicona Tecno Spark 30 pro,6500,15000,6,nulo
+TS-12,Funda silicona Tecno Spark 40,9500,15000,6,nulo
+TS-13,Funda silicona Tecno Spark 40C,9500,15000,6,nulo
+TS-14,Funda silicona Tecno Spark GO 1/GO 2025,5500,15000,6,nulo
+AE-01,cable apple tipo LGT - C,6500,18000,5,Apple
+AE-02,cable tipo USB - LGT,4500,18000,19,Apple
 AE-03,cable Apple tipo C - C,8500,20000,12,Apple
 AE-04,Cargador Apple Watch,19000,40000,5,Apple
 AE-05,Cabeza apple tipo C 35W,15000,35000,5,Apple
@@ -595,13 +633,13 @@ AE-06,Cabeza apple tipo C 60W,38000,80000,3,Apple
 AE-07,Cabeza apple tipo C 20W,12000,23000,2,Apple
 AE-08,Cabeza apple tipo C 25W,9500,28000,17,Apple
 AE-09,cable Apple tipo C-C y Cabeza apple tipo C 35W,20000,45000,6,Apple
-AE-35,Cargador completo tipo C - LGT 25W,16000,42000,2,Fabian Rionegro
+AE-35,Cargador completo tipo C - LGT 25W,16000,42000,11,Fabian Rionegro
 AE-10,Volt Pro Cable USB a LGT 6A,7500,20000,21,Volt Pro
 AE-11,Volt Pro Cable C a C 45W,6500,15000,3,Volt Pro
 AE-12,VP Cable C LED - USB 6A,7500,20000,18,Volt pro 
 AE-13,VP Cable USB - LGT  4A,3500,10000,13,Volt pro 
-AE-14,VP Cable USB - C 4A,3500,10000,0,Volt pro 
-AE-15,VP Cable USB - C 4A,2500,6000,4,Volt pro 
+AE-14,VP Cable USB - C 4A,3500,10000,0,Volt Pro 
+AE-15,VP Cable USB - C 4A,2500,6000,1,Volt pro 
 AE-16,VP Cable USB - B 4A,3000,10000,11,Volt pro 
 AE-17,VP Cable USB - B 4A,2000,6000,10,Volt pro 
 AE-18, Cargador + Cable USB - B,6000,15000,35,Volt pro 
@@ -614,19 +652,21 @@ AE-24,VP Cargador + Cable USB - C 30W,15000,28000,7,Volt pro
 AE-25,VP Cabeza tipo C 25W,8000,18000,13,Volt pro 
 AE-26,VP Cabeza tipo USB 3.1A,5000,12000,9,Volt pro 
 AE-27,VP Cabeza tipo C 6A,10500,22000,11,Volt pro
-AE-28,SM Cargador + Cable 67W tipo C,15000,40000,1,nulo
-AE-29,SM Cargador + Cable 25W tipo C-C,16000,38000,3,nulo 
+AE-28,Samsung Cargador + Cable 67W tipo C,16000,40000,1,nulo
+AE-29,SM Cargador + Cable 25W tipo C-C,16000,38000,4,nulo 
 AE-30,SM Cabeza tipo C 45W,27000,50000,2,nulo
 AE-31,SM Cabeza tipo C 25W,12000,28000,4,nulo
 AE-32,VP Cargador economico tipo c de bolsa 5V,5000,12000,5,nulo
 AE-33,VP Cargador economico tipo b de bolsa 5V,5000,12000,9,nulo
 AE-34,bx Cargador economico bemax tipo c de bolsa,2500,6000,11,nulo
+AE-35,SM Cabeza tipo C original 45W,50000,75000,2,Fabian Rio negro
+AE-36,SM Cargador + Cable 45W tipo C-C,15000,45000,4,nulo 
 PC-01,protector de esxtremo de cable,500,2000,1,nulo
 FE-01,Esclava de acero padre nuestro,11000,18000,2,zona chic
 FE-02,Esclava de acero lisa,11000,18000,0,zona chic
 FE-03,Juego grueso de cadena y escalva en acero,18000,38000,2,zona chic
 FE-04,Juego delgado de cadena y escalva en acero,15000,28000,2,zona chic
-GF-01,Gafas Okley Radar,9000,18000,4,nulo
+GF-01,Gafas Okley Radar,9000,18000,3,nulo
 GF-02,Gafas Lacoste,10000,18000,2,nulo
 GF-03,Gafas Ray Ban Vittoria,20000,35000,1,nulo
 GF-04,Gafas Adler,13000,25000,1,nulo
@@ -637,7 +677,7 @@ GF-08,Gafas LV,30000,45000,0,nulo
 GF-09,Gafas Cartier,28000,45000,0,nulo
 GF-10,Gafas Motocros,28000,15000,2,nulo
 GF-11,Gafas Deportivas,17000,35000,1,nulo
-GF-12,Gafas Ciclismo Prada,26000,45000,1,nulo
+GF-12,Gafas Ciclismo Prada,26000,45000,0,nulo
 GF-13,Gafas Ciclismo SVCCN,26000,45000,1,nulo
 GF-14,Gafas Prizm,25000,45000,1,nulo
 GF-15,Gafas Okley Ciclismo,25000,45000,0,nulo
@@ -666,13 +706,13 @@ GF-36,Gafas cartier lente curvo,27000,45000,3,Armyn Watches
 GF-37,Gafas cartier 6 puntas,24000,45000,2,Armyn Watches
 GF-38,Gafas Prada cromadas,20000,42000,3,Armyn Watches
 GF-39,Gafas Fendi ovaladas,27000,45000,3,Armyn Watches
-GF-40,Gafas Oakley sport,17000,32000,3,Armyn Watches
+GF-40,Gafas Oakley sport,17000,32000,2,Armyn Watches
 GF-41,Gafas Okley Juliet X marco blanco,20000,37000,2,Armyn Watches
 GF-42,Gafas lacoste metalica polarizadas,20000,40000,1,Armyn Watches
 RM-41,Funda silicona Redmi A1,4500,15000,0,nulo
 RM-42,Funda silicona Redmi 9A,4500,15000,5,nulo
-RM-43,Funda silicona Redmi A3,4500,15000,2,nulo
-RM-44,Funda silicona Redmi A5,4500,15000,1,nulo
+RM-43,Funda silicona Redmi A3,5000,15000,8,nulo
+RM-44,Funda silicona Redmi A5,8500,15000,5,nulo
 RM-45,Funda silicona Redmi 8,4500,15000,9,nulo
 RM-46,Funda silicona Redmi 9 4G,4500,15000,11,nulo
 RM-47,Funda silicona Redmi 9,4500,15000,7,nulo
@@ -689,24 +729,28 @@ RM-57,Funda silicona Redmi Note 11 Pro 5G,4500,15000,10,nulo
 RM-58,Funda silicona Redmi 13C,4500,15000,5,nulo
 RM-59,Funda silicona Redmi Note 13 5G,4500,15000,20,nulo
 RM-60,Funda silicona Redmi 13 Pro,4500,15000,10,nulo
-RM-61,Funda silicona Redmi 13 Pro 4G,4500,15000,1,nulo
+RM-61,Funda silicona Redmi note 13 Pro 4G,5000,15000,7,nulo
 RM-62,Funda silicona Redmi 13 Pro+ 5G,4500,15000,7,nulo
-RM-63,Funda silicona Redmi 14C,4500,15000,3,nulo
+RM-63,Funda silicona Redmi 14C,4500,15000,7,nulo
 RM-64,Funda silicona Redmi 14 4G,4500,15000,3,nulo
-RM-65,Funda silicona Redmi Note 14S,4500,15000,9,nulo
-RM-66,Funda silicona Redmi 14 Pro 5G,4500,15000,2,nulo
-RM-67,Funda silicona Redmi 14 Pro Plus 5G,4500,15000,6,nulo
+RM-65,Funda silicona Redmi Note 14S,4500,15000,15,nulo
+RM-66,Funda silicona Redmi Note 14 Pro 5G,4500,15000,5,nulo
+RM-67,Funda silicona Redmi 14 Pro Plus 5G,4500,15000,9,nulo
 RM-68,Funda silicona Redmi Poco M4 Pro,4500,15000,7,nulo
 RM-69,Funda silicona Redmi Poco X4 Pro,4500,15000,9,nulo
 RM-70,Funda silicona Redmi Poco X3/X3 Pro,4500,15000,4,nulo
-RM-71,Funda silicona Redmi 15c,4500,15000,4,nulo
+RM-71,Funda silicona Redmi 15c,4500,15000,3,nulo
+RM-72,Funda silicona Redmi Note 14 4G,7000,15000,6,Fabian Rionegro
+RM-73,Funda silicona Redmi Note 14 Pro 4G,4500,15000,6,Fabian Rionegro
+RM-74,Funda silicona Redmi Poco X6 Pro,5000,15000,6,Fabian Rionegro
 HW-01,Funda silicona Huawei Nova 6 SE P49 Lite,4500,15000,7,nulo
 HW-02,Funda silicona Huawei Y5p,4500,15000,10,nulo
-HW-03,Funda silicona Huawei P30 Lite,4500,15000,7,nulo
+HW-03,Funda silicona Huawei P30 Lite,5000,15000,3,nulo
 HW-04,Funda silicona Huawei P40 Pro,4500,15000,11,nulo
 HW-05,Funda silicona Huawei Y9 Prime 2019,4500,15000,5,nulo
 HW-06,Funda silicona Huawei Y9 Prime,4500,15000,4,nulo
 HW-07,Funda silicona Huawei Y90,4500,15000,9,nulo
+HW-08,Funda silicona Huawei Nova 9,5500,15000,4,nulo
 EX-01,Electrodomésticos Parlante cmki 1406,60000,120000,3,nulo
 EX-02,Electrodomésticos Cmki-410,50000,90000,4,nulo
 EX-03,Electrodomésticos Cmki-162,26000,60000,2,nulo
@@ -770,11 +814,11 @@ BL-07,Bolso cuero negro miu miu,48000,85000,1,zona chic
 BL-08,Bolso cuero rosado miu miu,55000,100000,1,zona chic
 BL-09,Bolso cuero miffy negro,55000,100000,1,zona chic
 LN-14,Loción girl premium, 35000,65000,0,Yeison la mina
-LN-15,Loción ilmini rose,30000,55000,1,Yeison la mina 
+LN-15,Loción ilmini rose,30000,55000,0,Yeison la mina 
 LN-16,Loción ilmini Femme,30000,55000,1,Yeison la mina 
-LN-17,Loción Kiara dama,35000,65000,1,Yeison la mina 
+LN-17,Loción Kiara dama,35000,65000,0,Yeison la mina 
 LN-18,Loción Roma,30000,55000,1,Yeison la mina 
-LN-19,Loción night life,30000,55000,1,Yeison la mina 
+LN-19,Loción night life,30000,55000,0,Yeison la mina 
 LN-20,Loción 300km,30000,55000,0,Yeison la mina 
 LN-21,Loción 2y2 black, 30000,55000,0,Yeison la mina 
 LN-22,Loción 2y2 wild,30000,55000,0,Yeison la mina 
@@ -798,52 +842,57 @@ LN-39,locion love hearen,30000,55000,1,Yeison la mina
 LN-40,locion sir army,30000,55000,0,Yeison la mina
 LN-41,locion coste essencial,30000,55000,1,Yeison la mina
 VTG-01.REALME,5/5I/6IGLOBAL/5S/C20/C20A/C21/C3/C3I/C11/C12/C15/C25S/C25/C112021/C30S/C33/C332023/9I5G/105G/10S/10T/V3/V23/V115G/Q21/NARZO30A/10/10A/20/20A,2000,15000,97,nulo
-VTG-01.MOTO,MTE13/MTE22/E30/E40/E20/G10/20,2000,15000,96,nulo
-VTG-01.OPPO,A15/A15S/A31/A9 2020/A5 2020/A53S 5G/K10 5G/A17/A17K/A18/A77S/A97/A57S/A57E/A58 5G/A58X/A59 5G/A78 5G/A1X/A2X/OP A38,2000,15000,97,nulo
+VTG-01.MOTO,MTE13/MTE22/E30/E40/E20/G10/20,2000,15000,95,nulo
+VTG-01.OPPO,A15/A15S/A31/A9 2020/A5 2020/A53S 5G/K10 5G/A17/A17K/A18/A77S/A97/A57S/A57E/A58 5G/A58X/A59 5G/A78 5G/A1X/A2X/OP A38,2000,15000,96,nulo
 VTG-01.VIVO,VIVOY53S/Y22/Y22S/Y18/Y18i/Y18E/Y285G/Y28S/Y02/Y02S/Y02T/Y03/Y35/Y361/Y77E/Y77E(11)/Y16/Y75S/Y73T/Y52T/512020/Y52S/Y12S/Y31S/Y312021/Y20/Y201/Y20G/Y305G/Y72/Y72T5G/Y32/Y21A/21E/Y112023/Y02A/1Q00Z6/Z6LITE5G/Z35G/U35G/U5G/U5X/Z7I,2000,15000,96,nulo
-VTG-01.SAMSUNG,A02/A02S/A03/A3S/A03CORE/134G/A135G/A234G/A235G/F235G/M13/M135G/M13INDIA/M23/M325G/M335G/3CORE/A04/A04S/A04E/A04CORE/M02S/F02S/M12/A02/M02/A325G/A12/A12Nacho/F12/F13/F04/M04,2000,15000,95,nulo
-VTG-01.REDMI,11PRIME/11PRIME5G/A12022/A1+/A2/A2+/NOTE11R,2000,15000,97,nulo
-VTG-01.POCO,POCOM5/M5INDIA/1+NORDN20SE/1+NORDN300/WIKOT10,2000,15000,98,nulo
-VTG-01.HONOR,X85G/X5/X5B/X5PLUS/X5B/X5BPLUS/PLAY9C/X6/X6A/X6B/X6S,2000,15000,98,nulo
+VTG-01.SAMSUNG,A02/A02S/A03/A3S/A03CORE/134G/A135G/A21s/A234G/A235G/F235G/M13/M135G/M13INDIA/M23/M325G/M335G/3CORE/A04/A04S/A04E/A04CORE/M02S/F02S/M12/A02/M02/A325G/A12/A12Nacho/F12/F13/F04/M04,2000,15000,93,nulo
+VTG-01.REDMI,10A/11PRIME/11PRIME5G/A12022/A1+/A2/A2+/NOTE11R,2000,15000,97,nulo
+VTG-01.POCO,POCOM5/M5INDIA/1+NORDN20SE/1+NORDN30/0/WIKOT10,2000,15000,98,nulo
+VTG-01.HONOR,X85G/X5/X5B/X5PLUS//X5BPLUS/PLAY9C/X6/X6A/X6B/X6S,2000,15000,98,nulo
 VTG-01.INFINIX,INFHOT8/INFSMART5/INFSMART7/INFHOT301/INFSMART6,2000,15000,97,nulo
 VTG-01.TECNO,TECPOP7/TECSPARK4/TECKC8/TECSPARK10C/TECSPARKGO2023/TECSPARK10,2000,15000,98,nulo
 VTG-01.HUAWEI,Huawei nova 11/nova 2,2000,15000,98,nulo
-VTG-02.SAMSUNG,F62/M62/M51/A71/M52 5G/A72 4G/A72 5G/A73 5G/A26 5G/NOTE 10 LITE/A81/M53 5G/M54/F54/M55/C55/F55,2000,15000,92,nulo
+VTG-02.SAMSUNG,F62/M62/M51/A71/M52 5G/A72 4G/A72 5G/A73 5G/A26 5G/NOTE 10 LITE/A81/M53 5G/M54/F54/M55/C55/F55,2000,15000,91,nulo
 VTG-02.VIVO,VI Y36/Y36 5G/Y77T 5G/Y78T 5G/Y27S/Y100i/Y100T 5G/T1 5G CHINA/Y77 CHINA/Y78 CHINA/IQOO Z5/IQOO NE05 SE/IQOO Z7 CHINA/Z7X/Z8X/IQ00 Y77 CHINA/Y1001,2000,15000,95,nulo
-VTG-02.OPPO,A5 PRO 5G,2000,15000,96,nulo
+VTG-02.OPPO,A5 PRO 5G,2000,15000,95,nulo
 VTG-02.REALME,C71,2000,15000,98,nulo
 VTG-03.SAMSUNG,A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE,2000,15000,27,Fabián rio negro
 VTG-03.REDMI,NOTE 10/NOTE 10S/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S,2000,15000,37,Fabián rio negro
-VTB-01,Vidrio blindado iPhone 16 pro max,2000,15000,9,Fabián rio negro 
+VTB-01,Vidrio blindado iPhone 16 pro max/17 pro max,2000,15000,19,Fabián rio negro 
 VTB-02,Vidrio blindado iPhone 15 pro max,2000,15000,12,Fabián rio negro 
-VTB-03,Vidrio blindado iPhone 14 pro max,2000,15000,4,Fabián rio negro 
+VTB-03,Vidrio blindado iPhone 14 pro max,2000,15000,10,Fabián rio negro 
 VTB-04,Vidrio blindado iPhone 14 pro/15,2000,15000,17,Fabián rio negro 
 VTB-05,Vidrio blindado iPhone 15 pro,2000,15000,6,Fabián rio negro 
-VTB-06,Vidrio blindado iPhone 13/13 pro/14/16E,2000,15000,3,Fabián rio negro
+VTB-06,Vidrio blindado iPhone 13/13 pro/14/16E/15 Pro,2000,15000,10,Fabián rio negro
 VTB-07,Vidrio blindado iPhone  13 mini,2000,15000,8,Fabián rio negro 
 VTB-08,Vidrio blindado iPhone 12 pro max,2000,15000,8,Fabián rio negro 
 VTB-09,Vidrio blindado iPhone 12/12 pro,2000,15000,13,Fabián rio negro 
 VTB-10,Vidrio blindado iPhone 12 mini,2000,15000,9,Fabián rio negro 
 VTB-11,Vidrio blindado iPhone XS max/11 pro max,2000,15000,17,Fabián rio negro 
 VTB-12,Vidrio blindado iPhone X/11 pro,2000,15000,8,Fabián rio negro 
-VTB-13,Vidrio blindado iPhone XS/11,2000,15000,1,Fabián rio negro 
+VTB-13,Vidrio blindado iPhone XS/11,2000,15000,15,Fabián rio negro
 VTB-14,Vidrio blindado iPhone 6 plus/6S plus/7 plus/8 plus,2000,15000,3,Fabián rio negro
-VTB-15,Vidrio blindado HONOR X8A/X8/90 LITE/NOVA Y90/HONOR 90/INFINIX SMART10,2000,15000,8,Fabián rio negro
+VTB-15,Vidrio blindado HONOR X8A/X8/90 LITE/NOVA Y90/HONOR 90/INFINIX SMART10,2000,15000,18,Fabián rio negro
 VTB-16,Vidrio blindado camon 16/camon 16 pro/spark 6/hot 10/hot 12/hot 12 play/note 8i/x683/hot 20 play/hot 12 play nfc/pova neo 2/note 12i/hot 20/pova/pova 4/hot 30 play/MT G60/MT G40 FUSION/MT G40/MT G51 5G/MT G60S,2000,15000,8,Fabián rio negro
+VTB-17,Vidrio blindado iPhone 13 PM/iPhone 14 Plus,2000,15000,10,Fabián rio negro
+VTB-18,Vidrio blindado iPhone 16,2000,15000,10,Fabián rio negro
+VTB-19,Vidrio blindado iPhone 16 Pro,2000,15000,10,Fabián rio negro
+VTB-20,Vidrio blindado iPhone 17 Air,2000,15000,10,Fabián rio negro
 VTE-01,Vidrio templado iPhone 6/7/8,1500,10000,3,Fabián rio negro
 VTE-02,Vidrio templado iPhone 12/12 pro,1500,10000,5,Fabián rio negro
 VTE-03,Vidrio templado iPhone 14 pro max,1500,10000,3,Fabián rio negro
 VTE-04,Vidrio templado iPhone 15,1500,10000,3,Fabián rio negro
-VTBS-01,Vidrio templado Samsung A05/A06/RM 13C/13R/Poco C65/M6,2000,15000,0,Fabián rio negro
+VTBS-01,Vidrio templado Samsung A05/A06/RM 13C/13R/Poco C65/M6,2000,15000,9,Fabián rio negro
 VTBS-2,Vidrio templado Samsung A22 5G/F42/A14/F14/M14/Moto G50/G10/G30/E7/G9/G10 play/G20/One fusión/E20/G8,2000,15000,2,Fabián rio negro
 VTBS-03,Vidrio templado Samsung A15/A24/A31/M15/F15/A34,2000,15000,1,Fabián rio negro
 VTBS-04,Vidrio templado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,2,Fabián rio negro
 VTBS-05,Vidrio templado Samsung A31/A32/A22 4G/F22/M32/M22/A33,2000,15000,1,Fabián rio negro
-VTBS-06,Vidrio templado Samsung A35/A36/A55/A56/S24FE/A26/A16/RM 15,2000,15000,0,Fabián rio negro
+VTBS-06,Vidrio templado Samsung A35/A36/A55/A56/S24FE/A26/A16/RM 15,2000,15000,4,Fabián rio negro
 VTBS-07,Vidrio templado Samsung A70S/M42/M42/A70,2000,15000,2,Fabián rio negro
 VTBS-08,Vidrio templado Samsung A54/S23FE,2000,15000,2,Fabián rio negro
 VTBS-09,Vidrio templado Samsung S25 ULTRA,2000,15000,2,Fabián rio negro
 VTBS-10,Vidrio templado Samsung A20S,2000,15000,2,Fabián rio negro
+VTBS-11,Vidrio templado Samsung S24/S25,2000,15000,10,Fabián rio negro
 FPD-01,Funda diseño básico Iphone Xr, 4000, 15000, 7, nulo
 FPD-02,Funda diseño básico Iphone X/Xs, 4000, 15000, 2, nulo
 FPD-03,Funda diseño protección Iphone 11, 10000, 25000, 2, nulo
@@ -904,15 +953,15 @@ FPD-57,funda Silicone Iphone 12 pro max, 15000, 35000, 2, Nulo
 FPD-58,funda Casetify Iphone 12 pro max, 6000, 18000, 2, Nulo
 FPD-59,funda diseño Brown Iphone 12 pro max, 10000, 21000, 1, Nulo
 FPD-60,funda diseño magnético Iphone 12 pro max, 11000, 20000, 1, Nulo
-FPD-61,funda diseño Q series Iphone 12 pro max, 13000, 28000, 1, Nulo
-FPD-62,funda diseño Magnetic Iphone 12 pro max, 15000, 30000, 1, Nulo
-FPD-63,funda diseño pasta Iphone 12 pro max, 17000, 30000, 1, Nulo
-FPD-64,funda diseño goma Iphone 12 pro max, 13000, 30000, 1, Nulo
-FPD-65,funda diseño animado Iphone 12 pro max, 13000, 30000, 1, Nulo
-FPD-66,funda diseño Aulion Case Iphone 12 pro max, 10000, 20000, 1, Nulo
-FPD-67,funda diseño Unique Iphone 12 pro max, 18000, 35000, 1, Nulo
-FPD-68,funda diseño Batman Iphone 12/12 pro, 11000, 26000, 2, Nulo
-FPD-69,funda diseño Kuromi Iphone 13, 18000, 36000,0, Nulo-8
+FPD-61,funda diseño Q series Iphone 12 pro max, 13000, 28000, 1,Nulo
+FPD-62,funda diseño Magnetic Iphone 12 pro max, 15000, 30000, 1,Nulo
+FPD-63,funda diseño pasta Iphone 12 pro max, 17000, 30000, 1,Nulo
+FPD-64,funda diseño goma Iphone 12 pro max, 13000, 30000, 1,Nulo
+FPD-65,funda diseño animado Iphone 12 pro max, 13000, 30000, 1,Nulo
+FPD-66,funda diseño Aulion Case Iphone 12 pro max, 10000, 20000, 1,Nulo
+FPD-67,funda diseño Unique Iphone 12 pro max, 18000, 35000, 1,Nulo
+FPD-68,funda diseño Batman Iphone 12/12 pro, 11000, 26000, 2,Nulo
+FPD-69,funda diseño Kuromi Iphone 13, 18000, 36000,0, Nulo
 FPD-70,funda diseño Bracelet Iphone 13, 17000, 32000, 1, Nulo
 FPD-71,funda diseño básico Iphone 13, 4000, 15000, 5, Nulo
 FPD-72,funda diseño pasta Iphone 13, 9000, 24000, 2, Nulo
@@ -949,16 +998,16 @@ FPD-101,funda diseño magnético Iphone 13 pro max, 12000, 28000, 1, Nulo
 FPD-102,funda diseño cámara círculo Iphone 13 pro max, 5000, 17000, 2, Nulo
 FPD-103,New Case funda diseño Iphone 13 pro max, 10000, 25000,2, Nulo
 FPD-104,funda diseño Magnetic Iphone 13 pro max, 15000, 30000, 2, Nulo
-FPD-105,funda diseño Metal Stand Iphone 13 pro max, 17000, 32000, 1, Nulo
-FPD-106,funda diseño Flying Iphone 13 pro max, 10000, 25000, 2, Nulo
-FPD-107,funda diseño Leather Iphone 13 pro max, 14000, 30000,1, Nulo
-FPD-108,funda diseño Case Iphone 13 pro max, 12000, 25000, 1, Nulo
-FPD-109,funda diseño Magnetic Orange Iphone 13 pro max, 10000, 21000, 1, Nulo
-FPD-110,funda diseño Series Iphone 13 pro max, 13000, 25000, 1, Nulo
-FPD-111,funda diseño Perlar Iphone 13 pro max, 15000, 26000, 1, Nulo
-FPD-112,funda diseño Case Iphone 13 pro max, 12000, 25000, 1, Nulo
-FPD-113,funda diseño Unique Iphone 13 pro max, 18000, 36000, 1, Nulo
-FPD-114,funda diseño New Iphone 13 pro max, 8000, 21000,0, Nulo
+FPD-105,funda diseño Metal Stand Iphone 13 pro max,15000,32000,5,Nulo
+FPD-106,funda diseño Flying Iphone 13 pro max, 10000, 25000, 2,Nulo
+FPD-107,funda diseño Leather Iphone 13 pro max, 14000, 30000,1,Nulo
+FPD-108,funda diseño Case Iphone 13 pro max, 12000, 25000,1,Nulo
+FPD-109,funda diseño Magnetic Orange Iphone 13 pro max, 10000,21000,1,Nulo
+FPD-110,funda diseño Series Iphone 13 pro max, 13000, 25000,1,Nulo
+FPD-111,funda diseño Perlar Iphone 13 pro max, 15000, 26000,1,Nulo
+FPD-112,funda diseño Case Iphone 13 pro max, 12000, 25000,1,Nulo
+FPD-113,funda diseño Unique Iphone 13 pro max, 18000, 36000,1,Nulo
+FPD-114,funda diseño New Iphone 13 pro max, 8000, 21000,0,Nulo
 FPD-115,funda diseño Espacial Iphone 13 pro max, 5000, 18000, 1, Nulo
 FPD-116,funda diseño Magnético Iphone 13 pro max, 12000, 26000, 1, Nulo
 FPD-117,funda diseño Magnético Iphone 13 pro max, 7000, 20000, 1, Nulo
@@ -970,7 +1019,7 @@ FPD-122,funda diseño protector cámara Iphone 14, 12000, 28000, 4, Nulo
 FPD-123,funda diseño Lease Iphone 14, 5000, 26000, 1, Nulo
 FPD-124,funda diseño Clear Iphone 14, 8500, 20000, 2, Nulo
 FPD-125,funda diseño Marciano Iphone 14, 15000, 18000, 3, Nulo
-FPD-126,funda diseño Metal Iphone 14, 17000, 32000, 1, Nulo
+FPD-126,funda diseño Metal Iphone 14, 17000, 32000,4, Nulo
 FPD-127,funda diseño Círculo cámara Iphone 14, 5000, 17000, 1, Nulo
 FPD-128,funda diseño Magnética Iphone 14, 15000, 30000,0, Nulo
 FPD-129,funda diseño A6 Case Iphone 14, 15000, 30000, 1, Nulo
@@ -1003,7 +1052,7 @@ FPD-155,funda diseño lectura Iphone 14 pro max, 7000, 1, Nulo,
 FPD-156,funda diseño Sudrose Iphone 14 pro max, 8000, 3, Nulo,
 FPD-157,funda diseño Unique Iphone 14 pro max, 18000, 25000,1, Nulo
 FPD-158,funda diseño Classic Iphone 14 pro max, 12000, 30000, 4, Nulo
-FPD-159,funda diseño Metal Iphone 14 pro max, 17000, 32000,1, Nulo
+FPD-159,funda diseño Metal Iphone 14 pro max, 15000, 32000,5, Nulo
 FPD-160,funda diseño Creature Iphone 14 pro max, 12000, 25000, 2, Nulo
 FPD-161,funda diseño Case Iphone 14 pro max, 15000, 28000, 2, Nulo
 FPD-162,funda diseño cámara circular Iphone 14 pro max, 5000, 17000, 1, Nulo
@@ -1025,7 +1074,7 @@ FPD-177,funda diseño magnético Iphone 15, 12000, 28000, 1, Nulo
 FPD-178,funda diseño goma Iphone 15, 7500, 20000, 2, Nulo
 FPD-179,funda diseño piel clara Iphone 15, 15000, 1, Nulo,
 FPD-180,funda diseño Desing Iphone 15, 10000, 25000, 4, Nulo
-FPD-181,funda diseño Batman Iphone 15, 8500, 20000, 4, Nulo
+FPD-181,funda diseño Batman Iphone 15, 8500, 20000,3, Nulo
 FPD-182,funda diseño Spigen Iphone 15, 18000, 25000, 1, Nulo
 FPD-183,funda diseño Clear Iphone 15, 8500, 20000, 1, Nulo
 FPD-184,funda diseño animado Iphone 15 pro, 10000, 22000, 3, Nulo
@@ -1038,20 +1087,32 @@ FPD-190,funda diseño Skin Iphone 15 pro,12000,28000, 3, Nulo
 FPD-191,funda diseño Flex Iphone 15 pro,18000,30000, 1, Nulo
 FPD-192,funda diseño Leather Iphone 15 pro,14000, 0000, 3, Nulo
 FPD-193,funda diseño New Iphone 15 pro,15000,30000, 3, Nulo
-FPD-194,funda diseño Metal Iphone 15 pro,17000,32000, 1, Nulo
+FPD-194,funda diseño Metal Stand Iphone 15 pro Max,15000,32000,6,Nulo
 FPD-195,funda diseño Safari Iphone 15 pro,8500,20000, 1, Nulo
 FPD-196,funda diseño QSeries Iphone 15 pro,12000,25000, 1, Nulo
 FPD-197,funda diseño transparente iphone 12 mini,2000,25000,4,Nulo
-VBRM-01,Vidrio Blindado redmi 10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01,2000,15000,6,Fabián rio negro
+FPD-198,funda diseño transparente Metal iphone 12 pro max,15000,32000,2,Nulo
+FPD-199,funda diseño transparente Metal iphone 11,15000,32000,3,Nulo
+FPD-200,funda diseño Metal Stand iphone 16 Pro Max,15000,32000,4,Nulo
+FPD-201,funda diseño Metal Stand iphone 15,15000,32000,4,Nulo
+FPD-202,funda diseño Metal Stand iphone 12,15000,32000,2,Nulo
+FPD-203,funda diseño Metal Stand iphone 16,15000,32000,4,Nulo
+FPD-204,funda diseño Metal Stand iphone 17 Pro,15000,32000,3,Nulo
+FPD-205,funda diseño Metal Stand iphone 17,15000,32000,4,Nulo
+FPD-206,funda diseño Luxury case iphone 17,22000,37000,3,Nulo
+FPD-207,funda diseño Luxury case iphone 17 air,22000,37000,3,Nulo
+FPD-208,funda diseño Luxury case iphone 17 pro,22000,37000,3,Nulo
+FPD-209,funda diseño Luxury case iphone 17 pro max,22000,37000,3,Nulo
+VBRM-01,Vidrio Blindado redmi VTBS-01/VBRM-04/VBHN-01/10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,15000,20,Fabián rio negro,
 VBRM-02,Vidrio Blindado redmi 14C,2000,15000,0,Fabián rio negro
-VBRM-03,Vidrio Blindado redmi 9/N9/9T/10/Y5S,2000,15000,5,Fabián rio negro
-VBRM-04,Vidrio Blindado redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M6 PRO Y PLUS,2000,15000,0,Fabián rio negro
+VBRM-03,Vidrio Blindado redmi 9/N9/9T/10/Y5S,2000,15000,15,Fabián rio negro
+VBRM-04,Vidrio Blindado VBRM-01/redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M6 PRO Y PLUS,2000,15000,20,Fabián rio negro
 VBRM-05,Vidrio Blindado redmi NOTE 8 PRO/OPPO A9/F11/SAM J6 Plus,2000,15000,2,Fabián rio negro
-VBHN-01,Vidrio Blindado Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30,2000,15000,9,Fabián rio negro
+VBHN-01,Vidrio Blindado VTBS-01/VBRM-04/VBRM-01/Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30,2000,15000,29,Fabián rio negro
 VBHN-02,Vidrio Blindado Honor SMART 9/SPARK OG1/INF SPARK 30C/TEC POP 9/INF HOT 50/HOT 50i/HOT 50 PRO ,2000,15000,4,Fabián rio negro
 VTMT-01,Vidrio Blindado Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,2,Fabián rio negro
 VTGH-02,Vidrio templado general honor,2000,15000,13,Fabián rio negro
-CHT-01,Chaqueta antifluidos marcas,37000,60000,8,Gonzalo
+CHT-01,Chaqueta antifluidos marcas,37000,60000,6,Gonzalo
 CHT-02,Conjunto marcas tela galleta,55000,95000,0,Joel
 CHT-03,Conjunto marcas tela algodon,55000,95000,1,Joel
 SDI-01,Sudaera antifluidos marcas,30000,55000,2,Gonzalo
@@ -1062,21 +1123,34 @@ AUD-01,audífonos súper bass,8000,20000,2,nulo
 AUD-02,audífonos EARPHONES,6500,18000,1,nulo
 AUD-03,audífonos REET,8500,20000,3,nulo
 AUD-04,audífonos redmi,6000,15000,6,nulo
-AUD-05,audífonos stereo,3500,12000,6,nulo
+AUD-05,audífonos stereo,3500,12000,5,nulo
 AUD-06,audífonos original s8,3800,10000,2,nulo
 AUD-07,audífonos EarPods tipo lightning y tipo C,18000,35000,1,nulo
 AUD-08,audífonos economicos bolsita,3500,6000,12,nulo
-AUD-09,audífonos volt pro,3800,10000,2,nulo
+AUD-09,audífonos volt pro,3800,10000,1,nulo
 BZ-01,Brazalete de reloj,17000,30000,7,nulo
-CMT-01,Camiseta tela fria,33000,52000,33,alberto armenia
+CMT-01,Camiseta tela fria,33000,52000,32,alberto armenia
 CMT-02,Camiseta algodon economica,23000,39000,9,alberto armenia
 CMT-03,Camiseta seda marquilla,23000,39000,21,alberto armenia
 CMT-04,Camiseta tela galleta,32000,55000,20,alberto armenia
-BZU-01,BUZO UNDERGOLD,38000,70000,5,Joel
+BZU-01,BUZO UNDERGOLD,38000,70000,8,Joel
 BZO-01,BUZO OSITO,38000,69000,3,Joel
-BZU-02,BUZO ESSENCIAL,38000,72000,5,Joel
+BZU-02,BUZO ESSENCIAL,38000,72000,4,Joel
 BZU-03,BUZO Gamusa,57000,95000,2,Joel
 WS-01,Watch Onn stick,110000,165000,2,la mina
 CMRT-01,Camaritas celular,500,2000,91,nulo
 PTS-01,Pantalonetas playeras de marcas,30000,50000,10,nulo
 SMC-01,SIM CARD,1000,4000,98,Nulo
+VPS-01,Bafle VoltPro VP-S02,28000,55000,5,Yovani VoltPro
+VPS-02,Soporte de tablet,20000,40000,4,Yovani VoltPro
+VPS-03,Power Bank VoltPro 10 000 mAh,32000,58000,4,Yovani VoltPro
+VPS-04,Audifonos BT VoltPro A0293,36000,65000,2,Yovani VoltPro
+VPS-05,Audifonos BT VoltPro A0294,40000,73000,4,Yovani VoltPro
+VPS-06,smart watch volt pro mini,66000,120000,5,Yovani VoltPro
+VPS-07,Parlante KBROAD 52mm,12000,29000,5,Yovani VoltPro
+XM-01,Cargador Xiaomi 67W,18000,37000,4,Fabian rio negro
+DSÑ-01,funda de diseño unicase s24fe,8500,20000,5,Fabian rio negro
+DSÑ-02,funda de diseño unicase a16 5G,8500,20000,3,Fabian rio negro
+DSÑ-03,funda de diseño unicase a36 5G,8500,20000,5,Fabian rio negro
+DSÑ-04,funda de diseño unicase Redmi 14C,8500,20000,10,Fabian rio negro
+BCT-01,soporte para bicicletas,12000,30000,4,Fabian rio negro
