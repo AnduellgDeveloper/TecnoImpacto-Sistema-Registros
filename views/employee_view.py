@@ -138,7 +138,7 @@ class EmployeeView:
         hoy = datetime.date.today()
 
         for v in ventas:
-            fecha = datetime.datetime.strptime(v["fecha"], "%Y-%m-%d").date()
+            fecha = datetime.datetime.strptime(v["fecha"].strip(), "%Y-%m-%d").date()
             if fecha == hoy:
                 self.tree.insert("", "end", values=(
                     v["nombre"],
