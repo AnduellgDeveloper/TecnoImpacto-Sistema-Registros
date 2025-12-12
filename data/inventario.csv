@@ -114,7 +114,7 @@ GO-112,Gorra Hugo piedritas,20000,45000,1,Caps Store
 GO-113,Gorra Yankees tubular,30000,60000,0,Caps Store
 GO-114,Gorra Chicago White Sox tubular,30000,60000,3,Caps Store
 GO-115,Gorra Detroits Tubular,30000,60000,1,Caps Store
-GO-116,Gorra Pablo escobar belica,32000,60000,3,Caps Store
+GO-116,Gorra Pablo escobar belica,32000,60000,2,Caps Store
 GO-117,Gorra cruz pequeña con gamusa,26000,50000,1,Caps Store
 GO-118,Gorra Bayern Munich,28000,50000,2,Caps Store
 GO-119,Gorra Inter de Miami Messi,28000,50000,1,Caps Store
@@ -193,6 +193,26 @@ LNE-05,Sos distintive ,20000,40000,0,Yeison la mina
 LNE-06,Am Red Rosse ,20000,40000,1,Yeison la mina  
 LNE-07,Kan cun ,20000,40000,1,Yeison la mina  
 LNE-08,Lady Crystall ,20000,40000,2,Yeison la mina
+LNIS-01,Locion - Chica Good Girl by Carolina Herrera,10800,19900,7,Daniel Manizales
+LNIS-01,Locion FANCY ME – Fantasy by Britney Spears ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion VICTORY – Olympea by Paco Rabanne ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion EVER MORE – J’Adore by Christian Dior ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion RED LOVE – Amor Amor by Cacharel ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion HOLA! – Halloween by Jesús del Pozo ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion SOFT LOVE – Bombshell by Victoria’s Secret  ,10800,19900,7,Daniel Manizales
+LNIS-01,Locion NIGHT LIFE – Trésor La Nuit by Lancôme ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion LOVELY NIGHT – Hypnose by Lancôme ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion CRAZY LOVE – Mad About You by Victoria’s Secret ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion SOFT PINK – Aroma original ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion LAVISH – La Vida es Bella by Lancôme ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion NY NEW YOU – CH by Carolina Herrera ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion TOP MODEL – Candy by Prada ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion PINK SPARKLE – Moon Sparkle by Escada ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion NICE PINK – Nina by Nina Ricci ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion MY WISH – Bambu by Gucci ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion TRUE BLUE – Light Blue by D&G ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion DELIGHT – Ralph by Ralph Lauren ,10800,19900,5,Daniel Manizales
+LNIS-01,Locion VOYAGE – Sauvage by Christian Dior,10800,19900,7,Daniel Manizales
 CMS-01,Camiseta Seulement estampados, 30000,49000,0,zona chic
 CMF-01,Camiseta Faze III, 40000,69000,1,zona chic
 CMB-01,Camiseta Blessed, 35000,59000,0,zona chic
@@ -263,8 +283,8 @@ VP-03,Vaper Snoopy Smoke,14000,28000,15,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row,8000,17000,1,Juan Felipe
 VP-06,Vaper Archer,13000,25000,2,Juan Felipe
-VP-07,Vaper Lost Mary Pequeño,7000,22000,18,Juan Felipe
-VP-08,Vaper Lost Mary Grande,8000,22000,6,Juan Felipe
+VP-07,Vaper Lost Mary Pequeño,7000,22000,17,Juan Felipe
+VP-08,Vaper Lost Mary Grande,8000,22000,5,Juan Felipe
 VP-09,Vaper Mizzle 9000,9000,22000,1,Juan Felipe
 VP-10,Vaper South Connect,30000,60000,0,Juan Felipe
 VP-11,Vaper MTRX 25,20000,40000,4,Juan Felipe
@@ -274,7 +294,7 @@ VP-14,Vaper Waka largo,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,7,Juan Felipe
-VP-18,Vaper hulk,12000,25000,13,Juan Felipe
+VP-18,Vaper hulk,12000,25000,10,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,7,Juan Felipe
 BLN-01,Blones,1800,4000,44,nulo
 CR-01,Cueros raro,4500,10000,13,nulo
@@ -459,7 +479,7 @@ SM-34,Funda Samsung transparente A21s,4500,15000,3,nulo
 SM-35,Funda Samsung transparente A22/4g,4500,15000,6,nulo
 SM-36,Funda Samsung transparente A24,4500,15000,5,nulo
 SM-37,Funda Samsung transparente A25,4500,15000,5,nulo
-SM-38,Funda Samsung transparente A26,4500,15000,3,nulo
+SM-38,Funda Samsung transparente A26,4500,15000,2,nulo
 SM-39,Funda Samsung transparente A32/4g,4500,15000,2,nulo
 SM-40,Funda Samsung transparente A33,4500,15000,6,nulo
 SM-41,Funda Samsung transparente A34,4500,15000,4,nulo
@@ -1144,14 +1164,14 @@ FPD-210,funda diseño transparente decorado iphone 13 pro max,8000,20000,2,Nulo
 FPD-211,funda diseño transparente decorado iphone 13 pro,8000,20000,1,Nulo
 FPD-211,funda diseño stich decorado iphone 16e,8000,25000,1,Nulo
 XM-01,Cargador Xiaomi replica 67W,15000,37000,1,Fabian Rionegro
-VBRM-01,Vidrio Blindado redmi VTBS-01/VBRM-04/VBHN-01/10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,15000,20,Fabián rio negro,
+VBRM-01,Vidrio Blindado redmi VTBS-01/VBRM-04/VBHN-01/10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,2000,15000,20,Fabián rio negro
 VBRM-02,Vidrio Blindado redmi 14C,2000,15000,0,Fabián rio negro
 VBRM-03,Vidrio Blindado redmi 9/N9/9T/10/Y5S,2000,15000,15,Fabián rio negro
 VBRM-04,Vidrio Blindado VBRM-01/redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M6 PRO Y PLUS,2000,15000,20,Fabián rio negro
 VBRM-05,Vidrio Blindado redmi NOTE 8 PRO/OPPO A9/F11/SAM J6 Plus,2000,15000,2,Fabián rio negro
 VBHN-01,Vidrio Blindado VTBS-01/VBRM-04/VBRM-01/Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30,2000,15000,29,Fabián rio negro
 VBHN-02,Vidrio Blindado Honor SMART 9/SPARK OG1/INF SPARK 30C/TEC POP 9/INF HOT 50/HOT 50i/HOT 50 PRO ,2000,15000,4,Fabián rio negro
-VTMT-01,Vidrio Blindado Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,2,Fabián rio negro
+VTMT-01,Vidrio Blindado Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,1,Fabián rio negro
 VTGH-02,Vidrio templado general honor,2000,15000,13,Fabián rio negro
 CHT-01,Chaqueta antifluidos marcas,37000,60000,6,Gonzalo
 CHT-02,Conjunto marcas tela galleta,55000,95000,0,Joel
@@ -1160,20 +1180,21 @@ SDI-01,Sudaera antifluidos marcas,30000,55000,2,Gonzalo
 CAUX-01,Cable auxiliar audio cable,3800,8000,7,nulo
 CAUX-02,Cable auxiliar 2x1,3500,10000,3,nulo
 CAUX-03,Cable auxiliar bananitas,4500,12000,5,nulo
-AUD-01,audífonos súper bass,8000,20000,2,nulo
-AUD-02,audífonos EARPHONES,6500,18000,1,nulo
-AUD-03,audífonos REET,8500,20000,3,nulo
-AUD-04,audífonos redmi,6000,15000,6,nulo
-AUD-05,audífonos stereo,3500,12000,4,nulo
-AUD-06,audífonos original s8,3800,10000,2,nulo
-AUD-07,audífonos EarPods tipo lightning y tipo C,18000,35000,1,nulo
-AUD-08,audífonos economicos bolsita,3500,6000,12,nulo
-AUD-09,audífonos volt pro,3800,10000,1,nulo
+AUD-01,Audífonos súper bass,8000,20000,2,nulo
+AUD-02,Audífonos EARPHONES,6500,18000,1,nulo
+AUD-03,Audífonos REET,8500,20000,3,nulo
+AUD-04,Audífonos redmi,6000,15000,6,nulo
+AUD-05,Audífonos stereo,3500,12000,4,nulo
+AUD-06,Audífonos original s8,3800,10000,2,nulo
+AUD-07,Audífonos EarPods tipo lightning y tipo C,18000,35000,1,nulo
+AUD-08,Audífonos economicos bolsita,3500,6000,12,nulo
+AUD-09,Audífonos cable volt pro,3800,10000,1,nulo
+AUD-10,Audífonos unilateral volt pro,18000,35000,0,Volt Pro
 BZ-01,Brazalete de reloj,17000,30000,7,nulo
 CMT-01,Camiseta tela fria,33000,52000,31,alberto armenia
 CMT-02,Camiseta algodon economica,23000,39000,9,alberto armenia
 CMT-03,Camiseta seda marquilla,23000,39000,20,alberto armenia
-CMT-04,Camiseta tela galleta,32000,55000,20,alberto armenia
+CMT-04,Camiseta tela galleta,32000,55000,19,alberto armenia
 CMT-05,Camiseta Amiri tela fría,33000,58000,6,Gonzalo
 CMT-06,Camisilla malla trap,25000,39000,6,Gonzalo
 BZU-01,BUZO UNDERGOLD,38000,70000,8,Joel
