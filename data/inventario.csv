@@ -949,6 +949,14 @@ LN-38,locion intensity,35000,65000,1,Yeison la mina
 LN-39,locion love hearen,30000,55000,1,Yeison la mina
 LN-40,locion sir army,30000,55000,0,Yeison la mina
 LN-41,locion coste essencial,30000,55000,1,Yeison la mina
+MD-01,Medias cortas nike,5000,10000,6,andres
+MD-02,Medias largas nike,5500,15000,10,andres
+MD-03,Medias Economicas nike,3000,6000,15,Caps Store
+MD-04,Medias dama multimarcas,4500,9000,22,Caps Store
+MD-05,Medias hombre multimarcas 3/4,6500,15000,15,Caps Store
+CPS-01,Compass brujula,9000,15000,4,nulo
+JN-01,Pantalon cargo marca callejeros,67000,99000,12,alberto armenih
+CT-01,Cable transformers tipo C,9500,20000,3,nulo
 VTG-01.REALME,5/5I/6IGLOBAL/5S/C20/C20A/C21/C3/C3I/C11/C12/C15/C25S/C25/C112021/C30S/C33/C332023/9I5G/105G/10S/10T/V3/V23/V115G/Q21/NARZO30A/10/10A/20/20A,2000,15000,96,nulo
 VTG-01.MOTO,E13/E22/E30/E40/E20/G10/E20/E22i/G Pure,2000,15000,94,nulo
 VTG-01.OPPO,A15/A15S/A31/A9 2020/A5 2020/A53S 5G/K10 5G/A17/A17K/A18/A77S/A97/A57S/A57E/A58 5G/A58X/A59 5G/A78 5G/A1X/A2X/OP A38,2000,15000,96,nulo
@@ -961,7 +969,7 @@ VTG-01.INFINIX,INFHOT8/INFSMART5/INFSMART7/INFHOT30I/INFSMART67/INF NOTE 40 4G/,
 VTG-01.TECNO,TECPOP7/TECSPARK4/TECKC8/TECSPARK10C/TECSPARKGO2023/TECSPARK10,2000,15000,97,nulo
 VTG-01.HUAWEI,Huawei nova 11/nova 2,2000,15000,98,nulo
 VTG-03.SAMSUNG,A25/A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE/A6 Plus,2000,15000,13,Fabián rio negro
-VTG-03.REDMI,NOTE 10/NOTE 10S/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S/14T,2000,15000,29,Fabián rio negro
+VTG-03.REDMI,Redmi NOTE 10/NOTE 10S/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S/14T,2000,15000,29,Fabián rio negro
 VTG-03.HUAWEI,Y9 2019,2000,15000,36,Fabián rio negro
 VTG-03.MOTOROLA,G84,2000,15000,36,Fabián rio negro
 VTG-03.OPPO,Reno 7/Reno 14 5G/,2000,15000,35,Fabián rio negro
@@ -1019,7 +1027,7 @@ VTE-01,V Economico iPhone 6/7/8,1500,10000,3,Fabián rio negro
 VTE-02,V Economico iPhone 12/12 pro,1500,10000,5,Fabián rio negro
 VTE-03,V Economico iPhone 14 pro max,1500,10000,3,Fabián rio negro
 VTE-04,V Economico iPhone 15,1500,10000,3,Fabián rio negro
-VTBS-01.SAMSUNG,Vidrio SAM A05/A05S/A06/A06S,2000,15000,30,Fabián rio negro
+VTBS-01.SAMSUNG,Vidrio SAM A05/A05S/A06/A06S,2000,15000,45,Fabián rio negro
 VTBS-01.REDMI,Vidrio RMI 13C / 13C 5G / NOTE 13R / NOTE 60,2000,15000,6,Fabián rio negro
 VTBS-01.REALME,Vidrio RME C63/C61/NOTE 50/C51/C51 4G/C53/NARZON 53/NOTE 60X,2000,15000,7,Fabián rio negro
 VTBS-01.VIVO,Vidrio VI Y29S/Y04,2000,15000,7,Fabián rio negro
@@ -1029,7 +1037,7 @@ VTBS-01.NOKIA,Vidrio NK C31,2000,15000,7,Fabián rio negro
 VTBS-01.HUAWEI,Vidrio HW NOVA Y72 / NOVA Y71 / NOVA Y70 / NOVA Y70 PLUS,2000,15000,7,Fabián rio negro
 VTBS-01.HONOR,Vidrio HR PLAY 30 PLUS / X7A / X7,2000,15000,7,Fabián rio negro
 VTBS-01.TLC,Vidrio 40 SE,2000,15000,7,Fabián rio negro
-VTBS-02.SAMSUNG,V Blindado Samsung A22 5G/F42/A14/F14/M14,2000,15000,19,Fabián rio negro
+VTBS-02.SAMSUNG,V Blindado Samsung A22 5G/F42/A14/F14/M14,2000,15000,39,Fabián rio negro
 VTBS-02.MOTO,V Blindado Moto G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G9 PLAY/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,19,Fabián rio negro
 VTBS-02.G9 PLAY,V Blindado Moto G9 PLAY/G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,19,Fabián rio negro
 VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,2000,15000,27,Fabián rio negro
@@ -1264,8 +1272,8 @@ VBRM-04,V Blindado VBRM-01/Redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M
 VBRM-05,V Blindado Redmi NOTE 8 PRO/OPPO A9/F11/SAM J6 Plus,2000,15000,2,Fabián rio negro
 VBRM-06,V Blindado Redmi 15C/ poco C85,2000,15000,18,Fabián rio negro
 VBHN-01,V Blindado VTBS-01/VBRM-04/VBRM-01/Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30/SAM A57M,2000,15000,21,Fabián rio negro
-VBHN-02,V Blindado Honor SMART 9/SPARK GO 1/INF SPARK 30C/TEC POP 9/INF HOT 50/HOT 50i/HOT 50 PRO/MOTO G15,2000,15000,0,Fabián rio negro
-VTMT-01,V Blindado Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,0,Fabián rio negro
+VBHN-02,V Blindado Honor SMART 9/SPARK GO 1/INF SPARK 30C/TEC POP 9/INF HOT 50/HOT 50i/HOT 50 PRO/MOTO G15,2000,15000,20,Fabián rio negro
+VTMT-01,V Blindado Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,20,Fabián rio negro
 VTGH-02,Vidrio templado general honor,2000,15000,13,Fabián rio negro
 CHT-01,Chaqueta antifluidos marcas,37000,60000,0,Gonzalo
 CHT-02,Conjunto marcas tela galleta,55000,95000,2,Joel
@@ -1344,12 +1352,43 @@ VTA-25,Vidrio antiespia samsung A20/A30,3000,15000,20,Fabian rio negro
 VTA-26,Vidrio antiespia Redmi 15C/14C,3000,15000,20,Fabian rio negro
 VTA-27,Vidrio antiespia Moto g55,3000,15000,20,Fabian rio negro
 VTA-28,Vidrio antiespia Redmi 13C/13C 5G/NOTE 13R/NOTE 60,3000,15000,20,Fabian rio negro
-
-MD-01,Medias cortas nike,5000,10000,6,andres
-MD-02,Medias largas nike,5500,15000,10,andres
-MD-03,Medias Economicas nike,3000,6000,15,Caps Store
-MD-04,Medias dama multimarcas,4500,9000,22,Caps Store
-MD-05,Medias hombre multimarcas 3/4,6500,15000,15,Caps Store
-CPS-01,Compass brujula,9000,15000,4,nulo
-JN-01,Pantalon cargo marca callejeros,67000,99000,12,alberto armenih
-CT-01,Cable transformers tipo C,9500,20000,3,nulo
+VTA-29,Vidrio antiespia Moto G60,3000,15000,20,Fabian rio negro
+VTA-30,10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,3000,15000,20,Fabian rio negro
+VTA-31,Vidrio antiespia Samsung A21s,3000,15000,20,Fabian rio negro
+VTA-32,Vidrio antiespia Samsung A15,3000,15000,20,Fabian rio negro
+VTA-33,Vidrio antiespia MOTO G72,3000,15000,20,Fabian rio negro
+VTA-34.POCO,V antiespia F3 GT/F4 GT/K40 Gaming/K50 Gaming/X5 Pro/F5/M6 Pro/X6 Neo,2000,15000,35,Fabián rio negro
+VTA-34.REDMI,V antiespia Note 12 pro 5g/Note 12 pro+/Note 12 Explorer/Note 12 Discovery/Note 12 Turbo/Note 12 China/Note 13 Pro 4G/Note 13R Pro/Note 13 Pro+ 5G/,2000,15000,95,nulo
+VTA-34.INFINIX,V antiespia NOTE 30 PRO/NOTE 30 VIP/GT 10 PRO ,2000,15000,36,Fabián rio negro
+VTA-34.OPPO,V antiespia A5 PRO 5G/A5 5G/A80,2000,15000,92,Fabian rio negro
+VTA-34.REALME,V antiespia C71,2000,15000,98,Fabian rio negro
+VTA-35,V antiespia Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,20,Fabián rio negro
+VTA-36,V antiespia Samsung S21 fe ,2000,15000,20,Fabian rio negro
+VTA-37.SAMSUNG,V antiespia A25/A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE/A6 Plus,2000,15000,13,Fabián rio negro
+VTA-37.REDMI,V antiespia Redmi NOTE 10/NOTE 10S/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S/14T,2000,15000,29,Fabián rio negro
+VTA-37.HUAWEI,V antiespiaY9 2019,2000,15000,36,Fabián rio negro
+VTA-37.MOTOROLA,V antiespia G84,2000,15000,36,Fabián rio negro
+VTA-37.OPPO,V antiespia Reno 7/Reno 14 5G/,2000,15000,35,Fabián rio negro
+VTA-37.HONOR,V antiespia HNR X8B/,2000,15000,36,Fabián rio negro
+VTA-38.MOTO,V antiespia Moto G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G9 PLAY/G10 PLAY/G20/G30/One fusión/E20/G8/E7 Plus,2000,15000,39,Fabián rio negro
+VTA-38.G9 PLAY,V antiespia Moto G9 PLAY/G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G10 PLAY/G20/G30/One fusión/E20/G8/E7 Plus,2000,15000,39,Fabián rio negro
+VTA-39,V antiespia Redmi Note 9,2000,15000,19,Fabián rio negro
+VTA-40.MOTO,V antiespia Moto G04/G22/G24 Power/E32/E32 india/E32S,2000,15000,30,Fabián rio negro
+VTA-41.SAMSUNG,V antiespia F62/M62/M51/A71/M52 5G/M53 5G/M54/M55/C55/F54/A72/A73/NOTE 10 LITE/A81/redmi note 12 4g,2000,15000,60,Fabián rio negro
+VTA-41.VIVO,V antiespia Y38/Y36/Y36 5G/Y77T/Y78T/Y27S/Y100i/Y100T/T1 5G CHINA/Y77 CHINA/Y78 CHINA/ IQOO NEO5 SE / IQOO Z7 CHINA / Z7X / Z8X,2000,15000,60,Fabián rio negro
+VTA-41.OPPO,V antiespia OPPO A58,2000,15000,60,Fabián rio negro
+VTA-41.REDMI,V antiespia Redmi Note 13 Pro+/Note 14 4G,2000,15000,60,Fabián rio negro
+VTA-42,V antiespia Redmi Note 13 Pro+/Note 14 4G,2000,15000,60,Fabián rio negro
+VTA-43,V antiespia Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,20,Fabián rio negro
+VTA-44,V antiespia Samsung A56/A36,2000,15000,40,Fabián rio negro
+VTA-45.HUAWEI,V antiespia Huawei Y9 Prime 2019/Y9S,2000,15000,20,Fabián rio negro
+VTA-45.HONOR,V antiespia HONOR 9X/PsmartZ,2000,15000,20,Fabián rio negro
+VTM-01,V mate iPhone 7 Plus/8 Plus,2000,15000,15,Fabián rio negro
+VTM-02,V mate Samsung A70/A70S/M42/M42,2000,15000,15,Fabián rio negro
+VTM-03,V mate Redmi 10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,2000,15000,15,Fabián rio negro
+VTM-03,V mate Redmi 10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,2000,15000,15,Fabián rio negro
+VTM-04,V mate Samsung A12/13 VTG-01,2000,15000,15,Fabián rio negro
+VTM-05,V mate iPhone 13 pro max/14 Plus,2000,15000,15,Fabián rio negro
+VTM-06,V mate iPhone X/11 Pro,2000,15000,15,Fabián rio negro
+VTM-07,V mate iPhone 14 Pro Max,2000,15000,15,Fabián rio negro
+VTM-08,V mate Motorola G31/G41/G71/G14/G54/G54 POWER/Honor 400 smart/Honor X7C,2000,15000,15,Fabián rio negro
