@@ -1036,7 +1036,7 @@ VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,
 VTBS-04,V Blindado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,20,Fabián rio negro
 VTBS-05,V Blindado Samsung A31/A32/A22 4G/F22/M32/M22/A33,2000,15000,30,Fabián rio negro
 VTBS-06,V Blindado Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,40,Fabián rio negro
-VTBS-07,V Blindado Samsung A70S/M42/M42/A70,2000,15000,20,Fabián rio negro
+VTBS-07,V Blindado Samsung A70/A70S/M42/M42/,2000,15000,20,Fabián rio negro
 VTBS-08,V Blindado Samsung A54/S23FE,2000,15000,0,Fabián rio negro
 VTBS-09,V Blindado Samsung S25 ULTRA,2000,15000,20,Fabián rio negro
 VTBS-10,V Blindado Samsung A20S,2000,15000,20,Fabián rio negro
@@ -1258,7 +1258,7 @@ FPD-211,funda diseño transparente decorado iphone 13 pro,8000,20000,1,Nulo
 FPD-211,funda diseño stich decorado iphone 16e,8000,25000,1,Nulo
 XM-01,Cargador Xiaomi replica 67W,15000,37000,0,Fabian Rionegro
 VBRM-01,V Blindado Redmi 10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,2000,15000,16,Fabián rio negro
-VBRM-02,V Blindado Redmi 14C/15C,2000,15000,7,Fabián rio negro
+VBRM-02,V Blindado Redmi 15C/14C,2000,15000,7,Fabián rio negro
 VBRM-03,V Blindado Redmi 9/N9/9T/10/Y5S,2000,15000,15,Fabián rio negro
 VBRM-04,V Blindado VBRM-01/Redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M6 PRO Y PLUS,2000,15000,18,Fabián rio negro
 VBRM-05,V Blindado Redmi NOTE 8 PRO/OPPO A9/F11/SAM J6 Plus,2000,15000,2,Fabián rio negro
@@ -1332,7 +1332,19 @@ VTA-14,Vidrio antiespia iPhone 13/13 PRO/14/16E/15 PRO,3000,15000,7,Fabian rio n
 VTA-15.SAMSUNG,Vidrio antiespia SamsungA16/A26/A71/A72/A73,3000,15000,20,Fabian rio negro
 VTA-15.TECNO,Vidrio antiespia Camon 20/Spark 20/Spark 20C,3000,15000,20,Fabian rio negro
 VTA-16,Vidrio antiespia iPhone X/XS/11 Pro,3000,15000,20,Fabian rio negro
-VTA-17,Vidrio antiespia iPhone X/XS/11 Pro,3000,15000,20,Fabian rio negro
+VTA-17,Vidrio antiespia E30/E40 ,3000,15000,20,Fabian rio negro
+VTA-18,Vidrio antiespia iPhone 17 air,3000,15000,20,Fabian rio negro
+VTA-19,Vidrio antiespia samsung a26,3000,15000,20,Fabian rio negro
+VTA-20,Vidrio antiespia A02/A02S/A03/A3S/A03CORE/134G/A135G/A21s/A234G/A235G/F235G/M13/M135G/M13INDIA/M23/M325G/M335G/3CORE/A04/A04S/A04E/A04CORE/M02S/F02S/M12/A02/M02/A325G/A12/A12Nacho/F12/F13/F04/M04,3000,15000,20,Fabian rio negro
+VTA-21,Vidrio samsung a06/a05,3000,15000,20,Fabian rio negro
+VTA-22,Vidrio antiespia samsung A70/A70S/M42/M42,3000,15000,20,Fabian rio negro
+VTA-23,Vidrio antiespia samsung a34,3000,15000,20,Fabian rio negro
+VTA-24,Vidrio antiespia samsung A31/A32/A22 4G/F22/M32/M22/A33,3000,15000,20,Fabian rio negro
+VTA-25,Vidrio antiespia samsung A20/A30,3000,15000,20,Fabian rio negro
+VTA-26,Vidrio antiespia Redmi 15C/14C,3000,15000,20,Fabian rio negro
+VTA-27,Vidrio antiespia Moto g55,3000,15000,20,Fabian rio negro
+VTA-28,Vidrio antiespia Redmi 13C/13C 5G/NOTE 13R/NOTE 60,3000,15000,20,Fabian rio negro
+
 MD-01,Medias cortas nike,5000,10000,6,andres
 MD-02,Medias largas nike,5500,15000,10,andres
 MD-03,Medias Economicas nike,3000,6000,15,Caps Store
