@@ -80,18 +80,31 @@ class EmployeeView:
         texto = self.normalizar_texto(self.entry_producto.get())
         self.listbox_sugerencias.delete(0, tk.END)
 
-        if texto:
-            inventario = Inventory.cargar_inventario()
-            resultados = []
-            for p in inventario:
-                nombre = self.normalizar_texto(p["nombre"])
-                pid = self.normalizar_texto(p["id"])
-                if texto in nombre or texto in pid:
-                    resultados.append(f'{p["id"]} - {p["nombre"]}')
+        if not texto:
+            return
 
-            resultados = sorted(resultados, key=lambda x: not self.normalizar_texto(x).startswith(texto))
-            for r in resultados:
-                self.listbox_sugerencias.insert(tk.END, r)
+        palabras_busqueda = texto.split()  # 🔑 dividir por palabras
+        inventario = Inventory.cargar_inventario()
+        resultados = []
+
+        for p in inventario:
+            nombre = self.normalizar_texto(p["nombre"])
+            pid = self.normalizar_texto(p["id"])
+
+            texto_completo = f"{pid} {nombre}"
+
+            # ✅ todas las palabras deben existir
+            if all(palabra in texto_completo for palabra in palabras_busqueda):
+                resultados.append(f'{p["id"]} - {p["nombre"]}')
+
+        # Prioriza los que empiezan con la primera palabra
+        resultados.sort(
+            key=lambda x: not self.normalizar_texto(x).startswith(palabras_busqueda[0])
+        )
+
+        for r in resultados:
+            self.listbox_sugerencias.insert(tk.END, r)
+
 
     # --- Seleccionar producto ---
     def seleccionar_producto(self, event):

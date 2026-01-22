@@ -268,31 +268,37 @@ CG-02,Canguros Cat,15000,27000,0,Nicolas
 CG-03,Canguro de tela en marcas,15000,32000,7,Albeiro
 CG-04,Canguros AAA marcas,21000,39000,5,Albeiro
 PR-01,Piernero,16000,35000,1,zona chic
-CRA-01,Carriel hombre Marcas economico,15000,27000,2,zona chic 
+CRA-01,Carriel hombre Marcas economico,15000,27000,47,zona chic 
 CRA-02,Carriel hombre Marcas,39000,62000,1,zona chic
 CRA-03,Carriel AAA hombre marcas,50000,85000,1,zona chic 
 CRA-04,Carriel Palm Angels,38000,62000,0,Caps Store
 CRA-05,Carriel Top Quality,55000,92000,11,Caps Store
-CRA-06,Carriel multimarcas,25000,45000,14,Caps Store
+CRA-06,Carriel multimarcas,25000,45000,13,Caps Store
+CRA-07,Bolso sprayground,60000,105000,3,Caps Store
 BA-01,Bolso amelie blanco,30000,58000,0,zona chic 
 BD-01,Bolso denis azul,55000,95000,1,zona chic
-CRD-01,Carriel dama marcas,23000,45000,6,zona chiS
+CRD-01,Carriel dama marcas,23000,45000,9,zona chiS
 CDC-01,Correa de cuero panchos,16000,27000,1,zona chic
 CDC-02,Correa de marcas,35000,60000,5,Armyn Watches
 CDC-03,Correa de cuero,16000,27000,0,zona chic
 CDC-04,Correa de riata,12000,20000,2,zona chic
-CDC-05,Correa Velez cuero,16000,27000,5,zona chic
+CDC-05,Correa Velez cuero,16000,27000,27,zona chic
 CDC-06,Correa sintetica,10000,17000,1,zona chic
 CDC-07,Correa sintetica marcas,10000,18000,1,zona chic
 CDC-08,Correa sintetica taches larga,11000,25000,4,Albeiro Marroquineria
 CDC-09,Correa sintetica taches corta,10000,23000,6,Albeiro Marroquineria
-CDC-10,Correa sintetica hombre chapa marcas AAA,16000,27000,1,Albeiro Marroquineria
+CDC-10,Correa sintetica hombre chapa marcas AAA,16000,29000,1,Albeiro Marroquineria
 CDC-11,Correa sintetica mujer chapa piedras AAA,8000,17000,7,Albeiro Marroquineria
 CDC-12,Correa sintetica mujer sencilla,5500,13000,5,Albeiro Marroquineria
 CDC-13,Correa sintetica doble faz mujer hebilla dorada,8000,15000,6,Albeiro Marroquineria
 CDC-14,Correa negra,6500,13000,11,Albeiro Marroquineria
 CDC-15,Correa pitillo  cuero colores,12000,20000,11,Albeiro Marroquineria
-BH-01,Billetera cuero hombre marcas economica,15000,27500,4,Albeiro Marroquineria
+CDC-16,Correa de niño en cuero economica,7000,19000,24,Albeiro Marroquineria
+CDC-17,Correa de niño en cuero pachos,9000,19000,22,Albeiro Marroquineria
+CDC-18,Correa de hombre en cuero economica,13000,25000,12,Albeiro Marroquineria
+CDC-19,Correa de hombre marcas variadas,15000,27000,24,Albeiro Marroquineria
+CDC-20,Correa de hombre multicolor,7000,18000,12,Albeiro Marroquineria
+BH-01,Billetera cuero hombre marcas economica,15000,27500,14,Albeiro Marroquineria
 BH-02,Billetera hombre de lujo,35000,60000,6,Armyn Watches
 BH-03,Billetera dama economica,15000,22000,2,zona chic
 BH-04,Billetera dama moschino,28000,50000,1,nulo
@@ -303,6 +309,7 @@ BH-08,Billetera monedero y chapita,14000,25000,11,Albeiro
 BH-09,Billetera estampado economica,10000,22000,6,Albeiro
 BH-10,Billetera cuerina economica,12000,22000,6,Albeiro
 BH-11,Billetera cuero Velez economica,16000,27500,1,Wilmar Duque
+BH-12,Billetera cuero hombre marcas variadas,15000,32000,12,Albeiro Marroquineria
 RJ-01,Reloj de lujo economico,35000,60000,9,nulo
 RJ-02,Reloj de lujo, 40000,70000,6,nulo
 RJ-03,Reloj rolex cubano,65000,100000,0,nulo
@@ -345,7 +352,7 @@ VP-14,Vaper Waka largo,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,7,Juan Felipe
-VP-18,Vaper hulk,12000,25000,9,Juan Felipe
+VP-18,Vaper hulk,12000,25000,7,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,7,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,8,Juan Felipe
 VP-21,Destilado combo,45000,95000,7,Juan Felipe
@@ -386,7 +393,7 @@ MM-04,Micro memoria 32G,16000,26000,0,nulo
 MM-05,Micro memoria 64G,16000,30000,3,nulo
 MM-06,Memoria musica,4500,10000,15,nulo
 VDG-01,Hidrogel claro,3000,13000,29,nulo
-VDG-02,Hidrogel mate,3200,15000,2,nulo
+VDG-02,Hidrogel mate,3200,15000,0,nulo
 VDG-03,Hidrogel antiespias,4800,20000,28,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 AP-01,Airpods pro 2nd generacion,38000,70000,4,nulo
@@ -437,7 +444,7 @@ MT-20,Funda silicona Motorola G54,4500,15000,4,nulo
 MT-21,Funda silicona Motorola G55,4500,15000,8,nulo
 MT-22,Funda silicona Motorola G60/66S,4500,15000,12,nulo
 MT-23,Funda silicona Motorola G60S,4500,15000,5,nulo
-MT-24,Funda silicona Motorola G75,4500,15000,8,nulo
+MT-24,Funda silicona Motorola G75,4500,15000,7,nulo
 MT-25,Funda silicona Motorola G84,4500,15000,8,nulo
 MT-26,Funda silicona Motorola G85,4500,15000,7,nulo
 MT-27,Funda silicona Motorola E6s,4500,15000,0,nulo
@@ -728,7 +735,7 @@ AE-06,Cabeza apple tipo C 60W,38000,80000,2,Apple
 AE-07,Cabeza apple tipo C 20W,12000,23000,15,Apple
 AE-08,Cabeza apple tipo C 25W,9500,28000,5,Apple
 AE-09,Cargador completo Apple tipo C - C 35W,20000,45000,3,Apple
-AE-35,Cargador completo tipo C - LGT 25W,16000,42000,2,Fabian Rionegro
+AE-35,Cargador completo tipo C - LGT 25W,16000,42000,1,Fabian Rionegro
 AE-10,VP Cable USB - LGT 6A,7500,20000,21,Volt Pro
 AE-11,VP Cable C - C 45W,6500,15000,1,Volt Pro
 AE-12,VP Cable C LED - USB 6A,7500,20000,17,Volt pro 
@@ -987,7 +994,7 @@ VTG-02.INFINIX, NOTE 30 PRO/NOTE 30 VIP/GT 10 PRO ,2000,15000,36,Fabián rio neg
 VTG-02.OPPO,A5 PRO 5G/A5 5G/A80,2000,15000,92,nulo
 VTG-02.REALME,C71,2000,15000,98,nulo
 VTG-04.SAMSUNG,F62/M62/M51/A71/M52 5G/M53 5G/M54/M55/C55/F54/A72/A73/NOTE 10 LITE/A81/redmi note 12 4g,2000,15000,58,Fabián rio negro
-VTG-04.VIVO, Y38/Y36/Y36 5G/Y77T/Y78T/Y27S/Y100i/Y100T/T1 5G CHINA/Y77 CHINA/Y78 CHINA/ IQOO NEO5 SE / IQOO Z7 CHINA / Z7X / Z8X,2000,15000,60,Fabián rio negro
+VTG-04.VIVO, Y38/Y36/Y36 5G/Y77T/Y78T/Y27S/Y100i/Y100T/T1 5G CHINA/Y77 CHINA/Y78 CHINA/ IQOO NEO5 SE / IQOO Z7 CHINA / Z7X / Z8X,2000,15000,59,Fabián rio negro
 VTG-04.OPPO,OPPO A58,2000,15000,60,Fabián rio negro
 VTG-04.REDMI,Redmi Note 13 Pro+,2000,15000,58,Fabián rio negro
 VTG-05.REDMI,NOTE 9S/NOTE 9 PRO/NOTE 9 PRO MAX/NOTE 10 PRO/NOTE 10 PRO MAX/NOTE 11 PRO/NOTE 11 PRO+/NOTE 11E PRO/NOTE 12 PRO 4G/NOTE 14 4G/11X/11X PRO/11i/11T/11T PRO/K40/K40 PRO/K40 PRO+/K40S/K30/K30S/K30I/K30 PRO/K30 ULTRA/10I,2000,15000,20,Fabián rio negro
@@ -1006,7 +1013,7 @@ VTB-02,V Blindado iPhone 15 pro max,2000,15000,42,Fabián rio negro
 VTB-03,V Blindado iPhone 14 pro max,2000,15000,29,Fabián rio negro
 VTB-04,V Blindado iPhone 14 Pro,2000,15000,35,Fabián rio negro 
 VTB-05,V Blindado iPhone 15 pro,2000,15000,22,Fabián rio negro 
-VTB-06,V Blindado iPhone 13/13 pro/14/16E/15 Pro,2000,15000,16,Fabián rio negro
+VTB-06,V Blindado iPhone 13/13 pro/14/16E/16 SE/15 Pro,2000,15000,15,Fabián rio negro
 VTB-07,V Blindado iPhone 13 mini,2000,15000,6,Fabián rio negro 
 VTB-08,V Blindado iPhone 12 pro max,2000,15000,45,Fabián rio negro 
 VTB-09,V Blindado iPhone 12/12 pro,2000,15000,40,Fabián rio negro 
@@ -1047,7 +1054,7 @@ VTBS-01.TLC,Vidrio 40 SE,2000,15000,7,Fabián rio negro
 VTBS-02.SAMSUNG,V Blindado Samsung A22 5G/F42/A14/F14/M14,2000,15000,39,Fabián rio negro
 VTBS-02.MOTO,V Blindado Moto G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G9 PLAY/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,19,Fabián rio negro
 VTBS-02.G9 PLAY,V Blindado Moto G9 PLAY/G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,19,Fabián rio negro
-VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,2000,15000,30,Fabián rio negro
+VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,2000,15000,29,Fabián rio negro
 VTBS-04,V Blindado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,20,Fabián rio negro
 VTBS-05,V Blindado Samsung A31/A32/A22 4G/F22/M32/M22/A33,2000,15000,30,Fabián rio negro
 VTBS-06,V Blindado Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,40,Fabián rio negro
@@ -1367,7 +1374,7 @@ VTA-26,Vidrio antiespia Redmi 15C/14C,3000,15000,20,Fabian rio negro
 VTA-27,Vidrio antiespia Moto g55,3000,15000,20,Fabian rio negro
 VTA-28,Vidrio antiespia Redmi 13C/13C 5G/NOTE 13R/NOTE 60,3000,15000,20,Fabian rio negro
 VTA-29,Vidrio antiespia Moto G60,3000,15000,20,Fabian rio negro
-VTA-30,10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,3000,15000,20,Fabian rio negro
+VTA-30,10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,3000,15000,18,Fabian rio negro
 VTA-31,Vidrio antiespia Samsung A21s,3000,15000,20,Fabian rio negro
 VTA-32,Vidrio antiespia Samsung A15,3000,15000,20,Fabian rio negro
 VTA-33,Vidrio antiespia MOTO G72,3000,15000,20,Fabian rio negro
@@ -1378,7 +1385,7 @@ VTA-34.OPPO,V antiespia A5 PRO 5G/A5 5G/A80,2000,15000,92,Fabian rio negro
 VTA-34.REALME,V antiespia C71,2000,15000,98,Fabian rio negro
 VTA-35,V antiespia Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,20,Fabián rio negro
 VTA-36,V antiespia Samsung S21 fe ,2000,15000,20,Fabian rio negro
-VTA-37.SAMSUNG,V antiespia A25/A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE/A6 Plus,2000,15000,13,Fabián rio negro
+VTA-37.SAMSUNG,V antiespia A25/A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE/A6 Plus,2000,15000,12,Fabián rio negro
 VTA-37.REDMI,V antiespia Redmi NOTE 10/NOTE 10S/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S/14T,2000,15000,29,Fabián rio negro
 VTA-37.HUAWEI,V antiespiaY9 2019,2000,15000,36,Fabián rio negro
 VTA-37.MOTOROLA,V antiespia G84,2000,15000,36,Fabián rio negro
