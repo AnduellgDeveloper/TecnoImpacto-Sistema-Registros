@@ -4,6 +4,8 @@ from models.sales import Sales
 from models.inventory import Inventory
 import datetime
 import unicodedata
+from models.repairs import Repairs
+
 
 def centrar_ventana(ventana, ancho, alto):
     """Centra la ventana en la pantalla"""
@@ -27,6 +29,15 @@ class EmployeeView:
 
         title = tk.Label(frame, text="Registrar Venta", font=("Arial", 16, "bold"), bg="white")
         title.pack(pady=10)
+
+        ttk.Button(
+            frame,
+            text="Registrar Arreglo",
+            command=self.abrir_modal_arreglo
+        ).pack(pady=5)
+
+
+
 
         # --- Autocompletado ---
         tk.Label(frame, text="Producto:", bg="white").pack()
@@ -144,6 +155,62 @@ class EmployeeView:
         self.cargar_ventas_del_dia()
         messagebox.showinfo("Éxito", "Venta registrada")
 
+    def abrir_modal_arreglo(self):
+        win = tk.Toplevel(self.root)
+        win.title("Registrar Arreglo")
+        centrar_ventana(win, 400, 450)
+        win.grab_set()
+
+        campos = {}
+        
+        def campo(texto):
+            tk.Label(win, text=texto).pack()
+            e = ttk.Entry(win)
+            e.pack(pady=3, fill="x", padx=20)
+            return e
+        
+        campos["cliente"] = campo("Nombre del cliente")
+        campos["telefono"] = campo("Teléfono")
+        
+        tk.Label(win, text="Descripción del arreglo").pack()
+        txt_desc = tk.Text(win, height=4)
+        txt_desc.pack(padx=20, pady=5, fill="x")
+
+        campos["costo"] = campo("Costo del arreglo")
+        campos["precio"] = campo("Precio al cliente")
+
+
+        def guardar():
+            try:
+                cliente = campos["cliente"].get()
+                telefono = campos["telefono"].get()
+                descripcion = txt_desc.get("1.0", "end").strip()
+                costo = int(campos["costo"].get())
+                precio = int(campos["precio"].get())
+
+                if not cliente or not descripcion:
+                    raise ValueError("Campos obligatorios vacíos")
+
+                venta = Repairs.registrar_arreglo(
+                    cliente, telefono, descripcion, costo, precio
+                )
+
+                # 🔥 Guardar también como venta del día
+                Sales.guardar_venta_directa(venta)
+
+                self.cargar_ventas_del_dia()
+                messagebox.showinfo("Éxito", "Arreglo registrado")
+                win.destroy()
+
+            except Exception as e:
+                messagebox.showerror("Error", str(e))
+
+        ttk.Button(win, text="Guardar Arreglo", command=guardar).pack(pady=15)
+
+
+
+
+
     # --- Cargar ventas del día ---
     def cargar_ventas_del_dia(self):
         self.tree.delete(*self.tree.get_children())
@@ -161,3 +228,5 @@ class EmployeeView:
                     v["total"],
                     #v["utilidad"]
                 ))
+
+    

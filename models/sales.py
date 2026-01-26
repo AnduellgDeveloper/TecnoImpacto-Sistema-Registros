@@ -106,3 +106,30 @@ class Sales:
             if fecha_inicio <= fecha <= fecha_fin:
                 contador[v["nombre"]] += int(v["cantidad"])
         return contador.most_common(top)
+    
+    @staticmethod
+    def guardar_venta_directa(venta):
+        import csv, os
+
+        archivo = "data/ventas.csv"
+        existe = os.path.exists(archivo)
+
+        campos = [
+            "fecha",
+            "producto_id",
+            "nombre",
+            "cantidad",
+            "costo_unit",
+            "precio_unit",
+            "descuento",
+            "precio_final",
+            "total",
+            "utilidad"
+        ]
+
+        with open(archivo, "a", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=campos)
+            if not existe:
+                writer.writeheader()
+            writer.writerow(venta)
+
