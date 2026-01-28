@@ -5,6 +5,8 @@ from models.inventory import Inventory
 import datetime
 import unicodedata
 from models.repairs import Repairs
+from models.credits import Credits
+
 
 
 def centrar_ventana(ventana, ancho, alto):
@@ -30,13 +32,19 @@ class EmployeeView:
         title = tk.Label(frame, text="Registrar Venta", font=("Arial", 16, "bold"), bg="white")
         title.pack(pady=10)
 
+        # --- Botón Registrar Arreglo ---
         ttk.Button(
             frame,
             text="Registrar Arreglo",
             command=self.abrir_modal_arreglo
         ).pack(pady=5)
 
-
+        # --- Botón Registrar Crédito ---
+        ttk.Button(
+            frame,
+            text="Registrar Crédito",
+            command=self.abrir_modal_credito
+        ).pack(pady=5)
 
 
         # --- Autocompletado ---
@@ -228,5 +236,129 @@ class EmployeeView:
                     v["total"],
                     #v["utilidad"]
                 ))
+
+    # --- Modal Crédito -  Interfaz del credito ---
+    def abrir_modal_credito(self):
+        self.productos_credito = []
+
+        win = tk.Toplevel(self.root)
+        win.title("Registrar Crédito")
+        centrar_ventana(win, 750, 650)
+        win.grab_set()
+
+        # ================= CLIENTE =================
+        tk.Label(win, text="Nombre del cliente").pack()
+        entry_cliente = ttk.Entry(win)
+        entry_cliente.pack(fill="x", padx=20)
+
+        tk.Label(win, text="Teléfono").pack()
+        entry_tel = ttk.Entry(win)
+        entry_tel.pack(fill="x", padx=20)
+
+        # ================= PRODUCTOS =================
+        tk.Label(win, text="Buscar producto").pack(pady=5)
+        entry_buscar = ttk.Entry(win)
+        entry_buscar.pack(fill="x", padx=20)
+
+        listbox = tk.Listbox(win, height=5)
+        listbox.pack(fill="x", padx=20)
+
+        tk.Label(win, text="Cantidad").pack()
+        entry_cant = ttk.Entry(win)
+        entry_cant.pack()
+
+        tree = ttk.Treeview(
+            win,
+            columns=("Producto", "Cantidad", "Precio", "Subtotal"),
+            show="headings",
+            height=6
+        )
+        for c in tree["columns"]:
+            tree.heading(c, text=c)
+        tree.pack(fill="both", expand=True, padx=20, pady=5)
+
+        # ================= CREDITOS =================
+        tk.Label(win, text="Crédito de celular ($)").pack()
+        entry_credito = ttk.Entry(win)
+        entry_credito.pack()
+
+        tk.Label(win, text="Fecha").pack()
+        entry_fecha = ttk.Entry(win)
+        entry_fecha.insert(0, datetime.date.today().isoformat())
+        entry_fecha.pack()
+
+        tk.Label(win, text="Número de cuotas").pack()
+        entry_cuotas = ttk.Entry(win)
+        entry_cuotas.pack()
+
+        # ================= CALCULOS =================
+        lbl_total = tk.Label(win, text="Total: $0")
+        lbl_85 = tk.Label(win, text="85%: $0")
+        lbl_15 = tk.Label(win, text="15%: $0")
+        lbl_total.pack()
+        lbl_85.pack()
+        lbl_15.pack()
+
+        tk.Label(win, text="Valor recibido ($)").pack()
+        entry_recibido = ttk.Entry(win)
+        entry_recibido.pack()
+        # ================= BOTONES DE FUNCIONES  =================
+        ttk.Button(win, text="Calcular", command=calcular).pack(pady=5)
+        ttk.Button(win, text="Registrar Venta", command=registrar).pack(pady=10)
+        # ================= FUNCIONES INTERNAS  =================
+
+
+
+        def calcular():
+            total_productos = sum(p["subtotal"] for p in self.productos_credito)
+            credito = int(entry_credito.get() or 0)
+            total = total_productos + credito
+
+            v85 = int(total * 0.85)
+            v15 = total - v85
+
+            lbl_total.config(text=f"Total: ${total}")
+            lbl_85.config(text=f"85%: ${v85}")
+            lbl_15.config(text=f"15%: ${v15}")
+
+            return total, v85, v15
+        
+        def registrar():
+            total, v85, v15 = calcular()
+            recibido = int(entry_recibido.get() or 0)
+            saldo = total - recibido
+
+            data = {
+                "fecha": entry_fecha.get(),
+                "cliente": entry_cliente.get(),
+                "telefono": entry_tel.get(),
+                "productos": self.productos_credito,
+                "credito_celular": int(entry_credito.get() or 0),
+                "total": total,
+                "valor_85": v85,
+                "valor_15": v15,
+                "cuotas": entry_cuotas.get(),
+                "valor_recibido": recibido,
+                "saldo": saldo
+            }
+
+            Credits.registrar_credito(data)
+
+            if recibido > 0:
+                Sales.guardar_venta_directa({
+                    "fecha": data["fecha"],
+                    "producto_id": "CREDITO",
+                    "nombre": f"Crédito - {data['cliente']}",
+                    "cantidad": 1,
+                    "costo_unit": 0,
+                    "precio_unit": recibido,
+                    "descuento": 0,
+                    "precio_final": recibido,
+                    "total": recibido,
+                    "utilidad": recibido
+                })
+
+            messagebox.showinfo("Éxito", "Crédito registrado")
+            win.destroy()
 
     
