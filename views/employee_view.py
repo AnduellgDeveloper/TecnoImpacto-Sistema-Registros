@@ -31,20 +31,25 @@ class EmployeeView:
 
         title = tk.Label(frame, text="Registrar Venta", font=("Arial", 16, "bold"), bg="white")
         title.pack(pady=10)
-
+        # --- Frame para botones ---
+        frame_botones = tk.Frame(frame, bg="white")
         # --- Botón Registrar Arreglo ---
         ttk.Button(
-            frame,
+            frame_botones,
             text="Registrar Arreglo",
             command=self.abrir_modal_arreglo
-        ).pack(pady=5)
+        ).pack(side="left", padx=10)
 
         # --- Botón Registrar Crédito ---
         ttk.Button(
-            frame,
+            frame_botones,
             text="Registrar Crédito",
             command=self.abrir_modal_credito
-        ).pack(pady=5)
+        ).pack(side="left", padx=10)
+
+        frame_botones.pack(pady=5)
+
+    
 
 
         # --- Autocompletado ---
@@ -85,6 +90,27 @@ class EmployeeView:
 
         # 🚀 Cargar ventas del día al iniciar
         self.cargar_ventas_del_dia()
+
+        # ================= BUSCADOR REUTILIZABLE =================
+    def buscar_productos(self, texto):
+        texto = self.normalizar_texto(texto)
+        if not texto:
+            return []
+
+        palabras = texto.split()
+        inventario = Inventory.cargar_inventario()
+        resultados = []
+
+        for p in inventario:
+            nombre = self.normalizar_texto(p["nombre"])
+            pid = self.normalizar_texto(p["id"])
+            texto_completo = f"{pid} {nombre}"
+
+            if all(palabra in texto_completo for palabra in palabras):
+                resultados.append(p)
+
+        return resultados
+
 
     # --- Función de normalización ---
     @staticmethod
@@ -237,13 +263,13 @@ class EmployeeView:
                     #v["utilidad"]
                 ))
 
-    # --- Modal Crédito -  Interfaz del credito ---
+    # --------------------------------------------------- Modal Crédito -  Interfaz del credito ------------------------------------------------------------------------------------------------------------------------
     def abrir_modal_credito(self):
         self.productos_credito = []
 
         win = tk.Toplevel(self.root)
         win.title("Registrar Crédito")
-        centrar_ventana(win, 750, 650)
+        centrar_ventana(win, 650, 650)
         win.grab_set()
 
         # ================= CLIENTE =================
@@ -302,15 +328,67 @@ class EmployeeView:
         tk.Label(win, text="Valor recibido ($)").pack()
         entry_recibido = ttk.Entry(win)
         entry_recibido.pack()
-        # ================= BOTONES DE FUNCIONES  =================
-        ttk.Button(win, text="Calcular", command=calcular).pack(pady=5)
-        ttk.Button(win, text="Registrar Venta", command=registrar).pack(pady=10)
+    
+        
+    
         # ================= FUNCIONES INTERNAS  =================
+    
+
+        def sugerir_productos_credito(event):
+            listbox.delete(0, tk.END)
+            for p in self.buscar_productos(entry_buscar.get()):
+                listbox.insert(tk.END, f'{p["id"]} - {p["nombre"]}')
+        entry_buscar.bind("<KeyRelease>", sugerir_productos_credito)
+
+        def agregar_producto_credito(event):
+            seleccion = listbox.get(tk.ACTIVE)
+            if not seleccion:
+                return
+
+            try:
+                cantidad = int(entry_cant.get())
+                if cantidad <= 0:
+                    raise ValueError
+            except:
+                messagebox.showerror("Error", "Cantidad inválida")
+                return
+
+            pid = seleccion.split(" - ")[0]
+            inventario = Inventory.cargar_inventario()
+            producto = next((p for p in inventario if p["id"] == pid), None)
+
+            if not producto:
+                return
+
+            precio = int(producto["precio"])
+            subtotal = cantidad * precio
+
+
+            data = {
+                "id": producto["id"],
+                "nombre": producto["nombre"],
+                "cantidad": cantidad,
+                "precio": precio,
+                "subtotal": subtotal
+            }
+
+            self.productos_credito.append(data)
+
+            tree.insert("", "end", values=(
+                producto["nombre"],
+                cantidad,
+                producto["precio"],
+                subtotal
+            ))
+
+            entry_cant.delete(0, tk.END)
+        listbox.bind("<Double-Button-1>", agregar_producto_credito)
+
 
 
 
         def calcular():
-            total_productos = sum(p["subtotal"] for p in self.productos_credito)
+            total_productos = sum(int(p["subtotal"]) for p in self.productos_credito)
             credito = int(entry_credito.get() or 0)
             total = total_productos + credito
 
@@ -323,6 +401,8 @@ class EmployeeView:
 
             return total, v85, v15
         
+    
+
         def registrar():
             total, v85, v15 = calcular()
             recibido = int(entry_recibido.get() or 0)
@@ -343,6 +423,23 @@ class EmployeeView:
             }
 
             Credits.registrar_credito(data)
+            # 🔻 Registrar productos del crédito en ventas del día (SIN valor)
+            for p in self.productos_credito:
+                Sales.guardar_venta_directa({
+                    "fecha": data["fecha"],
+                    "producto_id": p["id"],
+                    "nombre": f'{p["nombre"]} (CRÉDITO)',
+                    "cantidad": p["cantidad"],
+                    "costo_unit": int(p["precio"]),
+                    "precio_unit": 0,
+                    "descuento": 0,
+                    "precio_final": 0,
+                    "total": 0,
+                    "utilidad": 0
+                })
+
+                # 🔥 Descontar inventario
+                Inventory.descontar_stock(p["id"], p["cantidad"])
 
             if recibido > 0:
                 Sales.guardar_venta_directa({
@@ -360,5 +457,22 @@ class EmployeeView:
 
             messagebox.showinfo("Éxito", "Crédito registrado")
             win.destroy()
-
+        
     
+             # --- Frame ara botones ---
+            frame_botones_2 = tk.Frame(frame, bg="white")
+            # --- Botón Registrar Arreglo ---
+            ttk.Button(
+                frame_botones_2,
+                text="Calcular",
+                command=self.calcular
+            ).pack(side="left", padx=10)
+
+            # --- Botón Registrar Crédito ---
+            ttk.Button(
+                frame_botones_2,
+                text="Registrar",
+                command=self.registrar
+            ).pack(side="left", padx=10)
+
+            frame_botones_2.pack(pady=5)
