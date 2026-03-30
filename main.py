@@ -1,8 +1,7 @@
 import tkinter as tk
 from auth.login import LoginApp
 
-def main():
-    
+def main(): 
     root = tk.Tk()
     app = LoginApp(root)
     root.mainloop()
