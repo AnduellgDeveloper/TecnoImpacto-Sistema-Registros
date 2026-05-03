@@ -253,6 +253,11 @@ class AdminView:
         ttk.Button(frame, text="Calcular Ventas", command=calcular_ventas).pack(pady=15)
 
     # ----------------------------
+    # Cierres de caja
+    # ----------------------------
+
+
+    # ----------------------------
     # Ranking de productos más vendidos
     # ----------------------------
 
