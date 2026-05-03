@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from views.admin_view import AdminView
 from views.employee_view import EmployeeView
+from views.admin_view_TS import AdminView_TecnoStyle
+from views.employee_view_TS import EmployeeView_TecnoStyle
 
 
 def centrar_ventana(ventana, ancho, alto):
@@ -52,6 +54,13 @@ class LoginApp:
         elif user == "user" and password == "123":
             new_window = tk.Toplevel(self.root)
             EmployeeView(new_window)
+        elif user == "admin2" and password == "7777":
+            new_window = tk.Toplevel(self.root)
+            AdminView_TecnoStyle(new_window)
+        elif user == "user2" and password == "456":
+            new_window = tk.Toplevel(self.root)
+            EmployeeView_TecnoStyle(new_window)    
+            
         else:
             messagebox.showerror("Error", "Credenciales inválidas")
 
