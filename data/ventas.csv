@@ -5531,3 +5531,5 @@ fecha,producto_id,nombre,cantidad,costo_unit,precio_unit,descuento,precio_final,
 2026-05-03,CMS-06,Camisetas tela Catar en Clemont - Undergold - Jordan,1,38000,65000,0,65000,65000,27000
 2026-05-03,SMC-01,Simcard,1,1000,4000,0,4000,4000,3000
 2026-05-03,BH-01,Billetera cuero hombre marcas economica,1,15000,27500,0,27500,27500,12500
+2026-05-03,AP-01,Airpods pro 2nd generacion,1,38000,70000,0,70000,70000,32000
+2026-05-03,GF-23,Gafas 100%,1,17000,32000,0,32000,32000,15000
