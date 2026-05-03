@@ -1,12 +1,10 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from models.sales import Sales
-from models.inventory import Inventory
+from models.sales_TS import Sales
+from models.inventory_TS import Inventory
 import datetime
 import unicodedata
-from models.repairs import Repairs
-from models.credits import Credits
-
+from models.repairs_TS import Repairs
 
 
 def centrar_ventana(ventana, ancho, alto):
@@ -40,16 +38,6 @@ class EmployeeView_TecnoStyle:
             command=self.abrir_modal_arreglo
         ).pack(side="left", padx=10)
 
-        # --- Botón Registrar Crédito ---
-        ttk.Button(
-            frame_botones,
-            text="Registrar Crédito",
-            command=self.abrir_modal_credito
-        ).pack(side="left", padx=10)
-
-        frame_botones.pack(pady=5)
-
-    
 
 
         # --- Autocompletado ---
@@ -262,5 +250,4 @@ class EmployeeView_TecnoStyle:
                     v["total"],
                     #v["utilidad"]
                 ))
-
     
