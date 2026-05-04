@@ -1,9 +1,9 @@
 import csv
 import os
 import datetime
-from models.inventory import Inventory
+from models.inventory_TS import Inventory
 from collections import Counter
-VENTAS_FILE = "data/ventas.csv"
+VENTAS_FILE = "data/ventas_tecnostyle.csv"
 
 
 class Sales:
@@ -111,7 +111,7 @@ class Sales:
     def guardar_venta_directa(venta):
         import csv, os
 
-        archivo = "data/ventas.csv"
+        archivo = "data/ventas_tecnostyle.csv"
         existe = os.path.exists(archivo)
 
         campos = [

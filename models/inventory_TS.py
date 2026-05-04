@@ -1,7 +1,7 @@
 import csv
 import os
 
-INVENTARIO_FILE = "data/inventario.csv"
+INVENTARIO_FILE = "data/inv_tecnostyle.csv"
 
 class Inventory:
     @staticmethod

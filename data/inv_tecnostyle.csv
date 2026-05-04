@@ -386,13 +386,13 @@ VP-14,Vaper ,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,6,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,3,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,1,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,7,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,1,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,14,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,13,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,1,Juan Felipe
 VP-26,Cargador destilado,8000,15000,2,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,7,juan felipe
@@ -400,7 +400,7 @@ VP-28,Vaper MTRX 12,12000,29000,2,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
 VP-30,Vaper Urbar 5k,6500,17000,0,Juan Felipe
 VP-31,Vaper Chris Brown 15k,14000,30000,0,Juan Felipe
-VP-32,Vaper Funky Monkey 12k,13000,30000,13,Juan Felipe
+VP-32,Vaper Funky Monkey 12k,13000,30000,12,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,4,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
 VP-35,Vaper Fruitia 8k,9000,20000,9,Juan Felipe
@@ -421,7 +421,7 @@ RC-02,Rasca 1 piso,2300,6000,9,nulo
 FL-01,Filtro pluma roja,600,2000,43,nulo
 PP-01,Pipa de madera,700,2500,9,nulo
 PP-02,Pipa de Vidrio pequeña,1000,3000,3,nulo
-PP-03,Pipa de Vidrio grande,2000,6000,2,nulo
+PP-03,Pipa de Vidrio grande,2000,6000,0,nulo
 CHR-01,Cucharita🌬 grande,1500,5000,5,nulo
 CHR-02,Cucharita🌬 pequeña,1000,2000,2,nulo
 BS-01,Bolsa exotica pequeña,700,1500,10,nulo
