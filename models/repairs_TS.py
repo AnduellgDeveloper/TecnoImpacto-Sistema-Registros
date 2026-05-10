@@ -2,7 +2,8 @@ import csv
 import os
 import datetime
 
-ARCHIVO = "data/arreglos.csv"
+ARCHIVO = "data/fixes_tecnostyle.csv"
+
 
 class Repairs:
 
