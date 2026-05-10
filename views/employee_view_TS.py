@@ -38,7 +38,7 @@ class EmployeeView_TecnoStyle:
             command=self.abrir_modal_arreglo
         ).pack(side="left", padx=10)
 
-
+        frame_botones.pack(pady=5)
 
         # --- Autocompletado ---
         tk.Label(frame, text="Producto:", bg="white").pack()
@@ -49,16 +49,13 @@ class EmployeeView_TecnoStyle:
         self.listbox_sugerencias = tk.Listbox(frame, height=8, width=60)
         self.listbox_sugerencias.pack(pady=5, fill="x")
         self.listbox_sugerencias.bind("<<ListboxSelect>>", self.seleccionar_producto)
-
         # --- Info del producto (Visual)---
         self.lbl_info = tk.Label(frame, text="Nombre: - | Stock: - | Precio: -", bg="white", font=("Arial", 11))
         self.lbl_info.pack(pady=5)
-
         # --- Cantidad ---
         tk.Label(frame, text="Cantidad:", bg="white").pack()
         self.entry_cantidad = ttk.Entry(frame)
         self.entry_cantidad.pack(pady=5)
-
         # --- Descuento ---
         tk.Label(frame, text="Descuento (en $):", bg="white").pack()
         self.entry_descuento = ttk.Entry(frame)
@@ -158,14 +155,12 @@ class EmployeeView_TecnoStyle:
         if not self.producto_seleccionado:
             messagebox.showerror("Error", "Seleccione un producto válido")
             return
-
         try:
             cantidad = int(self.entry_cantidad.get())
             descuento = int(self.entry_descuento.get() or 0)
         except ValueError:
             messagebox.showerror("Error", "Ingrese números válidos en cantidad y descuento")
             return
-
         # Guardar en CSV con descuento y precio final
         try:
             Sales.registrar_venta(self.producto_seleccionado["id"], cantidad, descuento)
@@ -201,7 +196,6 @@ class EmployeeView_TecnoStyle:
         campos["costo"] = campo("Costo del arreglo")
         campos["precio"] = campo("Precio al cliente")
 
-
         def guardar():
             try:
                 cliente = campos["cliente"].get()
@@ -228,11 +222,6 @@ class EmployeeView_TecnoStyle:
                 messagebox.showerror("Error", str(e))
 
         ttk.Button(win, text="Guardar Arreglo", command=guardar).pack(pady=15)
-
-
-
-
-
     # --- Cargar ventas del día ---
     def cargar_ventas_del_dia(self):
         self.tree.delete(*self.tree.get_children())
@@ -250,4 +239,3 @@ class EmployeeView_TecnoStyle:
                     v["total"],
                     #v["utilidad"]
                 ))
-    

@@ -40,17 +40,7 @@ class EmployeeView:
             command=self.abrir_modal_arreglo
         ).pack(side="left", padx=10)
 
-        # --- Botón Registrar Crédito ---
-        ttk.Button(
-            frame_botones,
-            text="Registrar Crédito",
-            command=self.abrir_modal_credito
-        ).pack(side="left", padx=10)
-
         frame_botones.pack(pady=5)
-
-    
-
 
         # --- Autocompletado ---
         tk.Label(frame, text="Producto:", bg="white").pack()
@@ -61,16 +51,13 @@ class EmployeeView:
         self.listbox_sugerencias = tk.Listbox(frame, height=8, width=60)
         self.listbox_sugerencias.pack(pady=5, fill="x")
         self.listbox_sugerencias.bind("<<ListboxSelect>>", self.seleccionar_producto)
-
         # --- Info del producto (Visual)---
         self.lbl_info = tk.Label(frame, text="Nombre: - | Stock: - | Precio: -", bg="white", font=("Arial", 11))
         self.lbl_info.pack(pady=5)
-
         # --- Cantidad ---
         tk.Label(frame, text="Cantidad:", bg="white").pack()
         self.entry_cantidad = ttk.Entry(frame)
         self.entry_cantidad.pack(pady=5)
-
         # --- Descuento ---
         tk.Label(frame, text="Descuento (en $):", bg="white").pack()
         self.entry_descuento = ttk.Entry(frame)
@@ -170,14 +157,12 @@ class EmployeeView:
         if not self.producto_seleccionado:
             messagebox.showerror("Error", "Seleccione un producto válido")
             return
-
         try:
             cantidad = int(self.entry_cantidad.get())
             descuento = int(self.entry_descuento.get() or 0)
         except ValueError:
             messagebox.showerror("Error", "Ingrese números válidos en cantidad y descuento")
             return
-
         # Guardar en CSV con descuento y precio final
         try:
             Sales.registrar_venta(self.producto_seleccionado["id"], cantidad, descuento)
@@ -213,7 +198,6 @@ class EmployeeView:
         campos["costo"] = campo("Costo del arreglo")
         campos["precio"] = campo("Precio al cliente")
 
-
         def guardar():
             try:
                 cliente = campos["cliente"].get()
@@ -240,11 +224,6 @@ class EmployeeView:
                 messagebox.showerror("Error", str(e))
 
         ttk.Button(win, text="Guardar Arreglo", command=guardar).pack(pady=15)
-
-
-
-
-
     # --- Cargar ventas del día ---
     def cargar_ventas_del_dia(self):
         self.tree.delete(*self.tree.get_children())
@@ -262,217 +241,3 @@ class EmployeeView:
                     v["total"],
                     #v["utilidad"]
                 ))
-
-    # --------------------------------------------------- Modal Crédito -  Interfaz del credito ------------------------------------------------------------------------------------------------------------------------
-    def abrir_modal_credito(self):
-        self.productos_credito = []
-
-        win = tk.Toplevel(self.root)
-        win.title("Registrar Crédito")
-        centrar_ventana(win, 650, 650)
-        win.grab_set()
-
-        # ================= CLIENTE =================
-        tk.Label(win, text="Nombre del cliente").pack()
-        entry_cliente = ttk.Entry(win)
-        entry_cliente.pack(fill="x", padx=20)
-
-        tk.Label(win, text="Teléfono").pack()
-        entry_tel = ttk.Entry(win)
-        entry_tel.pack(fill="x", padx=20)
-
-        # ================= PRODUCTOS =================
-        tk.Label(win, text="Buscar producto").pack(pady=5)
-        entry_buscar = ttk.Entry(win)
-        entry_buscar.pack(fill="x", padx=20)
-
-        listbox = tk.Listbox(win, height=5)
-        listbox.pack(fill="x", padx=20)
-
-        tk.Label(win, text="Cantidad").pack()
-        entry_cant = ttk.Entry(win)
-        entry_cant.pack()
-
-        tree = ttk.Treeview(
-            win,
-            columns=("Producto", "Cantidad", "Precio", "Subtotal"),
-            show="headings",
-            height=6
-        )
-        for c in tree["columns"]:
-            tree.heading(c, text=c)
-        tree.pack(fill="both", expand=True, padx=20, pady=5)
-
-        # ================= CREDITOS =================
-        tk.Label(win, text="Crédito de celular ($)").pack()
-        entry_credito = ttk.Entry(win)
-        entry_credito.pack()
-
-        tk.Label(win, text="Fecha").pack()
-        entry_fecha = ttk.Entry(win)
-        entry_fecha.insert(0, datetime.date.today().isoformat())
-        entry_fecha.pack()
-
-        tk.Label(win, text="Número de cuotas").pack()
-        entry_cuotas = ttk.Entry(win)
-        entry_cuotas.pack()
-
-        # ================= CALCULOS =================
-        lbl_total = tk.Label(win, text="Total: $0")
-        lbl_85 = tk.Label(win, text="85%: $0")
-        lbl_15 = tk.Label(win, text="15%: $0")
-        lbl_total.pack()
-        lbl_85.pack()
-        lbl_15.pack()
-
-        tk.Label(win, text="Valor recibido ($)").pack()
-        entry_recibido = ttk.Entry(win)
-        entry_recibido.pack()
-    
-        
-    
-        # ================= FUNCIONES INTERNAS  =================
-    
-
-        def sugerir_productos_credito(event):
-            listbox.delete(0, tk.END)
-            for p in self.buscar_productos(entry_buscar.get()):
-                listbox.insert(tk.END, f'{p["id"]} - {p["nombre"]}')
-        entry_buscar.bind("<KeyRelease>", sugerir_productos_credito)
-
-        def agregar_producto_credito(event):
-            seleccion = listbox.get(tk.ACTIVE)
-            if not seleccion:
-                return
-
-            try:
-                cantidad = int(entry_cant.get())
-                if cantidad <= 0:
-                    raise ValueError
-            except:
-                messagebox.showerror("Error", "Cantidad inválida")
-                return
-
-            pid = seleccion.split(" - ")[0]
-            inventario = Inventory.cargar_inventario()
-            producto = next((p for p in inventario if p["id"] == pid), None)
-
-            if not producto:
-                return
-
-            precio = int(producto["precio"])
-            subtotal = cantidad * precio
-
-
-            data = {
-                "id": producto["id"],
-                "nombre": producto["nombre"],
-                "cantidad": cantidad,
-                "precio": precio,
-                "subtotal": subtotal
-            }
-
-            self.productos_credito.append(data)
-
-            tree.insert("", "end", values=(
-                producto["nombre"],
-                cantidad,
-                producto["precio"],
-                subtotal
-            ))
-
-            entry_cant.delete(0, tk.END)
-        listbox.bind("<Double-Button-1>", agregar_producto_credito)
-
-
-
-
-        def calcular():
-            total_productos = sum(int(p["subtotal"]) for p in self.productos_credito)
-            credito = int(entry_credito.get() or 0)
-            total = total_productos + credito
-
-            v85 = int(total * 0.85)
-            v15 = total - v85
-
-            lbl_total.config(text=f"Total: ${total}")
-            lbl_85.config(text=f"85%: ${v85}")
-            lbl_15.config(text=f"15%: ${v15}")
-
-            return total, v85, v15
-        
-    
-
-        def registrar():
-            total, v85, v15 = calcular()
-            recibido = int(entry_recibido.get() or 0)
-            saldo = total - recibido
-
-            data = {
-                "fecha": entry_fecha.get(),
-                "cliente": entry_cliente.get(),
-                "telefono": entry_tel.get(),
-                "productos": self.productos_credito,
-                "credito_celular": int(entry_credito.get() or 0),
-                "total": total,
-                "valor_85": v85,
-                "valor_15": v15,
-                "cuotas": entry_cuotas.get(),
-                "valor_recibido": recibido,
-                "saldo": saldo
-            }
-
-            Credits.registrar_credito(data)
-            # 🔻 Registrar productos del crédito en ventas del día (SIN valor)
-            for p in self.productos_credito:
-                Sales.guardar_venta_directa({
-                    "fecha": data["fecha"],
-                    "producto_id": p["id"],
-                    "nombre": f'{p["nombre"]} (CRÉDITO)',
-                    "cantidad": p["cantidad"],
-                    "costo_unit": int(p["precio"]),
-                    "precio_unit": 0,
-                    "descuento": 0,
-                    "precio_final": 0,
-                    "total": 0,
-                    "utilidad": 0
-                })
-
-                # 🔥 Descontar inventario
-                Inventory.descontar_stock(p["id"], p["cantidad"])
-
-            if recibido > 0:
-                Sales.guardar_venta_directa({
-                    "fecha": data["fecha"],
-                    "producto_id": "CREDITO",
-                    "nombre": f"Crédito - {data['cliente']}",
-                    "cantidad": 1,
-                    "costo_unit": 0,
-                    "precio_unit": recibido,
-                    "descuento": 0,
-                    "precio_final": recibido,
-                    "total": recibido,
-                    "utilidad": recibido
-                })
-
-            messagebox.showinfo("Éxito", "Crédito registrado")
-            win.destroy()
-        
-    
-             # --- Frame ara botones ---
-            frame_botones_2 = tk.Frame(frame, bg="white")
-            # --- Botón Registrar Arreglo ---
-            ttk.Button(
-                frame_botones_2,
-                text="Calcular",
-                command=self.calcular
-            ).pack(side="left", padx=10)
-
-            # --- Botón Registrar Crédito ---
-            ttk.Button(
-                frame_botones_2,
-                text="Registrar",
-                command=self.registrar
-            ).pack(side="left", padx=10)
-
-            frame_botones_2.pack(pady=5)

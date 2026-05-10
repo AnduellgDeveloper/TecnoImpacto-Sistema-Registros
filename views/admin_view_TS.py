@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from models.inventory import Inventory
-from models.sales import Sales
+from models.sales_TS import Sales
 from models.providers import Providers  # 👈 Importar proveedores
 from tkcalendar import Calendar
 import datetime
