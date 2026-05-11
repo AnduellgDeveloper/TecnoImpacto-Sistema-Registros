@@ -4,6 +4,7 @@ from models.inventory import Inventory
 from models.sales import Sales
 from models.providers import Providers  # 👈 Importar proveedores
 from tkcalendar import Calendar
+from views.cash_closing_view import CashClosingView
 import datetime
 
 
@@ -39,6 +40,10 @@ class AdminView:
         ttk.Button(btn_frame, text="👤 Gestionar Proveedores", command=self.gestionar_proveedores, width=25).grid(row=0, column=2, padx=10, pady=10)
         ttk.Button(btn_frame, text="🧾 Reporte de Ventas", command=self.ver_ventas, width=25).grid(row=0, column=3, padx=10, pady=10)
         ttk.Button(btn_frame, text="🏆 Productos más vendidos", command=self.ver_top_productos, width=25).grid(row=1, column=0, padx=10, pady=10)
+        ttk.Button(btn_frame,text="💰 Cierre de Caja",command=self.abrir_cierre_caja,width=25).grid(row=1, column=1, padx=10, pady=10)
+        
+    def abrir_cierre_caja(self):
+        CashClosingView(self.root)
 
     # ----------------------------
     # Inventario
