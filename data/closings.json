@@ -1,0 +1,49 @@
+[
+    {
+        "fecha": "2026-05-11",
+        "ventas_sistema": 1000000,
+        "ventas_efectivo": 800000,
+        "utilidad_bruta": 250000,
+        "gastos": [
+            {
+                "tipo": "Nomina",
+                "descripcion": "Juank",
+                "valor": 65500,
+                "afecta_caja": true
+            },
+            {
+                "tipo": "Nomina",
+                "descripcion": "Stiven",
+                "valor": 35800,
+                "afecta_caja": true
+            }
+        ],
+        "arqueo": {
+            "gruesa": 50000,
+            "base": 120000,
+            "sencilla": 50000,
+            "monedas": 50000
+        },
+        "caja_real": 270000,
+        "caja_esperada": 698700,
+        "diferencia": -428700,
+        "utilidad_neta": 148700
+    },
+    {
+        "fecha": "2026-05-12",
+        "ventas_sistema": 1000000,
+        "ventas_efectivo": 800000,
+        "utilidad_bruta": 250000,
+        "gastos": [],
+        "arqueo": {
+            "gruesa": 0,
+            "base": 0,
+            "sencilla": 0,
+            "monedas": 0
+        },
+        "caja_real": 0,
+        "caja_esperada": 800000,
+        "diferencia": -800000,
+        "utilidad_neta": 250000
+    }
+]

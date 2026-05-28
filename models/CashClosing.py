@@ -13,8 +13,24 @@ class CashClosing:
         if not os.path.exists(CashClosing.FILE):
             return []
 
-        with open(CashClosing.FILE, "r", encoding="utf-8") as file:
-            return json.load(file)
+        try:
+
+            with open(
+                CashClosing.FILE,
+                "r",
+                encoding="utf-8"
+            ) as file:
+
+                contenido = file.read().strip()
+
+                if not contenido:
+                    return []
+
+                return json.loads(contenido)
+
+        except:
+
+            return []
         
     # Guarda y agrega un nuevo cierre de caja a la lista de cierres y lo guarda en el archivo JSON
     @staticmethod
@@ -150,21 +166,13 @@ class CashClosing:
             "fecha": fecha,
 
             "ventas_sistema": ventas_sistema,
-
             "ventas_efectivo": ventas_efectivo,
-
             "utilidad_bruta": utilidad_bruta,
-
             "gastos": gastos,
-
             "arqueo": arqueo,
-
             "caja_real": caja_real,
-
             "caja_esperada": caja_esperada,
-
             "diferencia": diferencia,
-
             "utilidad_neta": utilidad_neta
         }
 
