@@ -20,7 +20,7 @@ GO-22,Gorra solo fondo buena,9000,20000,0,Nicolas Diablillo
 GO-143,Gorra marcas economica,9000,20000,5,Nicolas Diablillo
 GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
 GO-19,Gorra Los Angeles tubular,30000,60000,3,Caps Store
-GO-20,Gorra Yankees normal,25000,50000,4,Caps Store
+GO-20,Gorra Yankees normal,25000,50000,3,Caps Store
 GO-21,Gorra anime adulto,20000,32000,0,Caps Store
 GO-23,Gorra Toronto Jays,26000,48000,0,Caps Store
 GO-24,Gorra Houston,34000,60000,1,Caps Store
@@ -100,7 +100,7 @@ GO-97,Gorra Dsquared 2 economica,22000,48000,2,Nicolas Diablillo
 GO-98,Gorra Visera economica,9000,20000,0,Nicolas Diablillo
 GO-99,Gorra niña orejitas,11500,30000,2,zona chic
 GO-100,Gorra new era multi marcas tubular,30000,60000,0,Caps Store
-GO-101,Gorra Nike,25000,48000,2,Caps Store
+GO-101,Gorra Nike,25000,48000,1,Caps Store
 GO-102,Gorra Ferrari,25000,50000,0,Caps Store
 GO-103,Gorra Audi,25000,48000,0,Caps Store
 GO-104,Gorra Jhon Deere,25000,48000,1,Caps Store
@@ -255,9 +255,9 @@ LNIS-33,Locion SPICE UP - Creed Silver by Aventus,10800,24900,0,Daniel Manizales
 LNIS-34,Locion SLEEK BLACK - Jaguar Classic by Jaguar,10800,24900,3,Daniel Manizales
 LNIS-35,Locion BROWN TOPAZ - Silver Scent by Jacques Bogart,10800,24900,1,Daniel Manizales
 LNIS-37,Locion BLUE BLAZER - Blue seduction by Antonio Banderas,10800,24900,0,Daniel Manizales
-LNIS-38,Locion SPECIAL BLACK - Blue Seduction by Antonio Banderas,10800,24900,5,Daniel Manizales
+LNIS-38,Locion SPECIAL BLACK - Blue Seduction by Antonio Banderas,10800,24900,4,Daniel Manizales
 LNIS-39,Locion MYKONOS - Jean Paul Gaultier by Jean Paul Gaultier,10800,24900,1,Daniel Manizales
-LNIS-40,Locion HOT RED - Issey Miyake by Issey MiSayake,10800,24900,1,Daniel Manizales
+LNIS-40,Locion HOT RED - Issey Miyake by Issey MiSayake,10800,24900,0,Daniel Manizales
 LNF-01,Locion 1.1 Invictus Parfum,40000,85000,1,ntuario Perfumes
 LNF-02,Locion 1.1 Invictus Tradicional,40000,80000,0,Santuario Perfumes
 LNF-03,Locion 1.1 Moschino Toy 2,75000,145000,0,Santuario Perfumes
@@ -372,7 +372,7 @@ RJ-23,Reloj Casio,48000,85000,0,Armyn Watches
 RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes 
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
 CRJ-01,Caja de reloj,3000,8000,2,nulo
-VP-01,Vaper Priv Bar,18000,32000,3, juan felipe
+VP-01,Vaper Priv Bar,18000,32000,1, juan felipe
 VP-02,Vaper Spaceman 18k,15000,30000,0,Juan Felipe
 VP-03,Vaper Snoopy Smoke,16000,32000,1,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
@@ -390,24 +390,24 @@ VP-14,Vaper ,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,5,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,4,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,5,Juan Felipe
-VP-23,Vaper Waka pequeño 6k,11000,39000,1,Juan Felipe
+VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
 VP-24,Vaper Death Row 5k,6000,15000,2,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,6,Juan Felipe
 VP-26,Cargador destilado,8000,15000,2,Juan Felipe
-VP-27,vaper nicky Jam x fume 10k,13000,27000,0,juan felipe
-VP-28,Vaper MTRX 12,12000,29000,5,Juan Felipe
+VP-27,vaper nicky Jam x fume 10k,13000,27000,3,juan felipe
+VP-28,Vaper MTRX 12,12000,29000,4,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,2,Juan Felipe
-VP-31,Vaper Chris Brown 15k,14000,30000,1,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
+VP-31,Vaper Chris Brown 15k,14000,30000,0,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
-VP-33,Vaper Bugatti 9k,12000,25000,2,Juan Felipe
+VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
-VP-35,Vaper Fruitia 8k,9000,20000,2,Juan Felipe
+VP-35,Vaper Fruitia 8k,9000,20000,1,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,3,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,3,Juan Felipe
@@ -1567,3 +1567,4 @@ FPD-224,funda de lujo AG-GLASS IP 16,18000,37000,4,Anduell Play
 FPD-225,funda de lujo AG-GLASS IP 16 PRO,18000,37000,5,Anduell Play
 FPD-226,funda de lujo AG-GLASS IP 17 PRO,18000,37000,5,Anduell Play
 FPD-227,funda de lujo AG-GLASS IP 17 PRO MAX,18000,37000,5,Anduell Play
+FPD-228,Funda de lujo magnetic humo IP 14,16000,32000,8,Anduell Play
