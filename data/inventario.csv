@@ -1,5 +1,5 @@
 id,nombre,costo,precio,stock,proveedor
-GO-01,Gorra agropecuaria,26000,50000,1,Caps Store
+GO-01,Gorra agropecuaria,26000,50000,0,Caps Store
 GO-02,Gorra agropecuaria gorin bros,28000,50000,1,Caps Store
 GO-03,Gorra agropecuaria cuero,32000,55000,1,Caps Store
 GO-04,Gorra Honda,25000,50000,0,Caps Store
@@ -54,9 +54,9 @@ GO-50,Gorra Dsquared,27000,50000,2,Caps Store
 GO-51,Gorra Adidas,27000,50000,0,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
-GO-54,Gorra Coach Gruesa,32000,55000,0,Caps Store
-GO-55,Gorra Coach normal,22000,49000,1,Caps Store
-GO-90,Gorra Coach malla,29000,50000,0,Caps Store
+GO-54,Gorra ,32000,55000,0,Caps Store
+GO-55,Gorra Coach normal,25000,49000,11,Caps Store
+GO-90,Gorra ,29000,50000,0,Caps Store
 GO-56,Gorra Fendi,27000,50000,2,Caps Store
 GO-57,Gorra amiri,27000,55000,1,Caps Store
 GO-58,Gorra Dolce Gabbana,27000,50000,1,Caps Store
@@ -80,10 +80,10 @@ GO-75,Gorra barrow,27000,50000,3,Caps Store
 GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica religiosa,27000,55000,2,Caps Store
 GO-78,Gorra monastery,27000,50000,0,Caps Store
-GO-79,Gorra westcol,30000,55000,4,Caps Store
-GO-80,Gorra blessd,35000,60000,5,Caps Store
+GO-79,Gorra westcol,30000,55000,8,Caps Store
+GO-80,Gorra Blessd,35000,60000,10,Caps Store
 GO-81,Gorra clemont,25000,50000,3,Caps Store
-GO-82,Gorra Hugo BOS cobra,25000,50000,0,Caps Store
+GO-82,Gorra Hugo BOS cobra,25000,50000,5,Caps Store
 GO-83,Gorra Hugo BOSS Golden,25000,50000,0,Caps Store
 GO-84,Gorra Nike llama 🔥,35000,60000,4,Caps Store
 GO-85,Gorra lacoste,25000,50000,3,Caps Store
@@ -112,7 +112,7 @@ GO-109,Gorra de colombia,28000,50000,2,Caps Store
 GO-110,Gorra Lakers tubular,29000,60000,0,Caps Store
 GO-111,Gorra Boston normal,24000,50000,0,Caps Store
 GO-112,Gorra Hugo piedritas,20000,45000,1,Caps Store
-GO-113,Gorra Yankees tubular,30000,60000,0,Caps Store
+GO-113,Gorra Yankees tubular,30000,60000,2,Caps Store
 GO-114,Gorra Chicago White Sox tubular,30000,60000,3,Caps Store
 GO-115,Gorra Detroits Tubular,30000,60000,1,Caps Store
 GO-116,Gorra Pablo escobar belica,32000,60000,0,Caps Store
@@ -127,7 +127,7 @@ GO-124,Gorra Jordan,26000,48000,0,Caps Store
 GO-125,Gorra Orioles,26000,48000,1,Caps Store
 GO-126,Gorra Nacional,18000,35000,3,Caps Store
 GO-127,Gorra HellStar,25000,49000,0,Caps Store
-GO-128,Gorra Hugo Boss peluche,25000,49000,0,Caps Store
+GO-128,Gorra Hugo Boss peluche,25000,50000,3,Caps Store
 GO-129,Gorra Chrome Hearts tres cruces,25000,60000,2,Caps Store
 GO-130,Gorra Boston Jean,18000,35000,2,Nicolas Diablillo
 GO-131,Gorra antifluidos niños,18000,32000,6,Nicolas Diablillo
@@ -141,8 +141,8 @@ GO-138,Gorra coach plana,28000,55000,7,Caps Store
 GO-139,Gorra coach plana,28000,55000,13,Caps Store
 GO-140,Gorra Hugo Boss piedras,25000,50000,3,Caps Store
 GO-141,Gorra tono a tono Piratas,22000,45000,1,Caps Store
-GO-142,Gorra Hugo Boss Firma,20000,50000,3,Caps Store
-GO-144,Gorra Hugo Boss carbono,25000,50000,2,Caps Store
+GO-142,Gorra Hugo Boss Firma,20000,50000,2,Caps Store
+GO-144,Gorra Hugo Boss carbono,25000,50000,1,Caps Store
 GO-145,Gorra Hugo Boss firmas importada,25000,55000,2,Caps Store
 GO-146,Gorra Los Angeles en gamusa,25000,55000,0,Caps Store
 GO-147,Gorra Yankees Maya,25000,48000,0,Caps Store
@@ -243,7 +243,7 @@ LNIS-21,Locion VICTORY - Invictus by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,3,Daniel Manizales
 LNIS-23,Locion DEEP BLUE - Bleu by Chanel,10800,24900,4,Daniel Manizales
 LNIS-24,Locion COOL RIO - Aqua di Gio by Giorgio Armani,10800,24900,2,Daniel Manizales
-LNIS-25,Locion BLACK SECRET - Armani Code by Giorgio Armani,10800,24900,2,Daniel Manizales
+LNIS-25,Locion BLACK SECRET - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizales
 LNIS-26,Locion TEAM BLUE - Polo Blue by Ralph Lauren,10800,24900,5,Daniel Manizales
 LNIS-27,Locion TEAM SPORT - Polo Sport by Ralph Lauren,10800,24900,4,Daniel Manizales
 LNIS-28,Locion LOCK - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizales
@@ -372,7 +372,7 @@ RJ-23,Reloj Casio,48000,85000,0,Armyn Watches
 RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes 
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
 CRJ-01,Caja de reloj,3000,8000,2,nulo
-VP-01,Vaper Priv Bar,18000,32000,1, juan felipe
+VP-01,Vaper Priv Bar,18000,32000,0, juan felipe
 VP-02,Vaper Spaceman 18k,15000,30000,0,Juan Felipe
 VP-03,Vaper Snoopy Smoke,16000,32000,1,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
@@ -396,11 +396,11 @@ VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,5,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,2,Juan Felipe
-VP-25,Capsula destilado nacional,25000,50000,6,Juan Felipe
-VP-26,Cargador destilado,8000,15000,2,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,1,Juan Felipe
+VP-25,Capsula destilado nacional,25000,50000,5,Juan Felipe
+VP-26,Cargador destilado,8000,15000,1,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,3,juan felipe
-VP-28,Vaper MTRX 12,12000,29000,4,Juan Felipe
+VP-28,Vaper MTRX 12,12000,29000,3,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
 VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
 VP-31,Vaper Chris Brown 15k,14000,30000,0,Juan Felipe
@@ -413,7 +413,7 @@ VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,3,Juan Felipe
 VP-39,Vaper esencia Chillax,14000,24000,1,Juan Felipe
 VP-40,Bateria vaper Chillax,3000,10000,2,Juan Felipe
-VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,1,Juan Felipe
+VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,3,Juan Felipe
 VP-41,Candela,20000,40000,-5,Juan Felipe
 BLN-01,Blones,1800,4000,42,nulo
 CR-01,Cueros raro,4500,10000,8,nulo
@@ -451,7 +451,7 @@ MM-04,Micro memoria 32G,18000,35000,4,nulo
 MM-05,Micro memoria 64G,16000,30000,3,nulo
 MM-06,Memoria musica,4500,10000,8,nulo
 HDG-01,Hidrogel claro,3200,13000,32,nulo
-HDG-02,Hidrogel mate,3400,15000,34,nulo
+HDG-02,Hidrogel mate,3400,15000,33,nulo
 HDG-03,Hidrogel antiespias,4800,20000,7,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 HS-02,Audifonos bose K45,36000,75000,5,volt pro
@@ -466,7 +466,7 @@ VV-04,funda silicona vivo Y36 4G,4500,15000,4,nulo
 VV-05,funda silicona vivo Y38 5G,4500,15000,1,nulo
 VV-06,funda vivo Y38 5G anticaídas,12000,25000,2,nulo
 VV-07,funda vivo Y03 anticaídas,12000,25000,5,nulo
-VV-08,funda silicona vivo Y19S 4G,6000,15000,3,nulo
+VV-08,funda silicona vivo Y19S 4G,6000,15000,2,nulo
 OP-01,Funda silicona Oppo RENO 8,4500,15000,3,nulo
 OP-02,Funda silicona Oppo RENO 10 5G,4500,15000,8,nulo  
 OP-03,Funda silicona Oppo RENO 11 5G,4500,15000,7,nulo
@@ -634,7 +634,7 @@ MT-62,Funda transparente Motorola G35,4500,15000,15,nulo
 MT-63,Funda transparente Motorola G52,4500,15000,1,nulo
 MT-64,Funda transparente Motorola G54,4500,15000,5,nulo
 MT-65,Funda transparente Motorola G55,4500,15000,15,nulo
-MT-66,Funda transparente Motorola G84,4500,15000,15,nulo
+MT-66,Funda transparente Motorola G84,4500,15000,14,nulo
 MT-67,Funda transparente Motorola G85,4500,15000,6,nulo
 MT-68,Funda transparente Motorola Edge 30,4500,15000,6,nulo
 MT-69,Funda transparente Motorola Edge 40,4500,15000,2,nulo
@@ -872,7 +872,7 @@ AE-62,Cargador completo VP acordonado TC 5A 30W,13000,28000,13,Volt Pro
 CCV-01,Cargador cigarrero tipo C-USB,14000,28000,0,volt pro
 CCV-02,Cargador cigarrero 12W tipo USB y C,8000,22000,2,la rana
 CCV-03,Cargador cigarrero 15w tipo USB y C,10000,25000,2,volt pro
-CCV-04,Cargador cigarrero 38w USB Y TC con cable,14000,29000,4,volt pro
+CCV-04,Cargador cigarrero 38w USB Y TC con cable,14000,29000,3,volt pro
 CCV-05,Cargador cigarrero 15w USB Y TC X2,8500,22000,4,volt pro
 PC-01,protector de esxtremo de cable,500,2000,1,nulo 
 FE-01,Esclava de acero padre nuestro,11000,18000,2,zona chic
@@ -894,7 +894,7 @@ GF-12,Gafas Ciclismo Prada,26000,45000,0,Armyn Watches
 GF-13,Gafas Ciclismo SVCCN,26000,45000,1,Armyn Watches
 GF-14,Gafas Prizm,25000,45000,1,Armyn Watches
 GF-15,Gafas Okley Ciclismo,25000,45000,0,Armyn Watches
-GF-16,Gafas 100%,19000,32000,4,Armyn Watches
+GF-16,Gafas 100% Sport,19000,35000,8,Armyn Watches
 GF-17,Gafas POC,15000,30000,0,Armyn Watches
 GF-18,Gafas Okley Juliet Blancas,21000,35000,2,Armyn Watches
 GF-19,Gafas Cartier Cuadra,25000,45000,0,Armyn Watches
@@ -909,16 +909,16 @@ GF-27,Gafas Rayban marco transparente,20000,42000,1,Armyn Watches
 GF-28,Gafas Cartier transparente,27000,45000,0,Armyn Watches
 GF-29,Gafas Cartier ovaladas,27000,45000,0,Armyn Watches
 GF-30,Gafas Rayban marco de metal,13000,25000,0,Armyn Watches
-GF-31,Gafas Oakley económia,14000,25000,0,Armyn Watches
+GF-31,Gafas Oakley rectangular,14000,25000,7,Armyn Watches
 GF-32,Gafas Oakley colores,13000,25000,0,Armyn Watches
 GF-33,Gafas Oakley estampado polarizadas,7000,18000,2,Armyn Watches
-GF-34,Gafas Oakley puntos lente oscuro,12000,25000,0,Armyn Watches
+GF-34,Gafas Oakley 2 puntos,14000,25000,15,Armyn Watches
 GF-35,Gafas Oakley texturizada lente oscuro,10000,20000,2,Armyn Watches
 GF-36,Gafas cartier lente curvo,27000,45000,0,Armyn Watches
 GF-37,Gafas cartier 6 puntas,24000,45000,1,Armyn Watches
 GF-38,Gafas Prada cromadas,20000,42000,1,Armyn Watches
 GF-39,Gafas Fendi ovaladas,27000,45000,1,Armyn Watches
-GF-40,Gafas Oakley sport,19000,32000,2,Armyn Watches
+GF-40,Gafas Oakley sport,19000,35000,7,Armyn Watches
 GF-41,Gafas Okley Juliet variadas,20000,37000,7,Armyn Watches
 GF-42,Gafas lacoste metalica polarizadas,20000,40000,0,Armyn Watches
 GF-43,Gafas Oakley ferxxo,19000,35000,5,Armyn Watches
@@ -1141,7 +1141,7 @@ VTB-18,V Blindado iPhone 15/16/S23,2000,15000,37,Fabián rio negro
 VTB-19,V Blindado iPhone 16 Pro/17 Pro,2000,15000,25,Fabián rio negro
 VTB-20,V Blindado iPhone 17 Air,2000,15000,10,Fabián rio negro
 VTB-21,V Blindado iPhone 15/16,2000,15000,18,Fabián rio negro
-VTB-22.HUAWEI,V Blindado Huawei Y9 Prime 2019/Y9S,2000,15000,28,Fabián rio negro
+VTB-22.HUAWEI,V Blindado Huawei Y9 Prime 2019/Y9S,2000,15000,27,Fabián rio negro
 VTB-22.HONOR,V Blindado HONOR magic 8 lite/9X/PsmartZ,2000,15000,30,Fabián rio negro
 VTE-01,V Economico iPhone 6/7/8,1500,10000,2,Fabián rio negro
 VTE-02,V Economico iPhone 12/12 pro,1500,10000,5,Fabián rio negro
