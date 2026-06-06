@@ -15,7 +15,7 @@ GO-13,Gorra Tommy y chicago,20000,35000,0,Caps Store
 GO-14,Gorra estampado niño económica,7000,15000,6,Nicolas Diablillo
 GO-15,Gorra agropecuario niño,16000,32000,0,Caps Store
 GO-16,Gorra estampado anime niño,20000,32000,0,Caps Store
-GO-17,Gorra económica solo fondo,6500,15000,15,Nicolas Diablillo
+GO-17,Gorra económica solo fondo,6500,15000,14,Nicolas Diablillo
 GO-22,Gorra solo fondo buena,9000,20000,0,Nicolas Diablillo
 GO-143,Gorra marcas economica,9000,20000,5,Nicolas Diablillo
 GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
@@ -80,8 +80,8 @@ GO-75,Gorra barrow,27000,50000,3,Caps Store
 GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica religiosa,27000,55000,2,Caps Store
 GO-78,Gorra monastery,27000,50000,0,Caps Store
-GO-79,Gorra westcol,30000,55000,8,Caps Store
-GO-80,Gorra Blessd,35000,60000,10,Caps Store
+GO-79,Gorra westcol,30000,55000,7,Caps Store
+GO-80,Gorra Blessd,35000,60000,9,Caps Store
 GO-81,Gorra clemont,25000,50000,3,Caps Store
 GO-82,Gorra Hugo BOS cobra,25000,50000,5,Caps Store
 GO-83,Gorra Hugo BOSS Golden,25000,50000,0,Caps Store
@@ -243,7 +243,7 @@ LNIS-21,Locion VICTORY - Invictus by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,3,Daniel Manizales
 LNIS-23,Locion DEEP BLUE - Bleu by Chanel,10800,24900,4,Daniel Manizales
 LNIS-24,Locion COOL RIO - Aqua di Gio by Giorgio Armani,10800,24900,2,Daniel Manizales
-LNIS-25,Locion BLACK SECRET - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizales
+LNIS-25,Locion BLACK SECRET - Armani Code by Giorgio Armani,10800,24900,0,Daniel Manizales
 LNIS-26,Locion TEAM BLUE - Polo Blue by Ralph Lauren,10800,24900,5,Daniel Manizales
 LNIS-27,Locion TEAM SPORT - Polo Sport by Ralph Lauren,10800,24900,4,Daniel Manizales
 LNIS-28,Locion LOCK - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizales
@@ -332,7 +332,7 @@ BH-03,Billetera dama economica,15000,22000,2,zona chic
 BH-04,Billetera dama moschino,28000,50000,1,nulo
 BH-05,Billetera dama CH,35000,60000,0,nulo
 BH-06,Billetera amelie,18000,32000,2,zona chic
-BH-07,Billetera cuero hombre economica,7200,19000,10,Albeiro
+BH-07,Billetera cuero hombre economica,7200,19000,9,Albeiro
 BH-08,Billetera monedero y chapita,14000,25000,10,Albeiro
 BH-09,Billetera estampado economica,10000,22000,6,Albeiro
 BH-10,Billetera cuerina economica,12000,22000,6,Albeiro
@@ -399,15 +399,15 @@ VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
 VP-24,Vaper Death Row 5k,6000,15000,0,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,1,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
-VP-27,vaper nicky Jam x fume 10k,13000,27000,5,juan felipe
+VP-27,vaper nicky Jam x fume 10k,13000,27000,4,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,0,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,7,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,5,Juan Felipe
 VP-31,Vaper Chris Brown 15k,14000,30000,9,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
-VP-35,Vaper Fruitia 8k,9000,20000,1,Juan Felipe
+VP-35,Vaper Fruitia 8k,9000,20000,0,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,3,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,2,Juan Felipe
@@ -420,10 +420,10 @@ CR-01,Cueros raro,4500,10000,8,nulo
 CR-02,Cueros OCB #7,1500,4000,41,nulo
 CR-03,Cueros Fumanchu,3600,8000,18,nulo
 CR-04,Cueros smocking,660,2000,45,nulo
-CR-05,Cueros OCB #9,2500,5500,42,nulo
+CR-05,Cueros OCB #9,2500,5500,41,nulo
 RC-01,Rasca 3 pisos,3500,9000,0,nulo
 RC-02,Rasca 1 piso,2300,6000,9,nulo
-FL-01,Filtro pluma roja,600,2000,43,nulo
+FL-01,Filtro pluma roja,600,2000,42,nulo
 PP-01,Pipa de madera,700,2500,9,nulo
 PP-02,Pipa de Vidrio pequeña,1000,3000,3,nulo
 PP-03,Pipa de Vidrio grande,2000,6000,2,nulo
@@ -703,6 +703,7 @@ HR-11,Funda transparente Honor Magic 7 Lite/Honor X9C,4500,15000,14,nulo
 HR-12,Funda transparente Honor X9A,4500,15000,11,nulo
 HRS-01,Funda silicona Honor X7C,8000,15000,2,Fabian Rionegro
 HRS-02,Funda silicona Honor X8C,8000,15000,4,Fabian Rionegro
+HRS-03,Funda silicona Honor 90 Lite,7000,15000,11,Fabian Rionegro
 VVS-01,Funda silicona VIVO Y33S,8000,15000,4,Fabian Rionegro
 HRS-04,Funda silicona Honor X7C,8000,15000,5,Fabian Rionegro
 HRS-05,Funda silicona Honor 200 pro,6500,15000,1,Fabian Rionegro
@@ -817,7 +818,7 @@ TS-11,Funda silicona Tecno Spark 30 pro,6500,15000,5,nulo
 TS-12,Funda silicona Tecno Spark 40,9500,15000,5,nulo
 TS-13,Funda silicona Tecno Spark 40C,9500,15000,6,nulo
 TS-14,Funda silicona Tecno Spark GO 1/GO 2025,5500,15000,4,nulo
-AE-01,Cable Apple TC - LGT,4500,20000,2,Diamond Tech
+AE-01,Cable Apple TC - LGT,4500,20000,1,Diamond Tech
 AE-02,Cable Apple tipo USB - LGT,4500,18000,18,Apple
 AE-03,Cable Apple TC - TC,8500,20000,10,Apple
 AE-04,Cargador Apple Watch,19000,40000,5,Apple
@@ -1297,7 +1298,7 @@ FPD-101,funda diseño magnético Iphone 13 pro max, 12000, 28000,0, Nulo
 FPD-102,funda diseño cámara círculo Iphone 13 pro max, 5000, 17000, 2, Nulo
 FPD-103,New Case funda diseño Iphone 13 pro max, 10000, 25000,2, Nulo
 FPD-104,funda diseño Magnetic Iphone 13 pro max, 15000, 30000, 2, Nulo
-FPD-105,funda diseño Metal Stand Iphone 13 pro max,15000,32000,3,Nulo
+FPD-105,funda diseño Metal Stand Iphone 13 pro max,15000,32000,2,Nulo
 FPD-106,funda diseño Flying Iphone 13 pro max, 10000, 25000,1,Nulo
 FPD-107,funda diseño Leather Iphone 13 pro max, 14000, 30000,0,Nulo
 FPD-108,funda diseño Case Iphone 13 pro max, 12000, 25000,1,Nulo
@@ -1470,7 +1471,7 @@ BZU-05,Buzo Amiri,37000,75000,1,Gonzalo EcuatorianoJoel
 BZU-06,Buzo de colombia,38000,72000,5,Gonzalo ecuatoriano
 BZU-07,Buzo GodSpeed,65000,149000,2,Jhoel Ecuatoriano
 WS-01,Watch Onn stick,110000,165000,2,la mina
-CMRT-01,Camarita lisa IP 11/11 Pro/11 Pro Max,900,3000,42,Leonardo
+CMRT-01,Camarita lisa IP 11/11 Pro/11 Pro Max,900,3000,39,Leonardo
 CMRT-02,Camarita piedras/escarcha IP 11/11 Pro/11 Pro Max,900,3500,45,Leonardo
 CMRT-03,Camarita lisa IP 12/12 Pro,900,3000,44,Leonardo
 CMRT-04,Camarita lisa IP 12 Pro Max,900,3000,45,Leonardo
@@ -1483,7 +1484,7 @@ VPS-03,Power Bank VoltPro 10 000 mAh,32000,58000,2,Yovani VoltPro
 VPS-04,Audifonos BT VoltPro A0293,36000,65000,2,Yovani VoltPro
 VPS-05,Audifonos BT VoltPro A0294,40000,73000,3,Yovani VoltPro
 VPS-06,smart watch volt pro mini,66000,120000,1,Yovani VoltPro
-VPS-07,Parlante KBROAD 52mm,12000,29000,4,Yovani VoltPro
+VPS-07,Parlante KBROAD 52mm,12000,29000,3,Yovani VoltPro
 VPS-08,Power Bank VoltPro 20000 mAh,55000,95000,3,Yovani VoltPro
 VPS-09,Power Bank MagSafe VoltPro 10000 mAh,75000,135000,2,Yovani VoltPro
 VPS-10,Soporte de celular metalico 360 grados,6500,18000,3,Yovani VoltPro
@@ -1494,7 +1495,7 @@ DSÑ-03,funda de diseño unicase a36 5G,8500,20000,4,Fabian rio negro
 DSÑ-04,funda de diseño unicase Redmi 14C,8500,20000,8,Fabian rio negro
 BCT-01,soporte para bicicletas,12000,30000,4,Fabian rio negro
 VTA-01,Vidrio antiespia iPhone 11/XS,3000,15000,13,Fabian rio negro
-VTA-02,Vidrio antiespia iPhone 11 Pro Max/XS Max,3000,15000,4,Fabian rio negro
+VTA-02,Vidrio antiespia iPhone 11 Pro Max/XS Max,3000,15000,3,Fabian rio negro
 VTA-03,Vidrio antiespia iPhone 12/12 Pro,3000,15000,18,Fabian rio negro
 VTA-04,Vidrio antiespia iPhone 12 Pro Max,3000,15000,22,Fabian rio negro
 VTA-05,Vidrio antiespia iPhone 13 Pro Max/14 Plus,3000,15000,10,Fabian rio negro
@@ -1581,7 +1582,7 @@ VTF-03,Vidrio Full Pega Infinix Note 40 Pro,10000,25000,5,Leonardo
 VTF-04,Vidrio Full Pega Tecno Camon 30S Pro,10000,25000,5,Leonardo
 VTF-05,Vidrio Full Pega Tecno Camon 30S,10000,25000,5,Leonardo
 AS-01,Protector de cargador apple 20W,10000,18000,10,Fabián rio negro
-AS-02,Protector de cargador samsung 25W,5500,18000,16,Fabián rio negro
+AS-02,Protector de cargador samsung 25W,5500,18000,15,Fabián rio negro
 AS-03,Protector de ipods 2da generacion,5500,15000,7,Fabián rio negro
 AS-04,Protector de ipods 3ra generacion,5500,15000,7,Fabián rio negro
 AS-05,Protector de ipods 4ta generacion,5500,15000,7,Fabián rio negro
@@ -1599,7 +1600,7 @@ FPD-224,funda de lujo AG-GLASS IP 16,18000,37000,4,Leonardo
 FPD-225,funda de lujo AG-GLASS IP 16 PRO,18000,37000,5,Leonardo
 FPD-226,funda de lujo AG-GLASS IP 17 PRO,18000,37000,5,Leonardo
 FPD-227,funda de lujo AG-GLASS IP 17 PRO MAX,18000,37000,5,Leonardo
-FPD-228,Funda de lujo magnetic humo IP 14,16000,32000,8,Leonardo
+FPD-228,Funda de lujo magnetic humo IP 14,16000,32000,7,Leonardo
 FPD-229,Funda de lujo Case Go IP 11,14500,32000,3,Leonardo
 FPD-230,Funda de lujo Case Go IP 13/14,14500,32000,4,Leonardo
 FPD-231,Funda de lujo Case Go RM Note 15,14500,32000,4,Leonardo
