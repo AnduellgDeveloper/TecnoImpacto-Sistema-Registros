@@ -15,7 +15,7 @@ GO-13,Gorra Tommy y chicago,20000,35000,0,Caps Store
 GO-14,Gorra estampado niño económica,7000,15000,6,Nicolas Diablillo
 GO-15,Gorra agropecuario niño,16000,32000,0,Caps Store
 GO-16,Gorra estampado anime niño,20000,32000,0,Caps Store
-GO-17,Gorra económica solo fondo,6500,15000,15,Nicolas Diablillo
+GO-17,Gorra económica solo fondo,6500,15000,17,Nicolas Diablillo
 GO-22,Gorra solo fondo buena,9000,20000,0,Nicolas Diablillo
 GO-143,Gorra marcas economica,9000,20000,5,Nicolas Diablillo
 GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
@@ -55,7 +55,7 @@ GO-51,Gorra Adidas,27000,50000,0,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
 GO-54,Gorra ,32000,55000,0,Caps Store
-GO-55,Gorra Coach normal,25000,49000,10,Caps Store
+GO-55,Gorra Coach normal,25000,49000,11,Caps Store
 GO-90,Gorra ,29000,50000,0,Caps Store
 GO-56,Gorra Fendi,27000,50000,2,Caps Store
 GO-57,Gorra amiri,27000,55000,1,Caps Store
@@ -81,7 +81,7 @@ GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica religiosa,27000,55000,2,Caps Store
 GO-78,Gorra monastery,27000,50000,0,Caps Store
 GO-79,Gorra westcol,30000,55000,8,Caps Store
-GO-80,Gorra Blessd,35000,60000,8,Caps Store
+GO-80,Gorra Blessd,35000,60000,10,Caps Store
 GO-81,Gorra clemont,25000,50000,3,Caps Store
 GO-82,Gorra Hugo BOS cobra,25000,50000,5,Caps Store
 GO-83,Gorra Hugo BOSS Golden,25000,50000,0,Caps Store
@@ -104,7 +104,7 @@ GO-101,Gorra Nike,25000,48000,1,Caps Store
 GO-102,Gorra Ferrari,25000,50000,0,Caps Store
 GO-103,Gorra Audi,25000,48000,0,Caps Store
 GO-104,Gorra Jhon Deere,25000,48000,1,Caps Store
-GO-105,Gorra marca economica,20000,35000,4,Caps Store
+GO-105,Gorra marca economica,20000,35000,5,Caps Store
 GO-106,Gorra chicago bull,25000,50000,7,Caps Store
 GO-107,Gorra religiosa,35000,60000,2,Caps Store
 GO-108,Gorra flex fit,18000,35000,2,Caps Store
@@ -125,7 +125,7 @@ GO-122,Gorra Athletics tubular,30000,60000,1,Caps Store
 GO-123,Gorra American Exchange,26000,50000,1,Caps Store
 GO-124,Gorra Jordan,26000,48000,0,Caps Store
 GO-125,Gorra Orioles,26000,48000,1,Caps Store
-GO-126,Gorra Nacional,18000,35000,3,Caps Store
+GO-126,Gorra Nacional,18000,35000,2,Caps Store
 GO-127,Gorra HellStar,25000,49000,0,Caps Store
 GO-128,Gorra Hugo Boss peluche,25000,50000,3,Caps Store
 GO-129,Gorra Chrome Hearts tres cruces,25000,60000,2,Caps Store
@@ -227,7 +227,7 @@ LNIS-05,Locion RED LOVE - Amor Amor by Cacharel ,10800,24900,5,Daniel Manizales
 LNIS-06,Locion HOLA! - Halloween by Jesús del Pozo ,10800,24900,6,Daniel Manizales
 LNIS-07,Locion SOFT LOVE - Bombshell by Victoria's Secret ,10800,24900,0,Daniel Manizales
 LNIS-08,Locion NIGHT LIFE - Trésor La Nuit by Lancôme ,10800,24900,3,Daniel Manizales
-LNIS-09,Locion LOVELY NIGHT - Hypnose by Lancôme ,10800,24900,3,Daniel Manizales
+LNIS-09,Locion LOVELY NIGHT - Hypnose by Lancôme ,10800,24900,2,Daniel Manizales
 LNIS-10,Locion CRAZY LOVE - Mad About You by Victoria's Secret ,10800,24900,2,Daniel Manizales
 LNIS-11,Locion SOFT PINK - Aroma original ,10800,24900,0,Daniel Manizales
 LNIS-12,Locion LAVISH - La Vida es Bella by Lancôme ,10800,24900,0,Daniel Manizales
@@ -238,7 +238,7 @@ LNIS-16,Locion NICE PINK - Nina by Nina Ricci ,10800,24900,4,Daniel Manizales
 LNIS-17,Locion MY WISH - Bambu by Gucci ,10800,24900,4,Daniel Manizales
 LNIS-18,Locion TRUE BLUE - Light Blue by D&G ,10800,24900,3,Daniel Manizales
 LNIS-19,Locion DELIGHT - Ralph by Ralph Lauren ,10800,24900,5,Daniel Manizales
-LNIS-20,Locion VOYAGE - Sauvage by Christian Dior,10800,24900,7,Daniel Manizales
+LNIS-20,Locion VOYAGE - Sauvage by Christian Dior,10800,24900,5,Daniel Manizales
 LNIS-21,Locion VICTORY - Invictus by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,3,Daniel Manizales
 LNIS-23,Locion DEEP BLUE - Bleu by Chanel,10800,24900,4,Daniel Manizales
@@ -254,7 +254,7 @@ LNIS-32,Locion NICO - Black XS by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-33,Locion SPICE UP - Creed Silver by Aventus,10800,24900,0,Daniel Manizales
 LNIS-34,Locion SLEEK BLACK - Jaguar Classic by Jaguar,10800,24900,3,Daniel Manizales
 LNIS-35,Locion BROWN TOPAZ - Silver Scent by Jacques Bogart,10800,24900,1,Daniel Manizales
-LNIS-37,Locion BLUE BLAZER - Blue seduction by Antonio Banderas,10800,24900,0,Daniel Manizales
+LNIS-37,Locion BLUE BLAZER - Blue seduction by Antonio Banderas,10800,24900,2,Daniel Manizales
 LNIS-38,Locion SPECIAL BLACK - Blue Seduction by Antonio Banderas,10800,24900,4,Daniel Manizales
 LNIS-39,Locion MYKONOS - Jean Paul Gaultier by Jean Paul Gaultier,10800,24900,1,Daniel Manizales
 LNIS-40,Locion HOT RED - Issey Miyake by Issey MiSayake,10800,24900,0,Daniel Manizales
@@ -271,9 +271,9 @@ LNF-09,Locion 1.1 One Million Tradicional,35000,75000,1,Santuario Perfumes
 LNF-09,Locion 1.1 One Million Tradicional,35000,75000,1,Santuario Perfumes
 LNES-01,Splash 1.1 pequeño,7000,15000,4,Santuario Perfumes   
 LNES-02,Splash de mujer,7000,15000,5,Daniel Manizales 
-LNES-03,Splash PINK SWEET BERRY,7000,15000,4,Daniel Manizales 
+LNES-03,Splash PINK SWEET BERRY,7000,15000,6,Daniel Manizales 
 LNES-04,Splash PINK PURE SENSUAL,7000,15000,6,Daniel Manizales 
-LNES-05,Splash PINK I LOVE LOVE,7000,15000,5,Daniel Manizales 
+LNES-05,Splash PINK I LOVE LOVE,7000,15000,6,Daniel Manizales 
 LNES-06,Splash PINK PASION FRUITS,7000,15000,5,Daniel Manizales 
 LNES-07,Splash PINK LOVE EMBRACE,7000,15000,6,Daniel Manizales 
 LNES-08,Splash PINK SPRING SWEET,7000,15000,6,Daniel Manizales 
@@ -315,7 +315,7 @@ CDC-06,Correa sintetica,10000,17000,0,zona chic
 CDC-07,Correa sintetica marcas,10000,18000,0,zona chic
 CDC-08,Correa sintetica taches larga,11000,25000,2,Albeiro Marroquineria
 CDC-09,Correa sintetica taches corta,10000,23000,3,Albeiro Marroquineria
-CDC-10,Correa sintetica hombre chapa marcas AAA,16000,30000,11,Albeiro Marroquineria
+CDC-10,Correa sintetica hombre chapa marcas AAA,16000,30000,12,Albeiro Marroquineria
 CDC-11,Correa sintetica mujer chapa piedras AAA,8000,17000,4,Albeiro Marroquineria
 CDC-12,Correa sintetica mujer sencilla,5500,13000,3,Albeiro Marroquineria
 CDC-13,Correa sintetica doble faz mujer hebilla dorada,8000,15000,3,Albeiro Marroquineria
@@ -367,14 +367,14 @@ RJ-18,Reloj de lujo philipp plein,40000,82000,0,nulo
 RJ-19,Reloj replica patek philippe,40000,82000,2,nulo
 RJ-20,Reloj rolex dama,50000,85000,2,Armyn Watches
 RJ-21,Reloj deportivo loto,55000,95000,1,Armyn Watches
-RJ-22,Reloj Fossil,43000,78000,0,Armyn Watches
+RJ-22,Reloj Fossil,43000,85000,0,Armyn Watches
 RJ-23,Reloj Casio,48000,85000,0,Armyn Watches
 RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes 
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
 CRJ-01,Caja de reloj,3000,8000,2,nulo
-VP-01,Vaper Priv Bar,18000,32000,1, juan felipe
+VP-01,Vaper Priv Bar,18000,32000,0, juan felipe
 VP-02,Vaper Spaceman 18k,15000,30000,0,Juan Felipe
-VP-03,Vaper Snoopy Smoke,16000,32000,0,Juan Felipe
+VP-03,Vaper Snoopy Smoke,16000,32000,1,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row 7k,8000,17000,1,Juan Felipe
 VP-06,Vaper Archer,13000,25000,2,Juan Felipe
@@ -390,31 +390,31 @@ VP-14,Vaper ,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,5,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,1,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
-VP-22,Vaper Airfuz de pantalla,18000,50000,4,Juan Felipe
+VP-22,Vaper Airfuz de pantalla,18000,50000,5,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,0,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,1,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,5,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,3,juan felipe
-VP-28,Vaper MTRX 12,12000,29000,2,Juan Felipe
+VP-28,Vaper MTRX 12,12000,29000,3,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,9,Juan Felipe
-VP-31,Vaper Chris Brown 15k,14000,30000,0,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
+VP-31,Vaper Chris Brown 15k,14000,30000,3,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
-VP-35,Vaper Fruitia 8k,9000,20000,0,Juan Felipe
+VP-35,Vaper Fruitia 8k,9000,20000,1,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,3,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,3,Juan Felipe
 VP-39,Vaper esencia Chillax,14000,24000,1,Juan Felipe
 VP-40,Bateria vaper Chillax,3000,10000,2,Juan Felipe
-VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,0,Juan Felipe
-VP-41,Candela,20000,40000,-6,Juan Felipe
+VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,3,Juan Felipe
+VP-41,Candela,20000,40000,-5,Juan Felipe
 BLN-01,Blones,1800,4000,42,nulo
 CR-01,Cueros raro,4500,10000,8,nulo
 CR-02,Cueros OCB #7,1500,4000,42,nulo
@@ -430,9 +430,9 @@ PP-03,Pipa de Vidrio grande,2000,6000,2,nulo
 CHR-01,Cucharita🌬 grande,1500,5000,5,nulo
 CHR-02,Cucharita🌬 pequeña,1000,2000,2,nulo
 BS-01,Bolsa exotica pequeña,700,1500,10,nulo
-BS-02,Bolsa xotica grande,1000,2500,19,nulo
+BS-02,Bolsa xotica grande,1000,2500,20,nulo
 AC-01,Armador de cigarros,3000,6000,4,nulo
-GR-01,Gramera,9500,15000,4,nulo
+GR-01,Gramera,9500,15000,5,nulo
 BR-01,Banda de radio,15000,25000,1,Nulo
 CB-01,Cable 3 en 1,8000,20000,8,nulo
 CM-01,Car magnetico,10000,20000,1,nulo
@@ -444,19 +444,19 @@ AUS-03,Adaptador iphone y tipo c - aux,8000,16000,11,nulo
 BP-01,Bateria portatil,85000,150000,2,nulo
 MU-01,Memoria USB 32G,16000,25000,1,nulo
 MU-02,Memoria USB 64G,16000,30000,6,nulo
-MM-01,Micro memoria 4G,3500,6000,1,nulo
-MM-02,Micro memoria 8G,4500,10000,0,nulo
-MM-03,Micro memoria 16G,9000,18000,0,nulo
+MM-01,Micro memoria 4G,3500,6000,4,nulo
+MM-02,Micro memoria 8G,4500,10000,4,nulo
+MM-03,Micro memoria 16G,15000,18000,3,nulo
 MM-04,Micro memoria 32G,18000,35000,4,nulo
 MM-05,Micro memoria 64G,16000,30000,3,nulo
-MM-06,Memoria musica,4500,10000,6,nulo
+MM-06,Memoria musica,4500,10000,8,nulo
 HDG-01,Hidrogel claro,3200,13000,32,nulo
 HDG-02,Hidrogel mate,3400,15000,33,nulo
 HDG-03,Hidrogel antiespias,4800,20000,7,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 HS-02,Audifonos bose K45,36000,75000,5,volt pro
 AP-01,Airpods pro 2nd generacion,38000,70000,8,nulo
-AP-02,Airpods 4ta generacion,48000,85000,7,nulo
+AP-02,Airpods 4ta generacion,48000,85000,8,nulo
 IPA-01,Inpods,19000,40000,0,nulo
 IPA-02,air pods muñecos,35000,70000,3,nulo
 VV-01,funda silicona vivo Y51S,4500,15000,2,nulo
@@ -489,7 +489,7 @@ MT-05,Funda silicona Motorola G8 Powerline,4500,15000,8,nulo
 MT-06,Funda silicona Motorola G9 Play,4500,15000,3,nulo
 MT-07,Funda silicona Motorola G13/G23/G53,4500,15000,4,nulo
 MT-08,Funda silicona Motorola G15,4500,15000,4,nulo
-MT-09,Funda silicona Motorola G20/G30,4500,15000,1,nulo
+MT-09,Funda silicona Motorola G20/G30,4500,15000,3,nulo
 MT-10,Funda silicona Motorola G22,4500,15000,11,nulo
 MT-11,Funda silicona Motorola G24/G4,4500,15000,3,nulo
 MT-12,Funda silicona Motorola G31,4500,15000,3,nulo
@@ -725,7 +725,7 @@ CMN-01,Funda trasparente Camon 30 pro 5G,4500,15000,6,nulo
 IX-04,Funda transparente Infinix Hot 40i,4500,15000,5,nulo
 IX-05,Funda transparente Infinix Note 40 4G,4500,15000,0,nulo
 IX-06,Funda transparente Infinix Note 40 Pro 4G,4500,15000,1,nulo
-SN-01,Sudadera nike,30000,55000,4,zona chic
+SN-01,Sudadera nike,30000,55000,5,zona chic
 SN-02,Sudadera tela marcas,25000,48000,0,alberto
 SN-03,Sudadera impermeable nike,23000,50000,5,alberto
 PS-01,Pantalonetas playeras marcas,30000,55000,2,alberto
@@ -824,7 +824,7 @@ AE-15,VP Cable USB - C 4A economico,2500,6000,3,Volt pro
 AE-16,VP Cable USB - B 4A fino,3000,10000,7,Volt pro 
 AE-17,VP Cable USB - B 4A economico,2000,6000,5,Volt pro 
 AE-18,VP Cargador + Cable USB - B,6000,15000,27,Volt pro 
-AE-19,VP Cargador completo TC 5A 25W,9200,24000,6,Volt pro 
+AE-19,VP Cargador completo TC 5A 25W,9200,24000,7,Volt pro 
 AE-20,VP Cargador completo TV 4A 25W,9000,24000,13,Volt pro 
 AE-21,VP Cargador completo USB - LGT ,14000,26000,11,Volt pro 
 AE-22,VP Cargador completo TV 6A,14000,26000,8,Volt pro 
@@ -862,7 +862,7 @@ AE-52,Cable TC 9A,5000,20000,22,Volt Pro
 AE-53,Cable TC 5A,4000,12000,13,Volt Pro
 AE-54,Cable TC  9A,7500,25000,13,Volt Pro
 AE-55,Cable TC  9A,6000,22000,20,Volt Pro
-AE-56,Cable TC - TV8 4A,2500,10000,17,Volt Pro
+AE-56,Cable TC - TV8 4A,2500,10000,18,Volt Pro
 AE-57,Cable TC - LGT 4A,2500,10000,18,Volt Pro
 AE-58,Cable TC 6A,6000,18000,34,Volt Pro
 AE-59,Cable TC 6A vp-213,2500,10000,38,Volt Pro
@@ -1161,7 +1161,7 @@ VTBS-02.SAMSUNG,V Blindado Samsung A22 5G/F42/A14/F14/M14,2000,15000,36,Fabián 
 VTBS-02.MOTO,V Blindado Moto G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G9 PLAY/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,18,Fabián rio negro
 VTBS-02.G9 PLAY,V Blindado Moto G9 PLAY/G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLUS/G9/G9 INDIA/G10 PLAY/G20/One fusión/E20/G8/E7 Plus,2000,15000,17,Fabián rio negro
 VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,2000,15000,22,Fabián rio negro
-VTBS-04,V Blindado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,17,Fabián rio negro
+VTBS-04,V Blindado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,18,Fabián rio negro
 VTBS-05,V Blindado Samsung A31/A32/A22 4G/F22/M32/M22/A33,2000,15000,29,Fabián rio negro
 VTBS-06,V Blindado Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,28,Fabián rio negro
 VTBS-07,V Blindado Samsung A70/A70S/M42/M42/,2000,15000,20,Fabián rio negro
@@ -1442,16 +1442,16 @@ CMT-06,Camisilla malla trap,25000,39000,4,Gonzalo
 BZU-01,Buzo AMIRI - UNDERGOLD,38000,75000,0,Joel
 BZO-01,Buzo OSITO,38000,69000,0,Joel
 BZU-02,Buzo ESSENCIAL,38000,72000,0,Joel
-BZU-03,Buzo Gamusa multimarcas,57000,110000,2,Gonzalo Ecuatoriano
+BZU-03,Buzo Gamusa multimarcas,57000,110000,3,Gonzalo Ecuatoriano
 BZU-04,Buzo ESSENCIAL,38000,72000,0,Joel
 BZU-05,Buzo Amiri,37000,75000,2,Gonzalo EcuatorianoJoel
 BZU-06,Buzo de colombia,38000,72000,5,Gonzalo ecuatoriano
 BZU-07,Buzo GodSpeed,65000,149000,2,Jhoel Ecuatoriano
 WS-01,Watch Onn stick,110000,165000,2,la mina
 CMRT-01,Camaritas celular,900,2000,43,Leonardo
-SMC-01,Simcard,1000,4000,77,Nulo
+SMC-01,Simcard,1000,4000,81,Nulo
 VPS-01,Bafle VoltPro VP-S02,28000,55000,4,Yovani VoltPro
-VPS-02,Soporte de tablet,20000,40000,3,Yovani VoltPro
+VPS-02,Soporte de tablet,20000,40000,4,Yovani VoltPro
 VPS-03,Power Bank VoltPro 10 000 mAh,32000,58000,2,Yovani VoltPro
 VPS-04,Audifonos BT VoltPro A0293,36000,65000,2,Yovani VoltPro
 VPS-05,Audifonos BT VoltPro A0294,40000,73000,3,Yovani VoltPro
@@ -1479,7 +1479,7 @@ VTA-10,Vidrio antiespia iPhone 16,3000,15000,5,Fabian rio negro
 VTA-11,Vidrio antiespia iPhone 16 Pro,3000,15000,4,Fabian rio negro
 VTA-12,Vidrio antiespia iPhone 16 Pro Max/17 Pro Max,3000,15000,1,Fabian rio negro
 VTA-13,Vidrio antiespia iPhone 17,3000,15000,6,Fabian rio negro
-VTA-14,Vidrio antiespia iPhone 13/13 PRO/14/16E/15 PRO,3000,15000,10,Fabian rio negro
+VTA-14,Vidrio antiespia iPhone 13/13 PRO/14/16E/15 PRO,3000,15000,0,Fabian rio negro
 VTA-15.SAMSUNG,Vidrio antiespia SamsungA16/A26/A71/A72/A73,3000,15000,17,Fabian rio negro
 VTA-15.TECNO,Vidrio antiespia Camon 20/Spark 20/Spark 20C,3000,15000,20,Fabian rio negro
 VTA-16,Vidrio antiespia iPhone X/XS/11 Pro,3000,15000,20,Fabian rio negro
@@ -1532,7 +1532,7 @@ VTM-02,Vidrio mate Samsung A70/A70S/M42/M42,2000,15000,15,Fabián rio negro
 VTM-03,Vidrio mate Redmi 10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,2000,15000,15,Fabián rio negro
 VTM-04,Vidrio mate Samsung A12/13 VTG-01,2000,15000,14,Fabián rio negro
 VTM-05,Vidrio mate iPhone 13 pro max/14 Plus,2000,15000,14,Fabián rio negro
-VTM-06,Vidrio mate iPhone X/11 Pro,2000,15000,12,Fabián rio negro
+VTM-06,Vidrio mate iPhone X/11 Pro,2000,15000,13,Fabián rio negro
 VTM-07,Vidrio mate iPhone 14 Pro Max,2000,15000,14,Fabián rio negro
 VTM-08,Vidrio mate Motorola G31/G41/G71/G14/G54/G54 POWER/Honor X7C,2000,15000,15,Fabián rio negro
 VTM-09,Vidrio mate Samsung A05S/VTBS-01/VBRM-01,2000,15000,15,Fabián rio negro
@@ -1553,7 +1553,7 @@ AS-02,Protector de cargador samsung 25W,5500,18000,6,Fabián rio negro
 AS-03,Protector de ipods 2da generacion,5500,15000,7,Fabián rio negro
 AS-04,Protector de ipods 3ra generacion,5500,15000,7,Fabián rio negro
 AS-05,Protector de ipods 4ta generacion,5500,15000,7,Fabián rio negro
-PLT-01,Netflix pantalla,17000,17000,77,Anduell Play
+PLT-01,Netflix pantalla,17000,17000,80,Anduell Play
 PLT-02,Disney pantalla,15000,15000,96,Anduell Play
 CEL-01,Celular Motrola G52,140000,380000,0,Anduell Play
 FPD-217,funda de lujo AG-GLASS IP 13,18000,37000,2,Anduell Play
@@ -1567,3 +1567,4 @@ FPD-224,funda de lujo AG-GLASS IP 16,18000,37000,4,Anduell Play
 FPD-225,funda de lujo AG-GLASS IP 16 PRO,18000,37000,5,Anduell Play
 FPD-226,funda de lujo AG-GLASS IP 17 PRO,18000,37000,5,Anduell Play
 FPD-227,funda de lujo AG-GLASS IP 17 PRO MAX,18000,37000,5,Anduell Play
+FPD-228,Funda de lujo magnetic humo IP 14,16000,32000,8,Anduell Play
