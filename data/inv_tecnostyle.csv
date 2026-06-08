@@ -125,7 +125,7 @@ GO-122,Gorra Athletics tubular,30000,60000,1,Caps Store
 GO-123,Gorra American Exchange,26000,50000,1,Caps Store
 GO-124,Gorra Jordan,26000,48000,0,Caps Store
 GO-125,Gorra Orioles,26000,48000,1,Caps Store
-GO-126,Gorra Nacional,18000,35000,2,Caps Store
+GO-126,Gorra Nacional,18000,35000,3,Caps Store
 GO-127,Gorra HellStar,25000,49000,0,Caps Store
 GO-128,Gorra Hugo Boss peluche,25000,50000,3,Caps Store
 GO-129,Gorra Chrome Hearts tres cruces,25000,60000,2,Caps Store
@@ -227,7 +227,7 @@ LNIS-05,Locion RED LOVE - Amor Amor by Cacharel ,10800,24900,5,Daniel Manizales
 LNIS-06,Locion HOLA! - Halloween by Jesús del Pozo ,10800,24900,6,Daniel Manizales
 LNIS-07,Locion SOFT LOVE - Bombshell by Victoria's Secret ,10800,24900,0,Daniel Manizales
 LNIS-08,Locion NIGHT LIFE - Trésor La Nuit by Lancôme ,10800,24900,3,Daniel Manizales
-LNIS-09,Locion LOVELY NIGHT - Hypnose by Lancôme ,10800,24900,2,Daniel Manizales
+LNIS-09,Locion LOVELY NIGHT - Hypnose by Lancôme ,10800,24900,3,Daniel Manizales
 LNIS-10,Locion CRAZY LOVE - Mad About You by Victoria's Secret ,10800,24900,2,Daniel Manizales
 LNIS-11,Locion SOFT PINK - Aroma original ,10800,24900,0,Daniel Manizales
 LNIS-12,Locion LAVISH - La Vida es Bella by Lancôme ,10800,24900,0,Daniel Manizales
@@ -238,7 +238,7 @@ LNIS-16,Locion NICE PINK - Nina by Nina Ricci ,10800,24900,4,Daniel Manizales
 LNIS-17,Locion MY WISH - Bambu by Gucci ,10800,24900,4,Daniel Manizales
 LNIS-18,Locion TRUE BLUE - Light Blue by D&G ,10800,24900,3,Daniel Manizales
 LNIS-19,Locion DELIGHT - Ralph by Ralph Lauren ,10800,24900,5,Daniel Manizales
-LNIS-20,Locion VOYAGE - Sauvage by Christian Dior,10800,24900,5,Daniel Manizales
+LNIS-20,Locion VOYAGE - Sauvage by Christian Dior,10800,24900,7,Daniel Manizales
 LNIS-21,Locion VICTORY - Invictus by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,3,Daniel Manizales
 LNIS-23,Locion DEEP BLUE - Bleu by Chanel,10800,24900,4,Daniel Manizales
@@ -254,7 +254,7 @@ LNIS-32,Locion NICO - Black XS by Paco Rabanne,10800,24900,0,Daniel Manizales
 LNIS-33,Locion SPICE UP - Creed Silver by Aventus,10800,24900,0,Daniel Manizales
 LNIS-34,Locion SLEEK BLACK - Jaguar Classic by Jaguar,10800,24900,3,Daniel Manizales
 LNIS-35,Locion BROWN TOPAZ - Silver Scent by Jacques Bogart,10800,24900,1,Daniel Manizales
-LNIS-37,Locion BLUE BLAZER - Blue seduction by Antonio Banderas,10800,24900,2,Daniel Manizales
+LNIS-37,Locion BLUE BLAZER - Blue seduction by Antonio Banderas,10800,24900,0,Daniel Manizales
 LNIS-38,Locion SPECIAL BLACK - Blue Seduction by Antonio Banderas,10800,24900,4,Daniel Manizales
 LNIS-39,Locion MYKONOS - Jean Paul Gaultier by Jean Paul Gaultier,10800,24900,1,Daniel Manizales
 LNIS-40,Locion HOT RED - Issey Miyake by Issey MiSayake,10800,24900,0,Daniel Manizales
@@ -367,7 +367,7 @@ RJ-18,Reloj de lujo philipp plein,40000,82000,0,nulo
 RJ-19,Reloj replica patek philippe,40000,82000,2,nulo
 RJ-20,Reloj rolex dama,50000,85000,2,Armyn Watches
 RJ-21,Reloj deportivo loto,55000,95000,1,Armyn Watches
-RJ-22,Reloj Fossil,43000,85000,0,Armyn Watches
+RJ-22,Reloj Fossil,43000,78000,0,Armyn Watches
 RJ-23,Reloj Casio,48000,85000,0,Armyn Watches
 RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes 
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
@@ -403,7 +403,7 @@ VP-27,vaper nicky Jam x fume 10k,13000,27000,3,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,3,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
 VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
-VP-31,Vaper Chris Brown 15k,14000,30000,3,Juan Felipe
+VP-31,Vaper Chris Brown 15k,14000,30000,0,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
@@ -444,9 +444,9 @@ AUS-03,Adaptador iphone y tipo c - aux,8000,16000,11,nulo
 BP-01,Bateria portatil,85000,150000,2,nulo
 MU-01,Memoria USB 32G,16000,25000,1,nulo
 MU-02,Memoria USB 64G,16000,30000,6,nulo
-MM-01,Micro memoria 4G,3500,6000,4,nulo
-MM-02,Micro memoria 8G,4500,10000,4,nulo
-MM-03,Micro memoria 16G,15000,18000,3,nulo
+MM-01,Micro memoria 4G,3500,6000,1,nulo
+MM-02,Micro memoria 8G,4500,10000,0,nulo
+MM-03,Micro memoria 16G,9000,18000,0,nulo
 MM-04,Micro memoria 32G,18000,35000,4,nulo
 MM-05,Micro memoria 64G,16000,30000,3,nulo
 MM-06,Memoria musica,4500,10000,8,nulo
