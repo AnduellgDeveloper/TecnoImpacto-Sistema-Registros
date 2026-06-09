@@ -421,8 +421,8 @@ VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,2,Juan Felipe
 VP-39,Vaper esencia Chillax,14000,24000,0,Juan Felipe
 VP-40,Bateria vaper Chillax,3000,10000,1,Juan Felipe
-VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,1,Juan Felipe
-VP-41,Candela,20000,40000,-11,Juan Felipe
+VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,0,Juan Felipe
+VP-41,Candela,20000,40000,-12,Juan Felipe
 BLN-01,Blones,1800,4000,42,nulo
 CR-01,Cueros raro,4500,10000,8,nulo
 CR-02,Cueros OCB #7,1500,4000,41,nulo
@@ -1512,7 +1512,7 @@ VTA-03,Vidrio antiespia iPhone 12/12 Pro,3000,15000,18,Fabian rio negro
 VTA-04,Vidrio antiespia iPhone 12 Pro Max,3000,15000,22,Fabian rio negro
 VTA-05,Vidrio antiespia iPhone 13 Pro Max/14 Plus,3000,15000,10,Fabian rio negro
 VTA-06,Vidrio antiespia iPhone 14 Pro/15,3000,15000,4,Fabian rio negro
-VTA-07,Vidrio antiespia iPhone 14 Pro Max/14 Plus/15 Plus,3000,15000,1,Fabian rio negro
+VTA-07,Vidrio antiespia iPhone 14 Pro Max/14 Plus/15 Plus,3000,15000,0,Fabian rio negro
 VTA-08,Vidrio antiespia iPhone 15/15 Pro/16,3000,15000,0,Fabian rio negro
 VTA-09,Vidrio antiespia iPhone 15 Pro Max,3000,15000,4,Fabian rio negro
 VTA-10,Vidrio antiespia iPhone 16,3000,15000,5,Fabian rio negro
