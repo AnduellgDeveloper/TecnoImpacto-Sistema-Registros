@@ -98,7 +98,7 @@ GO-95,Gorra Phillip Plein normal,28000,55000,4,Caps Store
 GO-96,Gorra Belica cruz economica,22000,48000,1,Nicolas Diablillo
 GO-97,Gorra Dsquared 2 economica,22000,48000,2,Nicolas Diablillo
 GO-98,Gorra Visera economica,9000,20000,0,Nicolas Diablillo
-GO-99,Gorra niña orejitas,11500,30000,2,zona chic
+GO-99,Gorra niña orejitas,11500,30000,1,zona chic
 GO-100,Gorra new era multi marcas tubular,30000,60000,0,Caps Store
 GO-101,Gorra Nike,25000,50000,4,Caps Store
 GO-102,Gorra Ferrari,28000,55000,2,Caps Store
@@ -258,7 +258,7 @@ LNIS-28,Locion LOCK - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizal
 LNIS-29,Locion HOT BLACK  - Armani Code by Giorgio Armani,10800,24900,2,Daniel Manizales
 LNIS-30,Locion ACE - Ferrari Black by Ferrari,10800,25000,0,Daniel Manizales
 LNIS-31,Locion SILVER STYLE - 212 Men by CH,10800,24900,1,Daniel Manizales
-LNIS-32,Locion NICO - Black XS by Paco Rabanne,10800,24900,0,Daniel Manizales
+LNIS-32,Locion NICO - Black XS by Paco Rabanne,10800,24900,1,Daniel Manizales
 LNIS-33,Locion SPICE UP - Creed Silver by Aventus,10800,24900,0,Daniel Manizales
 LNIS-34,Locion SLEEK BLACK - Jaguar Classic by Jaguar,10800,24900,3,Daniel Manizales
 LNIS-35,Locion BROWN TOPAZ - Silver Scent by Jacques Bogart,10800,24900,1,Daniel Manizales
@@ -295,7 +295,7 @@ CMS-04,Camiseta Blessed, 35000,59000,0,zona chic
 CMS-05,Camiseta Company, 40000,69000,0,zona chic
 CMS-06,Camisetas tela Catar en Clemont - Undergold - Jordan,38000,65000,14,Tributo
 CMS-07,Camiseta Kllejeros,35000,65000,1,zona chic
-CMS-08,Camiseta colombia 1.1,38000,60000,7,Alberto Armenia
+CMS-08,Camiseta colombia 1.1,38000,60000,6,Alberto Armenia
 CMS-09,Camiseta Tela fria multimarcas,30000,52000,9,Alberto Armenia
 CMS-10,Camiseta Tela grabados,31000,55000,11,Alberto Armenia
 CG-01,Canguros Classic,13000,22000,0,zona chic
@@ -332,7 +332,7 @@ CDC-15,Correa pitillo  cuero colores,12000,20000,10,Albeiro Marroquineria
 CDC-16,Correa de niño en cuero economica,7000,19000,20,Albeiro Marroquineria
 CDC-17,Correa de niño en cuero pachos,9000,19000,18,Albeiro Marroquineria
 CDC-18,Correa de hombre en cuero economica,13000,25000,9,Albeiro Marroquineria
-CDC-19,Correa de hombre marcas variadas,16000,30000,11,Albeiro Marroquineria
+CDC-19,Correa de hombre marcas variadas,16000,30000,10,Albeiro Marroquineria
 CDC-20,Correa de hombre multicolor,7000,18000,8,Albeiro Marroquineria
 BH-01,Billetera cuero hombre marcas estandar,15000,27500,1,Albeiro Marroquineria
 BH-02,Billetera hombre de lujo,35000,60000,4,Armyn Watches
@@ -345,7 +345,7 @@ BH-08,Billetera monedero y chapita,14000,25000,10,Albeiro
 BH-09,Billetera estampado economica,10000,22000,6,Albeiro
 BH-10,Billetera cuerina economica,12000,22000,6,Albeiro
 BH-11,Billetera cuero Velez economica,16000,27500,0,Wilmar Duque
-BH-12,Billetera cuero hombre marcas AAA,15000,32000,8,Albeiro Marroquineria
+BH-12,Billetera cuero hombre marcas AAA,15000,32000,7,Albeiro Marroquineria
 BH-13,Billetera dama a5002- 14,19000,39000,2,Albeiro
 BH-14,Billetera dama a6000-27,27000,60000,2,Albeiro
 BH-15,Billetera dama a6000-28,27000,60000,1,Albeiro
@@ -398,20 +398,20 @@ VP-14,Vaper ,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,4,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,4,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,4,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,2,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,13,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,1,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,0,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,0,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,2,Juan Felipe
-VP-31,Vaper Chris Brown 15k,14000,30000,8,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
+VP-31,Vaper Chris Brown 15k,14000,30000,6,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
@@ -419,8 +419,8 @@ VP-35,Vaper Fruitia 8k,9000,20000,0,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,3,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,2,Juan Felipe
-VP-39,Vaper esencia Chillax,14000,24000,0,Juan Felipe
-VP-40,Bateria vaper Chillax,3000,10000,1,Juan Felipe
+VP-39,Vaper esencia Chillax,14000,24000,1,Juan Felipe
+VP-40,Bateria vaper Chillax,3000,10000,0,Juan Felipe
 VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,0,Juan Felipe
 VP-41,Candela,20000,40000,-12,Juan Felipe
 BLN-01,Blones,1800,4000,42,nulo
@@ -457,8 +457,8 @@ MM-02,Micro memoria 8GB,12000,220000,4,La rana
 MM-03,Micro memoria 16GB,15000,30000,4,La rana
 MM-04,Micro memoria 32GB,18000,35000,4,La rana
 MM-05,Micro memoria 64GB,16000,30000,4,La rana
-MM-06,Micro memoria 128GB,29000,67000,5,La rana
-MM-07,Memoria musica,4500,10000,7,nulo
+MM-06,Micro memoria 128GB,29000,67000,4,La rana
+MM-07,Memoria musica,4500,10000,6,nulo
 HDG-01,Hidrogel claro,3200,13000,32,nulo
 HDG-02,Hidrogel mate,3400,15000,33,nulo
 HDG-03,Hidrogel antiespias,4800,20000,6,nulo
@@ -847,7 +847,7 @@ AE-15,VP Cable USB - C 4A economico,2500,6000,3,Volt pro
 AE-16,VP Cable USB - B 4A fino,3000,10000,7,Volt pro 
 AE-17,VP Cable USB - B 4A economico,2000,6000,5,Volt pro 
 AE-18,VP Cargador + Cable USB - B,6000,15000,27,Volt pro 
-AE-19,VP Cargador completo TC 5A 25W,9200,24000,7,Volt pro 
+AE-19,VP Cargador completo TC 5A 25W,9200,24000,6,Volt pro 
 AE-20,VP Cargador completo TV 4A 25W,9000,24000,13,Volt pro 
 AE-21,VP Cargador completo USB - LGT ,14000,26000,11,Volt pro 
 AE-22,VP Cargador completo TV 6A,14000,26000,8,Volt pro 
@@ -1056,7 +1056,7 @@ MOS-01,Mouse w83,11000,25000,0,Leonardo
 MOS-02,Mouse mc02 game,18000,36000,1,Leonardo
 MOS-03,Mouse harvic,14000,27000,2,Leonardo
 MOS-04,Mouse BMX economico,4500,12000,3,Leonardo
-MOS-05,Mouse harvic led,8500,18000,2,Leonardo
+MOS-05,Mouse harvic led,8500,18000,1,Leonardo
 DMS-01,Diademas P9 replica apple,18000,45000,8,Leonardo
 BL-01,Bolso amelie cuero,30000,60000,1,zona chic
 BL-02,Bolso cuero plateado,38000,60000,0,zona chic
@@ -1094,7 +1094,7 @@ LN-40,locion sir army,30000,55000,0,Yeison la mina
 LN-41,locion coste essencial,30000,55000,1,Yeison la mina
 MD-01,Medias cortas nike,5000,10000,6,andres
 MD-02,Medias largas nike,5500,15000,7,andres
-MD-03,Medias Economicas nike,3000,6000,11,Caps Store
+MD-03,Medias Economicas nike,3000,6000,7,Caps Store
 MD-04,Medias dama multimarcas,4500,9000,17,Caps Store
 MD-05,Medias hombre multimarcas 3/4,6500,15000,15,Caps Store
 CPS-01,Compass brujula,9000,15000,3,nulo
@@ -1464,7 +1464,7 @@ AUD-11,Audifonos finos Plus,8500,20000,5,Volt Pro
 AUD-12,Audifonos economicos Plus,4500,12000,7,Volt Pro
 AUD-13,Audifonos tipo c-c Batri,15000,30000,3,La rana
 AUD-14,Audifonos TC-TC VP,10000,24000,8,Volt Pro
-AUD-15,Audifonos jack 3.5 Harvic,5000,15000,7,Leonardo
+AUD-15,Audifonos jack 3.5 Harvic,5000,15000,6,Leonardo
 AUD-16,Audifonos TC Harvic,5800,15000,8,Leonardo
 AUD-17,Audifonos VML-701 Jack 3.5,5200,12000,10,Volt Pro
 BZ-01,Brazalete de reloj,17000,30000,7,nulo
@@ -1492,7 +1492,7 @@ CMRT-06,Camarita piedras/escarcha IP 13/14/15,900,3500,18,Leonardo
 CMRT-07,Camarita piedras/escarcha IP 16/16 Pro/16 Pro Max,900,3500,16,Leonardo
 CMRT-08,Camarita lisa IP 16/16 Pro/16 Pro Max,900,3000,18,Leonardo
 CMRT-09,Camarita lisa IP 14 Pro Max/15 Pro Max,900,3000,15,Leonardo
-SMC-01,Simcard,1000,4000,77,Nulo
+SMC-01,Simcard,1000,4000,76,Nulo
 VPS-01,Bafle VoltPro VP-S02,28000,55000,4,Yovani VoltPro
 VPS-02,Soporte de tablet,20000,40000,4,Yovani VoltPro|
 VPS-03,Power Bank VoltPro 10 000 mAh,32000,58000,2,Yovani VoltPro
@@ -1601,7 +1601,7 @@ AS-02,Protector de cargador samsung 25W,5500,18000,14,Fabián rio negro
 AS-03,Protector de ipods 2da generacion,5500,15000,7,Fabián rio negro
 AS-04,Protector de ipods 3ra generacion,5500,15000,7,Fabián rio negro
 AS-05,Protector de ipods 4ta generacion,5500,15000,7,Fabián rio negro
-PLT-01,Netflix pantalla,17000,17000,75,Anduell Play
+PLT-01,Netflix pantalla,17000,17000,72,Anduell Play
 PLT-02,Disney pantalla,15000,15000,95,Anduell Play
 CEL-01,Celular Motrola G52,140000,380000,0,Anduell Play
 FPD-217,funda de lujo AG-GLASS IP 13,18000,37000,1,Anduell Play
