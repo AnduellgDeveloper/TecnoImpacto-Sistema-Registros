@@ -248,7 +248,7 @@ LNIS-18,Locion TRUE BLUE - Light Blue by D&G ,10800,24900,3,Daniel Manizales
 LNIS-19,Locion DELIGHT - Ralph by Ralph Lauren ,10800,24900,5,Daniel Manizales
 LNIS-20,Locion VOYAGE - Sauvage by Christian Dior,10800,24900,7,Daniel Manizales
 LNIS-21,Locion VICTORY - Invictus by Paco Rabanne,10800,24900,0,Daniel Manizales
-LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,3,Daniel Manizales
+LNIS-22,Locion GOLD COIN - One Million by Paco Rabanne,10800,24900,1,Daniel Manizales
 LNIS-23,Locion DEEP BLUE - Bleu by Chanel,10800,24900,4,Daniel Manizales
 LNIS-24,Locion COOL RIO - Aqua di Gio by Giorgio Armani,10800,24900,2,Daniel Manizales
 LNIS-25,Locion BLACK SECRET - Armani Code by Giorgio Armani,10800,24900,0,Daniel Manizales
@@ -295,7 +295,7 @@ CMS-04,Camiseta Blessed, 35000,59000,0,zona chic
 CMS-05,Camiseta Company, 40000,69000,0,zona chic
 CMS-06,Camisetas tela Catar en Clemont - Undergold - Jordan,38000,65000,14,Tributo
 CMS-07,Camiseta Kllejeros,35000,65000,1,zona chic
-CMS-08,Camiseta colombia 1.1,38000,60000,6,Alberto Armenia
+CMS-08,Camiseta colombia 1.1,40000,75000,1,Alberto Armenia
 CMS-09,Camiseta Tela fria multimarcas,30000,52000,9,Alberto Armenia
 CMS-10,Camiseta Tela grabados,31000,55000,11,Alberto Armenia
 CG-01,Canguros Classic,13000,22000,0,zona chic
@@ -310,7 +310,7 @@ CRA-04,Carriel Palm Angels,38000,62000,0,Caps Store
 CRA-05,Carriel Top Quality,55000,92000,8,Caps Store
 CRA-06,Carriel multimarcas,25000,45000,8,Caps Store
 CRA-07,Bolso sprayground,60000,105000,8,Caps Store
-CRA-08,Carriel multimarcas cuerina,23000,46000,4,Albeiro
+CRA-08,Carriel multimarcas cuerina,23000,46000,3,Albeiro
 BA-01,Bolso amelie blanco,30000,58000,0,zona chic 
 BD-01,Bolso denis azul,55000,95000,1,zona chic
 CRD-01,Carriel dama marcas,23000,45000,6,zona chiS
@@ -398,20 +398,20 @@ VP-14,Vaper ,29000,50000,0,Juan Felipe
 VP-15,Vaper motti,13000,25000,1,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,4,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,4,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,1,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,4,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,13,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,9,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,1,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,0,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,0,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,1,Juan Felipe
-VP-31,Vaper Chris Brown 15k,14000,30000,6,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,8,Juan Felipe
+VP-31,Vaper Chris Brown 15k,14000,30000,5,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
@@ -460,7 +460,7 @@ MM-05,Micro memoria 64GB,16000,30000,4,La rana
 MM-06,Micro memoria 128GB,29000,67000,4,La rana
 MM-07,Memoria musica,4500,10000,6,nulo
 HDG-01,Hidrogel claro,3200,13000,32,nulo
-HDG-02,Hidrogel mate,3400,15000,33,nulo
+HDG-02,Hidrogel mate,3400,15000,32,nulo
 HDG-03,Hidrogel antiespias,4800,20000,6,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 HS-02,Audifonos bose K45,36000,75000,5,volt pro
@@ -622,7 +622,7 @@ SM-43,Funda Samsung transparente A53,4500,15000,1,nulo
 SM-44,Funda Samsung transparente A55,4500,15000,5,nulo
 SM-45,Funda Samsung transparente A56,4500,15000,6,nulo
 SM-46,Funda Samsung transparente S20Fe,4500,15000,3,nulo
-SM-47,Funda Samsung transparente S23Ultra,4500,15000,6,nulo
+SM-47,Funda Samsung transparente S23Ultra,4500,15000,5,nulo
 SM-48,Funda Samsung transparente S24,4500,15000,1,nulo
 SM-49,Funda Samsung transparente S24Fe,4500,15000,14,nulo
 SM-50,Funda Samsung transparente S24Ultra,4500,15000,4,nulo
@@ -663,7 +663,7 @@ IP-05,Funda transparente iPhone 11 Pro Max,4500,15000,7,nulo
 IP-06,Funda transparente iPhone 12/12 Pro,4500,15000,3,nulo
 IP-07,Funda transparente iPhone 12 Pro Max,4500,15000,14,nulo
 IP-08,Funda transparente iPhone 13/14,4500,15000,10,nulo
-IP-09,Funda transparente iPhone 13 Pro Max,4500,15000,10,nulo
+IP-09,Funda transparente iPhone 13 Pro Max,4500,15000,9,nulo
 IP-10,Funda transparente iPhone 14 Pro,4500,15000,12,nulo
 IP-11,Funda transparente iPhone 14 Pro Max,4500,15000,15,nulo
 IP-12,Funda transparente iPhone 13 Pro,4500,15000,8,nulo
@@ -1180,7 +1180,7 @@ VTE-03,V Economico iPhone 14 pro max,1500,10000,3,Fabián rio negro
 VTE-04,V Economico iPhone 15,1500,10000,3,Fabián rio negro
 VTBS-01.SAMSUNG,Vidrio SAM A05/A05S/A06/A06S/A07,2000,15000,39,Fabián rio negro
 VTBS-01.REDMI,Vidrio RMI 13C / 13C 5G / NOTE 13R / NOTE 60,2000,15000,3,Fabián rio negro
-VTBS-01.REALME,Vidrio RME C63/C61/NOTE 50/C51/C51 4G/C53/NARZON 53/NOTE 60X,2000,15000,7,Fabián rio negro
+VTBS-01.REALME,Vidrio RME C63/C61/NOTE 50/C51/C51 4G/C53/NARZON 53/NOTE 60X,2000,15000,6,Fabián rio negro
 VTBS-01.VIVO,Vidrio VI Y29S/Y04,2000,15000,7,Fabián rio negro
 VTBS-01.ZTE,Vidrio ZTE Blade A55 / Blade A35,2000,15000,5,Fabián rio negro
 VTBS-01.POCO,Vidrio POCO M6 5G / C65,2000,15000,7,Fabián rio negro
@@ -1434,7 +1434,7 @@ VBRM-07,V Blindado Redmi Note 8/VIVO S1/OP F9/REDMI 8/REDMI 8A/VIVO S1 PRO/OP F9
 VBRM-08.REALME,V Blindado Realme 6/ME 6Ss,2000,15000,38,Fabián rio negro
 VBRM-08.OPPO,V Blindado Oppo A52/A72/A92/Reno 2/Reno 2f/Reno 2Z/,2000,15000,15,Fabián rio negro
 VBRM-08.REDMI,V Blindado Redmi 10/Note 10 5G/POCO M3 PRO/POCO X7 PRO,2000,15000,13,Fabián rio negro
-VBHN-01,V Blindado VTBS-01/VBRM-04/VBRM-01/Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/SMART 20/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30/SAM A57M,2000,15000,14,Fabián rio negro
+VBHN-01,V Blindado VTBS-01/VBRM-04/VBRM-01/Honor X7B/X7B 5G/X7C/X5C/PLAY 8T/90 SMART/SMART 20/200 SMART/SPARK 10 PRO/MOTO G75/INFINIX note 30/SAM A57M,2000,15000,13,Fabián rio negro
 VBHN-02,V Blindado Infinix SMART 9/SPARK GO 1/INF SPARK 30C/TEC POP 9/INF HOT 50/HOT 50i/HOT 50 PRO/MOTO G15,2000,15000,14,Fabián rio negro
 VBHN-03.INFINIX,V Blindado Infinix Zero 8/Hot 11S/Camon 17 Pro/17 p/Camon 18P/Camon 18/Camon 19/Camon 19 Pro/19 Neo/Spark 10 Pro/Spark 20 Pro/Pova 5/5 Pro/Infinix Note 30/Note 30 Pro/Hot 30,2000,15000,20,Fabián rio negro
 VBHN-03.TECNO,V Blindado TECNO Camon 17 Pro/17 p/Camon 18P/Camon 18/Camon 19/Camon 19 Pro/19 Neo/Spark 10 Pro/Spark 20 Pro/Pova 5/5 Pro/,2000,15000,19,Fabián rio negro
@@ -1466,7 +1466,7 @@ AUD-13,Audifonos tipo c-c Batri,15000,30000,3,La rana
 AUD-14,Audifonos TC-TC VP,10000,24000,8,Volt Pro
 AUD-15,Audifonos jack 3.5 Harvic,5000,15000,6,Leonardo
 AUD-16,Audifonos TC Harvic,5800,15000,8,Leonardo
-AUD-17,Audifonos VML-701 Jack 3.5,5200,12000,10,Volt Pro
+AUD-17,Audifonos VML-701 Jack 3.5,5200,12000,9,Volt Pro
 BZ-01,Brazalete de reloj,17000,30000,7,nulo
 CMT-01,Camiseta tela fria,33000,52000,12,alberto armenia
 CMT-02,Camiseta algodon economica,23000,39000,4,alberto armenia
@@ -1601,7 +1601,7 @@ AS-02,Protector de cargador samsung 25W,5500,18000,14,Fabián rio negro
 AS-03,Protector de ipods 2da generacion,5500,15000,7,Fabián rio negro
 AS-04,Protector de ipods 3ra generacion,5500,15000,7,Fabián rio negro
 AS-05,Protector de ipods 4ta generacion,5500,15000,7,Fabián rio negro
-PLT-01,Netflix pantalla,17000,17000,72,Anduell Play
+PLT-01,Netflix pantalla,17000,17000,70,Anduell Play
 PLT-02,Disney pantalla,15000,15000,95,Anduell Play
 CEL-01,Celular Motrola G52,140000,380000,0,Anduell Play
 FPD-217,funda de lujo AG-GLASS IP 13,18000,37000,1,Anduell Play
