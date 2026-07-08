@@ -15,7 +15,7 @@ GO-13,Gorra Tommy y chicago,25000,50000,1,Caps Store
 GO-14,Gorra estampado niño económica,7000,15000,6,Nicolas Diablillo
 GO-15,Gorra agropecuario niño,16000,32000,0,Caps Store
 GO-16,Gorra estampado anime niño,20000,32000,0,Caps Store
-GO-17,Gorra económica solo fondo,6500,15000,12,Nicolas Diablillo
+GO-17,Gorra económica solo fondo,6500,15000,11,Nicolas Diablillo
 GO-22,Gorra solo fondo buena,9000,20000,0,Nicolas Diablillo
 GO-143,Gorra marcas economica,9000,20000,5,Nicolas Diablillo
 GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
@@ -27,7 +27,7 @@ GO-24,Gorra Houston,34000,60000,1,Caps Store
 GO-25,Gorra Raiders,25000,50000,1,Caps Store
 GO-26,Gorra Supreme tubular,34000,60000,0,Caps Store
 GO-91,Gorra Supreme,30000,50000,4,Caps Store
-GO-27,Gorra Los Angeles normal,25000,50000,5,Caps Store
+GO-27,Gorra Los Angeles normal,25000,50000,4,Caps Store
 GO-28,Gorra Detroit,26000,48000,0,Caps Store
 GO-29,Gorra Colorado,26000,48000,1,Caps Store
 GO-30,Gorra Boston Red Sox normal,26000,50000,6,Caps Store
@@ -51,11 +51,11 @@ GO-47,Gorra Padres San Diego,27000,50000,0,Caps Store
 GO-48,Gorra Arizona,27000,48000,0,Caps Store
 GO-49,Gorra Dodgers,27000,50000,0,Caps Store
 GO-50,Gorra Dsquared,27000,50000,2,Caps Store
-GO-51,Gorra Adidas,25000,50000,2,Caps Store
+GO-51,Gorra Adidas,25000,50000,1,Caps Store
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
 GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
 GO-54,Gorra ,32000,55000,0,Caps Store
-GO-55,Gorra Coach normal,25000,49000,5,Caps Store
+GO-55,Gorra Coach normal,25000,49000,3,Caps Store
 GO-90,Gorra ,29000,50000,0,Caps Store
 GO-56,Gorra Fendi,27000,50000,2,Caps Store
 GO-57,Gorra Amiri nacional,25000,50000,1,Caps Store
@@ -81,7 +81,7 @@ GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica religiosa,27000,55000,2,Caps Store
 GO-78,Gorra monastery,27000,50000,5,Caps Store
 GO-79,Gorra westcol,30000,55000,6,Caps Store
-GO-80,Gorra Blessd,35000,60000,18,Caps Store
+GO-80,Gorra Blessd,35000,60000,16,Caps Store
 GO-81,Gorra clemont,25000,50000,1,Caps Store
 GO-82,Gorra Hugo BOS cobra,25000,50000,5,Caps Store
 GO-83,Gorra Hugo BOSS Golden,25000,50000,4,Caps Store
@@ -108,12 +108,12 @@ GO-105,Gorra marca economica,20000,35000,5,Caps Store
 GO-106,Gorra chicago bull,25000,50000,7,Caps Store
 GO-107,Gorra religiosa,35000,60000,2,Caps Store
 GO-108,Gorra flex fit,18000,35000,2,Caps Store
-GO-109,Gorra de colombia,28000,55000,26,Caps Store
+GO-109,Gorra de colombia,28000,55000,24,Caps Store
 GO-110,Gorra Lakers tubular,29000,60000,0,Caps Store
 GO-111,Gorra Boston normal,24000,50000,0,Caps Store
 GO-112,Gorra Hugo piedritas,20000,45000,1,Caps Store
 GO-113,Gorra Yankees tubular,30000,60000,2,Caps Store
-GO-114,Gorra Chicago White Sox tubular,30000,60000,8,Caps Store
+GO-114,Gorra Chicago White Sox tubular,30000,60000,7,Caps Store
 GO-115,Gorra Detroits Tubular,30000,60000,1,Caps Store
 GO-116,Gorra Pablo escobar belica,32000,60000,0,Caps Store
 GO-117,Gorra cruz pequeña con gamusa,26000,50000,0,Caps Store
@@ -123,7 +123,7 @@ GO-120,Gorra Chevrolet,20000,37000,2,Caps Store
 GO-121,Gorra basica jean y textura,20000,37000,2,Caps Store
 GO-122,Gorra Athletics tubular,30000,60000,1,Caps Store
 GO-123,Gorra American Exchange,26000,50000,0,Caps Store
-GO-124,Gorra Jordan,25000,48000,4,Caps Store
+GO-124,Gorra Jordan,25000,48000,3,Caps Store
 GO-125,Gorra Orioles,26000,48000,1,Caps Store
 GO-126,Gorra Nacional,18000,35000,3,Caps Store
 GO-127,Gorra HellStar,25000,48000,1,Caps Store
@@ -154,7 +154,7 @@ GO-152,Gorra Amiri Piedras,30000,60000,0,World Caps
 GO-153,Gorra de niños dibujos,18000,32000,5,World Caps
 GO-154,Gorra Religiosa economica,26000,50000,1,World Caps
 GO-155,Gorra Hugo Boss importada,28000,55000,1,World Caps
-GO-156,Gorra Hugo Boss modelos estandar,27000,50000,17,World Caps
+GO-156,Gorra Hugo Boss modelos estandar,27000,50000,16,World Caps
 GO-157,Gorra Amiri importada,28000,55000,2,World Caps
 GO-158,Gorra Diesel,28000,55000,3,World Caps
 GO-159,Gorra Tubular Los angeles importada,35000,70000,1,World Caps
@@ -167,11 +167,11 @@ GO-164,Gorra marcas finas economica,20000,45000,1,World Caps
 GO-165,Gorra Calvin Klein,25000,50000,1,World Caps
 GO-166,Gorra alo,25000,50000,1,World Caps
 GO-167,Gorra tubular Angeles caidos,40000,78000,2,World Caps
-GO-168,Gorra Undergold,28000,55000,6,Caps Store
+GO-168,Gorra Undergold,28000,55000,5,Caps Store
 GO-169,Gorra Canserbero,28000,50000,2,Caps Store
 GO-170,Gorra Los Angeles mallada,25000,48000,3,Caps Store
 GO-171,Gorra Hugo Boss Codigos,25000,50000,4,Caps Store
-GO-172,Gorra Pantera Rosa,28000,55000,4,Caps Store
+GO-172,Gorra Pantera Rosa,28000,55000,2,Caps Store
 VA-01,Vidrio TB iPhone 16 PM,25000,48000,5,Nulo
 FA-1,Forro iPhone 16 PM,12000,28000,0,Nulo
 FA-2,Forro iPhone 16 PM,17000,30000,4,Nulo
@@ -200,17 +200,17 @@ IP-24,Forro iPhone 15 Silicona,5500,15000,10,Nulo
 IP-25,Forro iPhone 15 Pro Silicona,5500,15000,17,Nulo
 IP-26,Forro iPhone 15 Pro Max Silicona,5500,15000,9,Nulo
 IP-27,Forro iPhone 13/14 Silicona,5500,15000,17,Nulo
-IP-28,Forro iPhone 14 Pro Silicona,5500,15000,14,Nulo
+IP-28,Forro iPhone 14 Pro Silicona,5500,15000,13,Nulo
 IP-29,Forro iPhone 14 Pro Max Silicona,5500,15000,19,Nulo
 IP-30,Forro iPhone 13 Pro Silicona,5500,15000,13,Nulo
 IP-31,Forro iPhone 13 Pro Max Silicona,5500,15000,3,Nulo
 IP-32,Forro iPhone 13 Mini Silicona,5500,15000,4,Nulo
 IP-33,Forro iPhone 12/12 Pro Silicona,5500,15000,10,Nulo
 IP-34,Forro iPhone 12 Pro Max Silicona,5500,15000,7,Nulo
-IP-35,Forro iPhone XR Silicona,5500,15000,7,Nulo
+IP-35,Forro iPhone XR Silicona,5500,15000,6,Nulo
 IP-36,Forro iPhone XS Max Silicona,5500,15000,16,Nulo
 IP-37,Forro iPhone 11 Silicona,5500,15000,7,Nulo
-IP-38,Forro iPhone 11 Pro Silicona,5500,15000,19,Nulo
+IP-38,Forro iPhone 11 Pro Silicona,5500,15000,18,Nulo
 IP-39,Forro iPhone 7 plus/8 plus Silicona,5500,15000,10,Nulo
 IP-40,Forro iPhone X/XS Silicona,5500,15000,4,Nulo
 IP-41,Forro iPhone 12 Pro Silicona,5500,15000,6,Nulo
@@ -271,7 +271,7 @@ LNIS-26,Locion TEAM BLUE - Polo Blue by Ralph Lauren,10800,24900,4,Daniel Maniza
 LNIS-27,Locion TEAM SPORT - Polo Sport by Ralph Lauren,10800,24900,4,Daniel Manizales
 LNIS-28,Locion LOCK - Armani Code by Giorgio Armani,10800,24900,1,Daniel Manizales
 LNIS-29,Locion HOT BLACK  - Armani Code by Giorgio Armani,10800,24900,0,Daniel Manizales
-LNIS-30,Locion ACE - Ferrari Black by Ferrari,10800,24900,3,Daniel Manizales
+LNIS-30,Locion ACE - Ferrari Black by Ferrari,10800,24900,2,Daniel Manizales
 LNIS-31,Locion SILVER STYLE - 212 Men by CH,10800,24900,1,Daniel Manizales
 LNIS-32,Locion NICO - Black XS by Paco Rabanne,10800,24900,7,Daniel Manizales
 LNIS-33,Locion SPICE UP - Creed Silver by Aventus,10800,24900,0,Daniel Manizales
@@ -309,15 +309,15 @@ CMS-02,Camiseta Undergold,40000,65000,26,Gonzalo
 CMS-03,Camiseta Faze III, 40000,69000,1,zona chic
 CMS-04,Camiseta Blessed, 35000,59000,0,zona chic
 CMS-05,Camiseta Company, 40000,69000,0,zona chic
-CMS-06,Camisetas tela Catar en Clemont - Undergold - Jordan,38000,65000,10,Tributo
+CMS-06,Camisetas tela Catar en Clemont - Undergold - Jordan,38000,65000,9,Tributo
 CMS-07,Camiseta Kllejeros,35000,65000,1,zona chic
-CMS-08,Camiseta colombia encauchetada 1.1,38000,65000,19,Alberto Armenia
+CMS-08,Camiseta colombia encauchetada 1.1,38000,65000,12,Alberto Armenia
 CMS-09,Camiseta Tela fria multimarcas,30000,52000,8,Alberto Armenia
 CMS-10,Camiseta Tela grabados,31000,55000,11,Alberto Armenia
 CMS-11,Camiseta colombia nacional bordada,38000,55000,0,Alberto Armenia
-CMS-12,Camiseta Colombia Retro 1991,36000,72000,15,Duber
-CMS-13,Camiseta Colombia Beish 1.1,36000,99000,6,Duber
-CMS-14,Camiseta Colombia nacional Beish,28000,48000,2,Duber
+CMS-12,Camiseta Colombia Retro 1991,36000,72000,6,Duber
+CMS-13,Camiseta Colombia Beish 1.1,36000,99000,8,Duber
+CMS-14,Camiseta Colombia nacional Beish,28000,48000,1,Duber
 CG-01,Canguros Classic,13000,22000,0,zona chic
 CG-02,Canguros Cat,15000,27000,0,Nicolas
 CG-03,Canguro de tela en marcas,15000,32000,4,Albeiro
@@ -326,13 +326,13 @@ PR-01,Piernero,16000,35000,0,zona chic
 CRA-01,Carriel hombre Marcas economico,15000,27000,17,zona chic 
 CRA-02,Carriel hombre Marcas,39000,62000,1,zona chic
 CRA-03,Carriel AAA hombre marcas,50000,85000,0,zona chic 
-CRA-04,Carriel clasico pequeño multimarcas,32000,60900,3,Vesc Bolsos
+CRA-04,Carriel clasico pequeño multimarcas,32000,60900,2,Vesc Bolsos
 CRA-05,Carriel Top Quality,55000,92000,8,Caps Store
 CRA-06,Carriel multimarcas,25000,45000,6,Caps Store
-CRA-07,Carriel ancho multimarcas,37000,70900,15,Vesc Bolsos
-CRA-08,Carriel multimarcas cuerina,23000,46000,1,Albeiro
+CRA-07,Carriel ancho multimarcas,37000,70900,14,Vesc Bolsos
+CRA-08,Carriel multimarcas cuerina,23000,46000,0,Albeiro
 CRA-09,Carriel Sprayground,30000,65000,2,Vesc Bolsos
-CRA-10,Canguros AAA multimarcas,30000,60000,4,Vesc Bolsos
+CRA-10,Canguros AAA multimarcas,30000,60000,3,Vesc Bolsos
 BA-01,Bolso amelie blanco,30000,58000,0,zona chic 
 BD-01,Bolso denis azul,55000,95000,1,zona chic
 CRD-01,Carriel dama marcas,23000,45000,6,zona chiS
@@ -345,7 +345,7 @@ CDC-06,Correa sintetica,10000,17000,0,zona chic
 CDC-07,Correa sintetica marcas,10000,18000,0,zona chic
 CDC-08,Correa sintetica taches larga,11000,25000,2,Albeiro Marroquineria
 CDC-09,Correa sintetica taches corta,10000,23000,3,Albeiro Marroquineria
-CDC-10,Correa sintetica hombre chapa marcas AAA,16000,30000,12,Albeiro Marroquineria
+CDC-10,Correa sintetica hombre chapa marcas AAA,16000,30000,10,Albeiro Marroquineria
 CDC-11,Correa sintetica mujer chapa piedras AAA,8000,17000,4,Albeiro Marroquineria
 CDC-12,Correa sintetica mujer sencilla,5500,13000,1,Albeiro Marroquineria
 CDC-13,Correa sintetica doble faz mujer hebilla dorada,8000,15000,1,Albeiro Marroquineria
@@ -356,7 +356,7 @@ CDC-17,Correa de niño en cuero pachos,9000,19000,18,Albeiro Marroquineria
 CDC-18,Correa de hombre en cuero economica,13000,25000,9,Albeiro Marroquineria
 CDC-19,Correa de hombre marcas variadas,16000,30000,7,Albeiro Marroquineria
 CDC-20,Correa de hombre multicolor,7000,18000,8,Albeiro Marroquineria
-BH-01,Billetera cuero hombre marcas estandar,15000,27500,2,Albeiro Marroquineria
+BH-01,Billetera cuero hombre marcas estandar,15000,27500,1,Albeiro Marroquineria
 BH-02,Billetera hombre de lujo,35000,60000,4,Armyn Watches
 BH-03,Billetera dama economica,15000,22000,2,zona chic
 BH-04,Billetera dama moschino,28000,50000,1,nulo
@@ -374,7 +374,7 @@ BH-15,Billetera dama a6000-28,27000,60000,1,Albeiro
 BH-16,Billetera guess negra,27000,60000,1,Albeiromtr
 BH-17,Billetera dama a6000-28,19000,42000,2,Albeiro
 BH-18,Billetera prada negra dama a6000-28,19000,42000,1,Albeiro
-BH-19,Billetera cuero hombre Velez premium,20000,45000,3,Albeiro
+BH-19,Billetera cuero hombre Velez premium,20000,45000,2,Albeiro
 BH-20,Estuche para guardar el celular,000,18000,,Albeiro
 RJ-01,Reloj de lujo economico,35000,60000,5,nulo
 RJ-02,Reloj de lujo, 40000,70000,6,nulo
@@ -403,10 +403,10 @@ RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
 CRJ-01,Caja de reloj,3000,8000,2,nulo
 VP-01,Vaper Priv Bar,18000,32000,5,juan felipe
-VP-02,Vaper Urbar 15k,16000,30000,5,Juan Felipe
+VP-02,Vaper Urbar 15k,16000,30000,3,Juan Felipe
 VP-03,Vaper Snoopy Smoke,16000,32000,0,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
-VP-05,Vaper Death Row 7k,8000,17000,1,Juan Felipe
+VP-05,Vaper Death Row 7k,8000,17000,0,Juan Felipe
 VP-06,Vaper Archer,13000,25000,2,Juan Felipe
 VP-07,Vaper Lost Mary Pequeño,8000,22000,0,Juan Felipe
 VP-08,Vaper Lost Mary Grande,8000,22000,0,Juan Felipe
@@ -415,24 +415,24 @@ VP-10,Vaper South Connect,30000,60000,0,Juan Felipe
 VP-11,Vaper MTRX 25k,20000,42000,0,Juan Felipe
 VP-12,Vaper Yogurt Bar,90000,15000,0,Juan Felipe
 VP-13,Vaper True Story,15000,32000,0,Juan Felipe
-VP-14,Vaper Viral 9k,12000,25000,4,Juan Felipe
-VP-15,Vaper Moti 7.5k,10000,22000,9,Juan Felipe
+VP-14,Vaper Viral 9k,12000,25000,2,Juan Felipe
+VP-15,Vaper Moti 7.5k,10000,22000,8,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,4,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,14,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
 VP-22,Vaper Airfuz de pantalla,18000,50000,2,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,19,Juan Felipe
-VP-25,Capsula destilado nacional,25000,50000,5,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,14,Juan Felipe
+VP-25,Capsula destilado nacional,25000,50000,4,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
 VP-27,vaper nicky Jam x fume 10k,13000,27000,8,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,0,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,8,Juan Felipe
-VP-31,Vaper Chris Brown 15k,15000,30000,6,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,5,Juan Felipe
+VP-31,Vaper Chris Brown 15k,15000,30000,2,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
@@ -440,7 +440,7 @@ VP-35,Vaper Fruitia 8k,9000,20000,0,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,1,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,2,Juan Felipe
-VP-39,Vaper esencia Chillax,14000,25000,6,Juan Felipe
+VP-39,Vaper esencia Chillax,14000,25000,5,Juan Felipe
 VP-40,Bateria vaper Chillax,3000,10000,7,Juan Felipe
 VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,0,Juan Felipe
 VP-42,Vaper Waka 36k,55000,98500,1,Juan Felipe
@@ -480,8 +480,8 @@ MM-04,Micro memoria 32GB,18000,35000,4,La rana
 MM-05,Micro memoria 64GB,16000,30000,4,La rana
 MM-06,Micro memoria 128GB,29000,67000,4,La rana
 MM-07,Memoria musica,4500,10000,7,nulo
-HDG-01,Hidrogel claro,3200,13000,32,nulo
-HDG-02,Hidrogel mate,3400,15000,29,nulo
+HDG-01,Hidrogel claro,3200,13000,31,nulo
+HDG-02,Hidrogel mate,3400,15000,27,nulo
 HDG-03,Hidrogel antiespias,4800,20000,6,nulo
 HS-01,Audifonos estereo,18000,35000,5,volt pro
 HS-02,Audifonos bose K45,36000,75000,5,volt pro
@@ -574,7 +574,7 @@ SM-06,Funda Samsung A14 Diseños,6000,15000,2,nulo
 SM-07,Funda Samsung A14 Piedritas,10000,20000,0,nulo
 SM-08,Funda Samsung A15 Diseños,6000,15000,1,nulo
 SM-09,Funda Samsung A16 Diseños,6000,15000,4,nulo
-SM-10,Funda Samsung A21s Diseños,6000,15000,5,nulo
+SM-10,Funda Samsung A21s Diseños,6000,15000,4,nulo
 SM-11,Funda Samsung A25 Piedritas,10000,20000,3,nulo
 SM-12,Funda Samsung A32 Piedritas,10000,20000,2,nulo
 SM-13,Funda Samsung A34 Diseños,6000,15000,4,nulo
@@ -604,11 +604,11 @@ RM-10,Funda Redmi Note 14 Pro/Note 14 Pro Plus Diseños,10000,15000,4,nulo
 RM-11,Funda Redmi 14C Diseños,10000,18000,6,nulo
 RM-12,Funda Redmi 14C Diseños,6000,15000,4,nulo
 RM-13,Funda Redmi Note 13 Pro+ Diseños,10000,17000,8,nulo
-RM-14,Funda Redmi Note 13 Pro Antichoque,12000,20000,4,nulo
+RM-14,Funda Redmi Note 13 Pro Antichoque,12000,20000,3,nulo
 RM-15,Funda Redmi Note 13 Pro Plus Piedritas,10000,20000,4,nulo
 RM-16,Funda Redmi Note 13 Antichoque,12000,25000,6,nulo
-RM-17,Funda Redmi Note 13 Piedritas,10000,20000,2,nulo
-RM-18,Funda Redmi 13C Diseños,6000,15000,7,nulo
+RM-17,Funda Redmi Note 13 Piedritas,10000,20000,1,nulo
+RM-18,Funda Redmi 13C Diseños,6000,15000,6,nulo
 RM-19,Funda Redmi 10 Diseños,6000,15000,2,nulo
 RM-20,Funda Redmi 10 Antichoque,12000,15000,1,nulo
 LG-01,Funda de silicona LG-K61,4500,15000,1,nulo
@@ -718,7 +718,7 @@ RM-38,Funda transparente Redmi 14C,4500,15000,12,nulo
 RM-39,Funda transparente Redmi Note 14,4500,15000,0,nulo
 RM-40,Funda transparente Redmi Note 14 Pro 4G/5G,4500,15000,5,nulo
 RM-41,Funda transparente Redmi Note 14 4G,4500,15000,9,nulo
-RM-42,Funda transparente Redmi 15C,4500,15000,4,nulo
+RM-42,Funda transparente Redmi 15C,4500,15000,3,nulo
 HR-01,Funda transparente Honor X6A,4500,15000,6,nulo
 HR-02,Funda transparente Honor X7B,4500,15000,4,nulo
 HR-03,Funda transparente Honor X8A,4500,15000,5,nulo
@@ -829,7 +829,7 @@ SMA-01,Funda Samsung antichoque A37,4500,25000,11,Leonardo
 SMA-02,Funda Samsung antichoque A57,4500,25000,3,Leonardo
 RMA-01,Funda Redmi antichoque RM Note 14 Pro+,4500,25000,12,Leonardo
 RMA-02,Funda Redmi antichoque RM Note 15 Pro+,4500,25000,12,Leonardo
-RMD-01,Funda Redmi Diseños RM 15C,3500,15000,10,Leonardo
+RMD-01,Funda Redmi Diseños RM 15C,3500,15000,9,Leonardo
 RMD-02,Funda Redmi Diseños RM Note 15,3500,15000,10,Leonardo
 RMD-03,Funda Redmi Diseños RM Note 15 Pro+,3500,15000,10,Leonardo
 RMD-04,Funda Redmi Diseños RM Note 15 Pro+ 5g,4800,18000,5,Leonardo
@@ -850,7 +850,7 @@ TS-11,Funda silicona Tecno Spark 30 pro,6500,15000,5,nulo
 TS-12,Funda silicona Tecno Spark 40,9500,15000,5,nulo
 TS-13,Funda silicona Tecno Spark 40C,9500,15000,6,nulo
 TS-14,Funda silicona Tecno Spark GO 1/GO 2025,5500,15000,4,nulo
-AE-01,Cable Apple TC - LGT,4500,20000,9,Diamond Tech
+AE-01,Cable Apple TC - LGT,4500,20000,7,Diamond Tech
 AE-02,Cable Apple tipo USB - LGT,4500,18000,18,Apple
 AE-03,Cable Apple TC - TC,8500,20000,10,Apple
 AE-04,Cargador Apple Watch,19000,40000,5,Apple
@@ -870,7 +870,7 @@ AE-15,VP Cable USB - C 4A economico,2500,6000,3,Volt pro
 AE-16,VP Cable USB - B 4A fino,3000,10000,7,Volt pro 
 AE-17,VP Cable USB - B 4A economico,2000,6000,5,Volt pro 
 AE-18,VP Cargador + Cable USB - B,6000,15000,27,Volt pro 
-AE-19,VP Cargador completo TC 5A 25W,9200,24000,5,Volt pro 
+AE-19,VP Cargador completo TC 5A 25W,9200,24000,4,Volt pro 
 AE-20,VP Cargador completo TV 4A 25W,9000,24000,12,Volt pro 
 AE-21,VP Cargador completo USB - LGT ,14000,26000,11,Volt pro 
 AE-22,VP Cargador completo TV 6A,14000,26000,8,Volt pro 
@@ -889,7 +889,7 @@ AE-64,VP Cargador economico TC 3.1A 5w,6700,15000,16,Volt pro
 AE-66,VP Cargador economico  TV 3.1A 5w,6200,15000,16,Volt pro 
 AE-34,bx Cargador economico bemax tipo c de bolsa,2500,6000,7,nulo
 AE-37,SM Cabeza tipo C original 45W,50000,75000,4,Fabian Rio negro
-AE-36,SM Cargador + Cable 45W tipo C-C,15000,45000,6,nulo
+AE-36,SM Cargador + Cable 45W tipo C-C,15000,45000,5,nulo
 AE-38,PS Cable tipo USB-C 3A economico,3000,6500,8,CeluRana
 AE-39,PS Cable tipo USB-C 5A fino,5000,6500,3,CeluRana
 AE-40,PS USB metalica 4GB,5000,18000,2,CeluRana
@@ -934,14 +934,14 @@ GF-05,Gafas Ray Ban Cuadradas,13000,25000,3,Armyn Watches
 GF-06,Gafas Off White,30000,45000,1,Armyn Watches
 GF-07,Gafas Versace,30000,45000,0,Armyn Watches
 GF-08,Gafas Chanel,29000,49000,3,Armyn Watches
-GF-09,Gafas Cartier,28000,47000,3,Armyn Watches
+GF-09,Gafas Cartier,28000,47000,2,Armyn Watches
 GF-10,Gafas Motocros,28000,15000,2,Armyn Watches
 GF-11,Gafas SEVEN sport,19000,35000,5,Armyn Watches
 GF-12,Gafas Ciclismo Prada,26000,45000,0,Armyn Watches
 GF-13,Gafas Ciclismo SVCCN,26000,45000,1,Armyn Watches
 GF-14,Gafas Prizm,25000,45000,1,Armyn Watches
 GF-15,Gafas Okley Ciclismo,25000,45000,0,Armyn Watches
-GF-16,Gafas 100% Sport,19000,35000,8,Armyn Watches
+GF-16,Gafas 100% Sport,19000,35000,7,Armyn Watches
 GF-17,Gafas POC,15000,30000,0,Armyn Watches
 GF-18,Gafas Okley Juliet Blancas,21000,35000,2,Armyn Watches
 GF-19,Gafas Cartier Cuadra,25000,45000,0,Armyn Watches
@@ -965,7 +965,7 @@ GF-36,Gafas cartier lente curvo,27000,45000,0,Armyn Watches
 GF-37,Gafas cartier 6 puntas,24000,45000,1,Armyn Watches
 GF-38,Gafas Prada cromadas,20000,42000,1,Armyn Watches
 GF-39,Gafas Fendi ovaladas,27000,45000,1,Armyn Watches
-GF-40,Gafas Oakley sport,19000,35000,5,Armyn Watches
+GF-40,Gafas Oakley sport,19000,35000,3,Armyn Watches
 GF-41,Gafas Okley Juliet variadas,20000,37000,7,Armyn Watches
 GF-42,Gafas lacoste metalica polarizadas,20000,40000,0,Armyn Watches
 GF-43,Gafas Oakley ferxxo,19000,35000,5,Armyn Watches
@@ -980,7 +980,7 @@ GF-51,Gafas Oakley Juliet OK7500,22000,42000,4,Armyn Watches
 GF-52,Gafas Horiem,14000,25000,4,Armyn Watches
 GF-53,Gafas Rayban transparentes,18000,32000,3,Armyn Watches
 RM-411,Funda silicona Redmi A1,4500,15000,0,nulo
-RM-42,Funda silicona Redmi 9A,4500,15000,0,nulo
+RM-42,Funda silicona Redmi 9A,4500,15000,-1,nulo
 RM-43,Funda silicona Redmi A3,5000,15000,6,nulo
 RM-44,Funda silicona Redmi A5,8500,15000,0,nulo
 RM-45,Funda silicona Redmi 8,4500,15000,9,nulo
@@ -1017,6 +1017,8 @@ RM-75,Funda silicona Redmi 15,4500,15000,3,nulo
 RM-76,Funda diseño Redmi A3 juanpa,5000,15000,7,nulo
 RM-77,Funda transparente Redmi A3,5000,15000,2,nulo
 RM-78,Funda diseño Case Go Redmi Note 15,5000,15000,2,nulo
+RM-79,Funda diseño antichoque Redmi 12,6000,20000,3,nulo
+RM-80,Funda diseño Redmi A5,4000,15000,4,Leonardo
 HW-01,Funda silicona Huawei Nova 6 SE P49 Lite,4500,15000,7,nulo
 HW-02,Funda silicona Huawei Y5p,4500,15000,10,nulo
 HW-03,Funda silicona Huawei P30 Lite,5000,15000,2,nulo
@@ -1025,7 +1027,7 @@ HW-05,Funda silicona Huawei Y9 Prime 2019,4500,15000,1,nulo
 HW-06,Funda silicona Huawei Y9 Prime,4500,15000,4,nulo
 HW-07,Funda silicona Huawei Y90,4500,15000,9,nulo
 HW-08,Funda silicona Huawei Nova 9,5500,15000,4,nulo
-HW-09,Funda transparente Huawei Y9 Prime,4500,15000,6,nulo
+HW-09,Funda transparente Huawei Y9 Prime,4500,15000,5,nulo
 EX-01,Electrodomésticos Parlante cmki 1406,60000,120000,3,nulo
 EX-02,Electrodomésticos Cmki-410,50000,90000,4,nulo
 EX-03,Electrodomésticos Cmki-162,26000,60000,2,nulo
@@ -1074,12 +1076,12 @@ EX-48,Electrodomésticos 24*6,58000,110000,4,nulo
 EX-49,Electrodomésticos Onn,90000,140000,1,nulo
 EX-50,Electrodomésticos Juego Arcade,22000,45000,4,nulo
 EX-51,Convertidor de cabeza,2000,6000,14,nulo
-EX-52,Dedales para jugar,2000,7000,6,nulo
+EX-52,Dedales para jugar,2000,7000,5,nulo
 MOS-01,Mouse w83,11000,25000,0,Leonardo
 MOS-02,Mouse mc02 game,18000,36000,1,Leonardo
 MOS-03,Mouse harvic,14000,27000,2,Leonardo
 MOS-04,Mouse BMX economico,4500,12000,2,Leonardo
-MOS-05,Mouse harvic led,8500,18000,2,Leonardo
+MOS-05,Mouse harvic led,8500,18000,1,Leonardo
 DMS-01,Diademas P9 replica apple,18000,45000,8,Leonardo
 BL-01,Bolso amelie cuero,30000,60000,1,zona chic
 BL-02,Bolso cuero plateado,38000,60000,0,zona chic
@@ -1122,11 +1124,11 @@ MD-04,Medias dama multimarcas,4500,9000,17,Caps Store
 MD-05,Medias hombre multimarcas 3/4,6500,15000,15,Caps Store
 CPS-01,Compass brujula,9000,15000,3,nulo
 JN-01,Pantalon cargo marca callejeros,67000,99000,6,alberto armenih
-CT-01,Cable transformers tipo C,7700,25000,13,nulo
+CT-01,Cable transformers tipo C,7700,25000,12,nulo
 VTG-01.REALME,5/5I/6IGLOBAL/5S/C20/C20A/C21/C3/C3I/C11/C12/C15/C25S/C25/C112021/C30S/C33/C332023/9I5G/105G/10S/10T/V3/V23/V115G/Q21/NARZO30A/10/10A/20/20A,2000,15000,94,nulo
 VTG-01.MOTO,E13/E22/E30/E40/E20/G10/E20/E22i/G Pure,2000,15000,92,nulo
 VTG-01.OPPO,A15/A15S/A16/A31/A9 2020/A5 2020/A53S 5G/K10 5G/A17/A17K/A18/A77S/A97/A57S/A57E/A58 5G/A58X/A59 5G/A78 5G/A1X/A2X/OP A38,2000,15000,94,nulo
-VTG-01.VIVO,VIVOY53S/Y51/Y22/Y22S/Y18/Y18i/Y18E/Y285G/Y28S/Y02/Y02S/Y02T/Y03/Y35/Y361/Y77E/Y77E(11)/Y16/Y75S/Y73T/Y52T/512020/Y52S/Y12S/Y31S/Y312021/Y20/Y201/Y20G/Y305G/Y72/Y72T5G/Y32/Y21A/21E/Y112023/Y02A/1Q00Z6/Z6LITE5G/Z35G/U35G/U5G/U5X/Z7I,2000,15000,85,nulo
+VTG-01.VIVO,VIVOY53S/Y51/Y22/Y22S/Y18/Y18i/Y18E/Y285G/Y28S/Y02/Y02S/Y02T/Y03/Y35/Y361/Y77E/Y77E(11)/Y16/Y75S/Y73T/Y52T/512020/Y52S/Y12S/Y31S/Y312021/Y20/Y201/Y20G/Y305G/Y72/Y72T5G/Y32/Y21A/21E/Y112023/Y02A/1Q00Z6/Z6LITE5G/Z35G/U35G/U5G/U5X/Z7I,2000,15000,84,nulo
 VTG-01.SAMSUNG,A02/A02S/A03/A3S/A03CORE/134G/A135G/A21s/A234G/A235G/F235G/M13/M135G/M13INDIA/M23/M325G/M335G/3CORE/A04/A04S/A04E/A04CORE/M02S/F02S/M12/A02/M02/A325G/A12/A12Nacho/F12/F13/F04/M04,2000,15000,70,nulo
 VTG-01.REDMI,10A/9C/11PRIME/11PRIME5G/A12022/A1+/A2/A2+/NOTE11R,2000,15000,92,nulo
 VTG-01.POCO,POCOM5/M5INDIA/1+NORDN20SE/1+NORDN30/0/WIKOT10,2000,15000,98,nulo
@@ -1139,12 +1141,12 @@ VTG-03.SAMSUNG,Vidrio blindado A25/A51/A52S/A52 5G/M31S/A53/S20 LITE/S20 FE/A6 P
 VTG-03.REDMI,Vidrio blindado 14T PRO/Redmi NOTE 10/NOTE 10S/11 LITE/NOTE 11S/NOTE 11 GLOBAL/REDMI 13 PRO/POCO M4 PRO/NOTE 12S/POCO M5S/14T,2000,15000,13,Fabián rio negro
 VTG-03.HUAWEI,Vidrio blindado Y9 2019,2000,15000,36,Fabián rio negro
 VTG-03.MOTOROLA,Vidrio blindado G84/G52,2000,15000,33,Fabián rio negro
-VTG-03.OPPO,Vidrio blindado Reno 5 lite/Reno 7/Reno 14 5G/,2000,15000,34,Fabián rio negro
+VTG-03.OPPO,Vidrio blindado Reno 5 lite/Reno 7/Reno 14 5G/,2000,15000,33,Fabián rio negro
 VTG-03.HONOR,Vidrio blindado HNR X8B/400 lite,2000,15000,35,Fabián rio negro
 VTG-03.REALME,Vidrio blindado GT 5G/,2000,15000,34,Fabián rio negro
 VTG-03.VIVO,Vidrio blindado Y30i/,2000,15000,34,Fabián rio negro
 VTG-02.POCO, F3 GT/F4 GT/K40 Gaming/K50 Gaming/X5 Pro/F5/M6 Pro/X6 Neo/X6 PRO,2000,15000,34,Fabián rio negro
-VTG-02.REDMI,Note 12 pro 5g/Note 12 pro+/Note 12 Explorer/Note 12 Discovery/Note 12 Turbo/Note 12 China/Note 13 Pro 4G/Note 13R Pro/Note 13 Pro+ 5G/,2000,15000,92,nulo
+VTG-02.REDMI,Note 12 pro 5g/Note 12 pro+/Note 12 Explorer/Note 12 Discovery/Note 12 Turbo/Note 12 China/Note 13 Pro 4G/Note 13R Pro/Note 13 Pro+ 5G/,2000,15000,91,nulo
 VTG-02.INFINIX, NOTE 30 PRO/NOTE 30 VIP/GT 10 PRO/SMART 8 ,2000,15000,36,Fabián rio negro
 VTG-02.OPPO,A5 PRO 5G/A5 5G/A80,2000,15000,88,nulo
 VTG-02.REALME,C71,2000,15000,98,nulo
@@ -1172,7 +1174,7 @@ VTG-06.MOTO,MOTO G04/G22/G24 Power/E32/E32 india/E32S,2000,15000,24,Fabián rio 
 VTB-01,V Blindado iPhone 16 pro max/17 pro max,2000,15000,15,Fabián rio negro 
 VTB-02,V Blindado iPhone 15 pro max,2000,15000,38,Fabián rio negro 
 VTB-03,V Blindado iPhone 14 pro max/14 Plus/15 Plus,2000,15000,23,Fabián rio negro
-VTB-04,V Blindado iPhone 14 Pro,2000,15000,31,Fabián rio negro 
+VTB-04,V Blindado iPhone 14 Pro,2000,15000,30,Fabián rio negro 
 VTB-05,V Blindado iPhone 15 pro,2000,15000,19,Fabián rio negro 
 VTB-06,V Blindado iPhone 13/13 pro/14/16E/16 SE/15 Pro/SM S23,2000,15000,0,Fabián rio negro
 VTB-07,V Blindado iPhone 13 mini,2000,15000,5,Fabián rio negro 
@@ -1191,7 +1193,7 @@ VTB-15.TECNO,V Blindado Spark 20C,2000,15000,12,Fabián rio negro
 VTB-16.TECNO,V Blindado TECNO CAMON 16/CAMON 16 pro/SPARK 6/POVA 6,2000,15000,30,Fabián rio negro
 VTB-16.INFINIX,V Blindado INFINIX hot 10/hot 12/hot 12 play/note 8i/x683/hot 20 play/hot 12 play nfc/pova neo 2/note 12i/hot 20/pova/pova 4/hot 30 play,2000,15000,30,Fabián rio negro
 VTB-16.MOTOROLA,V Blindado MOTO G60/MT G40 FUSION/MT G40/MT G51 5G/MT G60S,2000,15000,29,Fabián rio negro
-VTB-17,V Blindado iPhone 13 Pro max/iPhone 14 Plus/redmi 15t,2000,15000,42,Fabián rio negro
+VTB-17,V Blindado iPhone 13 Pro max/iPhone 14 Plus/redmi 15t,2000,15000,40,Fabián rio negro
 VTB-18,V Blindado iPhone 15/16/S23,2000,15000,36,Fabián rio negro
 VTB-19,V Blindado iPhone 16 Pro/17 Pro,2000,15000,25,Fabián rio negro
 VTB-20,V Blindado iPhone 17 Air,2000,15000,10,Fabián rio negro
@@ -1202,7 +1204,7 @@ VTE-01,V Economico iPhone 6/7/8,1500,10000,2,Fabián rio negro
 VTE-02,V Economico iPhone 12/12 pro,1500,10000,5,Fabián rio negro
 VTE-03,V Economico iPhone 14 pro max,1500,10000,3,Fabián rio negro
 VTE-04,V Economico iPhone 15,1500,10000,3,Fabián rio negro
-VTBS-01.SAMSUNG,Vidrio SAM A05/A05S/A06/A06S/A07,2000,15000,39,Fabián rio negro
+VTBS-01.SAMSUNG,Vidrio SAM A05/A05S/A06/A06S/A07,2000,15000,38,Fabián rio negro
 VTBS-01.REDMI,Vidrio RMI 13C / 13C 5G / NOTE 13R / NOTE 60,2000,15000,3,Fabián rio negro
 VTBS-01.REALME,Vidrio RME C63/C61/NOTE 50/C51/C51 4G/C53/NARZON 53/NOTE 60X,2000,15000,7,Fabián rio negro
 VTBS-01.VIVO,Vidrio VI Y29S/Y04,2000,15000,7,Fabián rio negro
@@ -1218,7 +1220,7 @@ VTBS-02.G9 PLAY,V Blindado Moto G9 PLAY/G50/G10/G10 POWER/G30/E7/E7 POWER/E7 PLU
 VTBS-03,V Blindado Samsung A15/A24/A25/A31/M15/F15/A34/M15 5G/M34 5G/F15 5G/F34,2000,15000,21,Fabián rio negro
 VTBS-04,V Blindado Samsung M31/F41/A20/A30/A50/A30S/A50S/M30/M30S/M21/M31 prime/M21S/M21 2021/M10S/Y6P,2000,15000,18,Fabián rio negro
 VTBS-05,V Blindado Samsung A31/A32/A22 4G/F22/M32/M22/A33,2000,15000,29,Fabián rio negro
-VTBS-06,V Blindado Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,26,Fabián rio negro
+VTBS-06,V Blindado Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,25,Fabián rio negro
 VTBS-07,V Blindado Samsung A70/A70S/M42/M42/,2000,15000,20,Fabián rio negro
 VTBS-08,V Blindado Samsung A54/S23FE,2000,15000,0,Fabián rio negro
 VTBS-09,V Blindado Samsung S25 ULTRA,2000,15000,18,Fabián rio negro
@@ -1367,7 +1369,7 @@ FPD-136,funda diseño animado Iphone 14 pro, 15000, 1, Nulo,
 FPD-137,funda diseño Naruto Iphone 14 pro, 5000, 3, Nulo,
 FPD-138,funda diseño Leather Iphone 14 pro, 12000, 3, Nulo,
 FPD-139,funda diseño Fashion Iphone 14 pro, 17000, 20000,1, Nulo
-FPD-140,funda diseño Pariste Iphone 14 pro, 12000, 30000, 1, Nulo
+FPD-140,funda diseño Pariste Iphone 14 pro, 12000, 30000,0, Nulo
 FPD-141,funda diseño caballo Iphone 14 pro, 9000, 25000, 1, Nulo
 FPD-142,funda diseño geometry Iphone 14 pro, 6000, 1, Nulo,
 FPD-143,funda diseño pasta Iphone 14 pro, 9000, 24000,0, Nulo
@@ -1453,7 +1455,7 @@ VBRM-02,V Blindado INFINIX Hot 30,2000,15000,0,Fabián rio negro
 VBRM-03,V Blindado Redmi 9/N9/9T/10/Y5S/SM A20s/NOTE 8 PRO/OP F11/POCO M3/POCO M2/VIVO Y19,2000,15000,14,Fabián rio negro
 VBRM-04,V Blindado VBRM-01/Redmi 12/12C/13/13 5G/14C 4G/NOTE 12R/NOTE 13R/POCO M6 PRO Y PLUS,2000,15000,13,Fabián rio negro
 VBRM-05,V Blindado Redmi NOTE 8 PRO/OPPO A9/F11/SAM J6 Plus,2000,15000,2,Fabián rio negro
-VBRM-06,V Blindado Redmi 15C/ poco C85,2000,15000,15,Fabián rio negro
+VBRM-06,V Blindado Redmi 15C/ poco C85,2000,15000,14,Fabián rio negro
 VBRM-07,V Blindado Redmi Note 8/VIVO S1/OP F9/REDMI 8/REDMI 8A/VIVO S1 PRO/OP F9 PRO,2000,15000,36,Fabián rio negro
 VBRM-08.REALME,V Blindado Realme 6/ME 6Ss,2000,15000,38,Fabián rio negro
 VBRM-08.OPPO,V Blindado Oppo A52/A72/A92/Reno 2/Reno 2f/Reno 2Z/,2000,15000,15,Fabián rio negro
@@ -1477,7 +1479,7 @@ CAUX-03,Cable auxiliar bananitas,4500,12000,4,nulo
 AUD-01,Audifonos súper bass,8000,20000,2,nulo
 AUD-02,Audifonos EARPHONES,6500,18000,1,nulo
 AUD-03,Audifonos REET,8500,20000,3,nulo
-AUD-04,Audifonos redmi,6000,15000,4,nulo
+AUD-04,Audifonos redmi,6000,15000,3,nulo
 AUD-05,Audifonos stereo,3500,12000,4,nulo
 AUD-06,Audifonos original s8,3800,10000,11,nulo
 AUD-07,Audifonos EarPods tipo lightning y tipo C,18000,35000,0,nulo
@@ -1487,15 +1489,15 @@ AUD-10,Audifonos unilateral volt pro,18000,35000,0,Volt Pro
 AUD-11,Audifonos finos Plus,8500,20000,5,Volt Pro
 AUD-12,Audifonos economicos Plus,4500,12000,7,Volt Pro
 AUD-13,Audifonos tipo c-c Batri,15000,30000,3,La rana
-AUD-14,Audifonos TC-TC VP,10000,24000,8,Volt Pro
-AUD-15,Audifonos jack 3.5 Harvic,5000,15000,6,Leonardo
+AUD-14,Audifonos TC-TC VP,10000,24000,7,Volt Pro
+AUD-15,Audifonos jack 3.5 Harvic,5000,15000,5,Leonardo
 AUD-16,Audifonos TC Harvic,5800,15000,7,Leonardo
 AUD-17,Audifonos VML-701 Jack 3.5,5200,12000,7,Volt Pro
 BZ-01,Brazalete de reloj,17000,30000,7,nulo
 CMT-01,Camiseta tela fria,33000,52000,11,alberto armenia
 CMT-02,Camiseta algodon economica,23000,39000,4,alberto armenia
 CMT-03,Camiseta seda marquilla,23000,39000,12,alberto armenia
-CMT-04,Camiseta tela galleta,32000,55000,1,alberto armenia
+CMT-04,Camiseta tela galleta,32000,55000,0,alberto armenia
 CMT-05,Camiseta Amiri tela fría,33000,58000,1,Gonzalo
 CMT-06,Camisilla malla trap,25000,39000,4,Gonzalo
 BZU-01,Buzo AMIRI - UNDERGOLD,38000,75000,2,Joel
@@ -1518,7 +1520,7 @@ CMRT-08,Camarita lisa IP 16/16 Pro/16 Pro Max/17 Pro Max,900,3000,18,Leonardo
 CMRT-09,Camarita lisa IP 14 Pro Max/15 Pro Max,900,3000,15,Leonardo
 CMRT-10,Camarita lisa IP 13 Pro Max,900,3000,12,Leonardo
 MCRS-01,Protector modulo de cámaras IP 15 Pro Max/15 Pro,7000,15000,11,Leonardo
-SMC-01,Simcard,1000,4000,68,Nulo
+SMC-01,Simcard,1000,4000,64,Nulo
 VPS-01,Bafle VoltPro VP-S02,28000,55000,4,Yovani VoltPro
 VPS-02,Soporte de tablet,20000,40000,4,Yovani VoltPro|
 VPS-03,Power Bank VoltPro 10 000 mAh,32000,58000,2,Yovani VoltPro
@@ -1537,10 +1539,10 @@ DSÑ-04,funda de diseño unicase Redmi 14C,8500,20000,8,Fabian rio negro
 BCT-01,soporte para bicicletas,12000,30000,4,Fabian rio negro
 VTA-01,Vidrio antiespia iPhone 11/XR,3000,15000,20,Fabian rio negro
 VTA-02,Vidrio antiespia iPhone 11 Pro Max/XS Max,3000,15000,3,Fabian rio negro
-VTA-03,Vidrio antiespia iPhone 12/12 Pro,3000,15000,18,Fabian rio negro
+VTA-03,Vidrio antiespia iPhone 12/12 Pro,3000,15000,17,Fabian rio negro
 VTA-04,Vidrio antiespia iPhone 12 Pro Max,3000,15000,22,Fabian rio negro
 VTA-05,Vidrio antiespia iPhone 13 Pro Max/14 Plus,3000,15000,10,Fabian rio negro
-VTA-06,Vidrio antiespia iPhone 14 Pro/15,3000,15000,3,Fabian rio negro
+VTA-06,Vidrio antiespia iPhone 14 Pro/15,3000,15000,2,Fabian rio negro
 VTA-07,Vidrio antiespia iPhone 14 Pro Max/14 Plus/15 Plus,3000,15000,1,Fabian rio negro
 VTA-08,Vidrio antiespia iPhone 15/15 Pro/16,3000,15000,0,Fabian rio negro
 VTA-09,Vidrio antiespia iPhone 15 Pro Max,3000,15000,4,Fabian rio negro
@@ -1563,7 +1565,7 @@ VTA-24,Vidrio antiespia samsung A31/A32/A22 4G/F22/M32/M22/A33,3000,15000,15,Fab
 VTA-25,Vidrio antiespia samsung A20/A30,3000,15000,20,Fabian rio negro
 VTA-26,Vidrio antiespia Redmi 15C/14C,3000,15000,16,Fabian rio negro
 VTA-27,Vidrio antiespia Moto g55,3000,15000,20,Fabian rio negro
-VTA-28,Vidrio antiespia Redmi 13C/13C 5G/NOTE 13R/NOTE 60,3000,15000,18,Fabian rio negro
+VTA-28,Vidrio antiespia Redmi 13C/13C 5G/NOTE 13R/NOTE 60,3000,15000,17,Fabian rio negro
 VTA-29,Vidrio antiespia Moto G60,3000,15000,20,Fabian rio negro
 VTA-30,10C/12C/A3/POCO C40/C55/HOT 40 PRO/SM A05/SM A05S o VTBS-01/X5B,3000,15000,15,Fabian rio negro
 VTA-31,Vidrio antiespia Samsung A21s,3000,15000,20,Fabian rio negro
@@ -1590,7 +1592,7 @@ VTA-41.SAMSUNG,V antiespia F62/M62/M51/A71/M52 5G/M53 5G/M54/M55/C55/F54/A72/A73
 VTA-41.VIVO,V antiespia Y38/Y39/Y36/Y36 5G/Y77T/Y78T/Y27S/Y100i/Y100T/T1 5G CHINA/Y77 CHINA/Y78 CHINA/ IQOO NEO5 SE / IQOO Z7 CHINA / Z7X / Z8X,2000,15000,56,Fabián rio negro
 VTA-41.OPPO,V antiespia OPPO A58,2000,15000,60,Fabián rio negro
 VTA-41.REDMI,V antiespia Redmi Note 13 Pro+/Note 14 4G,2000,15000,59,Fabián rio negro
-VTA-42,V antiespia Redmi Note 13 Pro+/Note 13/Note 13 Pro/Note 14 4G,2000,15000,59,Fabián rio negro
+VTA-42,V antiespia Redmi Note 13 Pro+/Note 13/Note 13 Pro/Note 14 4G,2000,15000,58,Fabián rio negro
 VTA-43,V antiespia Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,15,Fabián rio negro
 VTA-44,V antiespia Samsung A56/A36,2000,15000,35,Fabián rio negro
 VTA-45.HUAWEI,V antiespia Huawei Y9 Prime 2019/Y9S,2000,15000,20,Fabián rio negro
@@ -1627,7 +1629,7 @@ AS-02,Protector de cargador samsung 25W,5500,18000,14,Fabián rio negro
 AS-03,Protector de ipods 2da generacion,5500,15000,6,Fabián rio negro
 AS-04,Protector de ipods 3ra generacion,5500,15000,7,Fabián rio negro
 AS-05,Protector de ipods 4ta generacion,5500,15000,7,Fabián rio negro
-PLT-01,Netflix pantalla,17000,17000,62,Anduell Play
+PLT-01,Netflix pantalla,17000,17000,56,Anduell Play
 PLT-02,Disney pantalla,15000,15000,94,Anduell Play
 CEL-01,Celular Motrola G52,140000,380000,0,Anduell Play
 FPD-217,funda de lujo AG-GLASS IP 13,18000,37000,0,Anduell Play
@@ -1646,7 +1648,7 @@ FPD-229,Funda de lujo Case Go IP 11,14500,32000,3,Leonardo
 FPD-230,Funda de lujo Case Go IP 13/14,14500,32000,4,Leonardo
 FPD-231,Funda de lujo Case Go RM Note 15,14500,32000,4,Leonardo
 FPD-232,Funda de lujo Case Go RM Note 15 Pro,14500,32000,4,Leonardo
-FPD-233,Funda de lujo Lumina IP 11,12500,27000,9,Leonardo
+FPD-233,Funda de lujo Lumina IP 11,12500,27000,8,Leonardo
 FPD-234,Funda de lujo Luxury RM 15C,15500,32000,3,Leonardo
 FPD-235,Funda de lujo Luxury RM Note 15,15500,32000,3,Leonardo
 FPD-236,Funda de lujo Luxury RM Note 15 Pro+,15500,32000,3,Leonardo
