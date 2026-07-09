@@ -1,5 +1,5 @@
 id,nombre,costo,precio,stock,proveedor
-GO-01,Gorra agropecuaria,26000,50000,0,Caps Store
+GO-01,Gorra agropecuaria,25000,50000,1,Caps Store
 GO-02,Gorra agropecuaria gorin bros,28000,50000,3,Caps Store
 GO-03,Gorra agropecuaria cuero,32000,55000,0,Caps Store
 GO-04,Gorra Honda,25000,50000,0,Caps Store
@@ -9,7 +9,7 @@ GO-07,Gorra basica marcas,20000,35000,11,Caps Store
 GO-08,Gorra basica,14000,25000,2,Caps Store
 GO-09,Gorra antifluidos,18000,35000,2,Nicolas Diablillo
 GO-10,Gorra mawa,20000,35000,2,Caps Store
-GO-11,Gorra Oakley,28000,50000,0,Caps Store
+GO-11,Gorra chanell,25000,45000,1,Caps Store
 GO-12,Gorra Red Bull,25000,50000,4,Jorge World Caps
 GO-13,Gorra Tommy y chicago,25000,50000,1,Caps Store
 GO-14,Gorra estampado niño económica,7000,15000,6,Nicolas Diablillo
@@ -18,23 +18,23 @@ GO-16,Gorra estampado anime niño,20000,32000,0,Caps Store
 GO-17,Gorra económica solo fondo,6500,15000,11,Nicolas Diablillo
 GO-22,Gorra solo fondo buena,9000,20000,0,Nicolas Diablillo
 GO-143,Gorra marcas economica,9000,20000,5,Nicolas Diablillo
-GO-18,Gorra Boston red sox tubular,32000,60000,0,Caps Store
+GO-18,Gorra Yout,25000,50000,2,Caps Store
 GO-19,Gorra Los Angeles tubular,30000,60000,3,Caps Store
 GO-20,Gorra Yankees normal,26000,50000,14,Caps Store
-GO-21,Gorra anime adulto,20000,32000,0,Caps Store
+GO-21,Gorra multucolor,25000,45000,5,Caps Store
 GO-23,Gorra Toronto Jays,26000,48000,0,Caps Store
 GO-24,Gorra Houston,34000,60000,1,Caps Store
 GO-25,Gorra Raiders,25000,50000,1,Caps Store
 GO-26,Gorra Supreme tubular,34000,60000,0,Caps Store
 GO-91,Gorra Supreme,30000,50000,4,Caps Store
 GO-27,Gorra Los Angeles normal,25000,50000,4,Caps Store
-GO-28,Gorra Detroit,26000,48000,0,Caps Store
+GO-28,Gorra LV,25000,55000,1,Caps Store
 GO-29,Gorra Colorado,26000,48000,1,Caps Store
 GO-30,Gorra Boston Red Sox normal,26000,50000,6,Caps Store
 GO-31,Gorra Cardinals,26000,48000,0,Caps Store
 GO-32,Gorra Atlanta,28000,50000,1,Caps Store
 GO-33,Gorra San Francisco,28000,50000,0,Caps Store
-GO-34,Gorra Syrawse,28000,48000,0,Caps Store
+GO-34,Gorra Beisbolera,25000,50000,5,Caps Store
 GO-35,Gorra Milwaukee,28000,48000,1,Caps Store
 GO-36,Gorra Georgia Bulldog,27000,50000,1,Caps Store
 GO-37,Gorra Texas Rangers,27000,50000,1,Caps Store
@@ -43,32 +43,32 @@ GO-39,Gorra Athletics,27000,48000,0,Caps Store
 GO-40,Gorra Vancouver Grizlie,27000,48000,0,Caps Store
 GO-41,Gorra Mariners tubular,34000,60000,0,Caps Store
 GO-42,Gorra Mariners,25000,48000,1,World Caps
-GO-43,Gorra Sidewinders,27000,48000,0,Caps Store
+GO-43,Gorra Sidewinders,27000,48000,1,Caps Store
 GO-44,Gorra Hoyas Navy,27000,48000,0,Caps Store
 GO-45,Gorra Oregon,27000,50000,0,Caps Store
 GO-46,Gorra Zephyr,27000,50000,1,Caps Store
 GO-47,Gorra Padres San Diego,27000,50000,0,Caps Store
 GO-48,Gorra Arizona,27000,48000,0,Caps Store
 GO-49,Gorra Dodgers,27000,50000,0,Caps Store
-GO-50,Gorra Dsquared,27000,50000,2,Caps Store
-GO-51,Gorra Adidas,25000,50000,1,Caps Store
+GO-50,Gorra Dsquared,27000,45000,3,Caps Store
+GO-51,Gorra Adidas,25000,50000,1,Caps Store50
 GO-52,Gorra Carolina Herrera,27000,50000,1,Caps Store
-GO-53,Gorra Cristian Dior,27000,50000,2,Caps Store
+GO-53,Gorra Cristian Dior,25000,50000,2,Caps Store
 GO-54,Gorra ,32000,55000,0,Caps Store
 GO-55,Gorra Coach normal,25000,49000,3,Caps Store
 GO-90,Gorra ,29000,50000,0,Caps Store
-GO-56,Gorra Fendi,27000,50000,2,Caps Store
+GO-56,Gorra Fendi,27000,50000,1,Caps Store
 GO-57,Gorra Amiri nacional,25000,50000,1,Caps Store
 GO-58,Gorra Dolce Gabbana,27000,50000,2,Caps Store
-GO-59,Gorra Gucci,27000,50000,0,Caps Store
+GO-59,Gorra Gucci,27000,50000,1,Caps Store
 GO-60,Gorra Cincinnati,27000,50000,1,Caps Store
 GO-61,Gorra Psycho Bunny,27000,50000,1,Caps Store
 GO-62,Gorra Puma,27000,50000,1,Caps Store
-GO-63,Gorra Full Caos,20000,40000,0,Caps Store
+GO-63,Gorra lambo,25000,50000,2,Caps Store
 GO-64,Gorra Quiksilver,27000,50000,0,Caps Store
 GO-65,Gorra Valentino,27000,50000,0,Caps Store
 GO-66,Gorra Balenciaga,25000,45000,0,Caps Store
-GO-67,Gorra Burberry,27000,50000,1,Caps Store
+GO-67,Gorra Burberry,25000,50000,2,Caps Store
 GO-68,Gorra horners,27000,48000,0,Caps Store
 GO-69,Gorra royal enfield,27000,48000,1,Caps Store
 GO-70,Gorra rancing,28000,50000,0,Caps Store
@@ -81,7 +81,7 @@ GO-76,Gorra Houston tubular,30000,60000,0,Caps Store
 GO-77,Gorra belica religiosa,27000,55000,2,Caps Store
 GO-78,Gorra monastery,27000,50000,5,Caps Store
 GO-79,Gorra westcol,30000,55000,6,Caps Store
-GO-80,Gorra Blessd,35000,60000,16,Caps Store
+GO-80,Gorra Blessd,35000,60000,15,Caps Store
 GO-81,Gorra clemont,25000,50000,1,Caps Store
 GO-82,Gorra Hugo BOS cobra,25000,50000,5,Caps Store
 GO-83,Gorra Hugo BOSS Golden,25000,50000,4,Caps Store
@@ -96,7 +96,7 @@ GO-93,Gorra New Era,28000,50000,0,Nicolas Diablillo
 GO-94,Gorra Yankees economica,16000,32000,0,Nicolas Diablillo
 GO-95,Gorra Phillip Plein normal,28000,55000,3,Caps Store
 GO-96,Gorra Belica cruz economica,22000,48000,1,Nicolas Diablillo
-GO-97,Gorra Dsquared 2 economica,22000,48000,2,Nicolas Diablillo
+GO-97,Gorra burberry,25000,55000,2,Nicolas Diablillo
 GO-98,Gorra Visera economica,9000,20000,0,Nicolas Diablillo
 GO-99,Gorra niña orejitas,11500,30000,2,zona chic
 GO-100,Gorra new era multi marcas tubular,30000,60000,0,Caps Store
@@ -135,7 +135,7 @@ GO-132,Gorra agropecuaria caballos,20000,48000,2,Jorge World Caps
 GO-133,Gorra agropecuaria vacas,27000,50000,0,Nicolas Diablillo
 GO-134,Gorra Beisbolera gamusa,28000,45000,0,Caps Store
 GO-135,Gorra Nicke Malla,25000,48000,1,Caps Store
-GO-136,Gorra Clemont Importada,28000,55000,6,Caps Store
+GO-136,Gorra Clemont Importada,28000,55000,5,Caps Store
 GO-137,Gorra Compton Ice C - Snoop D,28000,48000,0,Caps Store
 GO-138,Gorra coach plana,28000,55000,7,Caps Store
 GO-139,Gorra coach plana,28000,55000,13,Caps Store
@@ -150,7 +150,7 @@ GO-148,Gorra Yankees Tono a Tono,25000,45000,1,Caps Store
 GO-149,Gorra Nike malla,22000,45000,1,Caps Store
 GO-150,Gorra belica oveja negra,27000,55000,0,Caps Store
 GO-151,Gorra Yeison Jimenez,28000,55000,6,Caps Store
-GO-152,Gorra Amiri Piedras,30000,60000,0,World Caps
+GO-152,Gorra Amiri Piedras,25000,55000,3,World Caps
 GO-153,Gorra de niños dibujos,18000,32000,5,World Caps
 GO-154,Gorra Religiosa economica,26000,50000,1,World Caps
 GO-155,Gorra Hugo Boss importada,28000,55000,1,World Caps
@@ -403,36 +403,36 @@ RJ-24,Reloj Rolex Tipo B,26000,85000,1,Distri Relojes
 RJ-25,Reloj Rolex Tipo C,22000,75000,1,Distri Relojes 
 CRJ-01,Caja de reloj,3000,8000,2,nulo
 VP-01,Vaper Priv Bar,18000,32000,5,juan felipe
-VP-02,Vaper Urbar 15k,16000,30000,3,Juan Felipe
+VP-02,Vaper Urbar 15k,16000,30000,15,Juan Felipe
 VP-03,Vaper Snoopy Smoke,16000,32000,0,Juan Felipe
 VP-04,Vaper Ease Clear,10000,20000,2,Juan Felipe
 VP-05,Vaper Death Row 7k,8000,17000,0,Juan Felipe
 VP-06,Vaper Archer,13000,25000,2,Juan Felipe
 VP-07,Vaper Lost Mary Pequeño,8000,22000,0,Juan Felipe
-VP-08,Vaper Lost Mary Grande,8000,22000,0,Juan Felipe
+VP-08,Vaper Lost Mary Grande,8000,22000,15,Juan Felipe
 VP-09,Vaper Mizzle 9000,9000,22000,1,Juan Felipe
 VP-10,Vaper South Connect,30000,60000,0,Juan Felipe
-VP-11,Vaper MTRX 25k,20000,42000,0,Juan Felipe
+VP-11,Vaper MTRX 25k,20000,42000,12,Juan Felipe
 VP-12,Vaper Yogurt Bar,90000,15000,0,Juan Felipe
 VP-13,Vaper True Story,15000,32000,0,Juan Felipe
-VP-14,Vaper Viral 9k,12000,25000,2,Juan Felipe
-VP-15,Vaper Moti 7.5k,10000,22000,8,Juan Felipe
+VP-14,Vaper Viral 9k,12000,25000,10,Juan Felipe
+VP-15,Vaper Moti 7.5k,10000,22000,11,Juan Felipe
 VP-16,Vaper Yovo,9500,24000,1,Juan Felipe
 VP-17,Destilado Fume,40000,75000,4,Juan Felipe
-VP-18,Vaper Hulk 8k,12000,25000,2,Juan Felipe
+VP-18,Vaper Hulk 8k,12000,25000,50,Juan Felipe
 VP-19,Vaper Spaceman 20k,16000,32000,0,Juan Felipe
 VP-20,Destilado repuesto,45000,82000,6,Juan Felipe
 VP-21,Destilado combo,45000,95000,5,Juan Felipe
-VP-22,Vaper Airfuz de pantalla,18000,50000,2,Juan Felipe
+VP-22,Vaper Airfuz de pantalla,22000,48000,6,Juan Felipe
 VP-23,Vaper Waka pequeño 6k,11000,39000,0,Juan Felipe
-VP-24,Vaper Death Row 5k,6000,15000,14,Juan Felipe
+VP-24,Vaper Death Row 5k,6000,15000,40,Juan Felipe
 VP-25,Capsula destilado nacional,25000,50000,4,Juan Felipe
 VP-26,Cargador destilado,8000,15000,1,Juan Felipe
-VP-27,vaper nicky Jam x fume 10k,13000,27000,8,juan felipe
+VP-27,vaper nicky Jam x fume 10k,11000,26000,15,juan felipe
 VP-28,Vaper MTRX 12,12000,29000,0,Juan Felipe
 VP-29,Vaper Beyond 12k,12000,29000,0,Juan Felipe
-VP-30,Vaper Urbar 5k,6500,17000,5,Juan Felipe
-VP-31,Vaper Chris Brown 15k,15000,30000,2,Juan Felipe
+VP-30,Vaper Urbar 5k,6500,17000,30,Juan Felipe
+VP-31,Vaper Chris Brown 15k,15000,30000,20,Juan Felipe
 VP-32,Vaper Funky Monkey 12k,13000,40000,0,Juan Felipe
 VP-33,Vaper Bugatti 9k,12000,25000,1,Juan Felipe
 VP-34,Vaper Supreme 5k,6500,16000,2,Juan Felipe
@@ -440,10 +440,11 @@ VP-35,Vaper Fruitia 8k,9000,20000,0,Juan Felipe
 VP-36,Bateria destilado USB,13000,40000,1,Juan Felipe
 VP-37,Bateria destilado TC pantalla,17000,50000,0,Juan Felipe
 VP-38,Bateria destilado TC,15000,45000,2,Juan Felipe
-VP-39,Vaper esencia Chillax,14000,25000,5,Juan Felipe
+VP-39,Vaper esencia Chillax,14000,25000,4,Juan Felipe
 VP-40,Bateria vaper Chillax,3000,10000,7,Juan Felipe
 VP-41,Vaper Off Stamp bateria intertcambiable 16k,20000,40000,0,Juan Felipe
 VP-42,Vaper Waka 36k,55000,98500,1,Juan Felipe
+VP-43,vaper nicky Jam x fume 15k,14000,30000,12,juan felipe
 BLN-01,Blones,1800,4000,41,nulo
 CR-01,Cueros raro,4500,10000,8,nulo
 CR-02,Cueros OCB #7,1500,4000,40,nulo
@@ -510,7 +511,7 @@ OP-10,Funda muñequitos Oppo A59 5G,10000,20000,5,nulo
 OP-11,Funda muñequitos Oppo A79 5G,10000,20000,7,nulo
 OP-12,Funda anticaídas Oppo A78 4G,12000,25000,2,nulo 
 OP-13,Funda silicona Oppo RENO 12,5500,15000,4,nulo
-OP-14,Funda silicona Oppo A16,4500,15000,4,nulo
+OP-14,Funda silicona Oppo A16,4500,15000,3,nulo
 OP-15,Funda silicona Oppo A80/A3 Pro,8500,15000,6,Leonardo
 MT-01,Funda silicona Motorola G04-04S/E14,4500,15000,2,nulo
 MT-02,Funda silicona Motorola One Macro G8 Play,4500,15000,2,nulo
@@ -738,7 +739,7 @@ VVS-01,Funda silicona VIVO Y33S,8000,15000,4,Fabian Rionegro
 HRS-04,Funda silicona Honor X7C,8000,15000,5,Fabian Rionegro
 HRS-05,Funda silicona Honor 200 pro,6500,15000,1,Fabian Rionegro
 OP-13,Funda transparente Oppo Reno 11 5G,4500,15000,4,nulo
-OP-14,Funda transparente Oppo A57,4500,15000,2,nulo
+OP-14,Funda transparente Oppo A57,4500,15000,1,nulo
 OP-15,Funda transparente Oppo A58,4500,15000,-1,nulo
 OP-16,Funda transparente Oppo A58 4G,4500,15000,2,nulo
 OP-17,Funda transparente Oppo A78 4G,4500,15000,4,nulo
@@ -762,7 +763,7 @@ SN-01,Sudadera nike,30000,55000,5,zona chic
 SN-02,Sudadera tela marcas,25000,48000,0,alberto
 SN-03,Sudadera impermeable nike,23000,50000,4,alberto
 PS-01,Pantalonetas playeras marcas,30000,55000,1,alberto
-PS-02,Pantaloneta impermeables marcas,24000,47900,16,alberto
+PS-02,Pantaloneta impermeables marcas,24000,47900,15,alberto
 SM-51,Funda silicona Samsung A02s,4500,15000,8,nulo
 SM-52,Funda silicona Samsung A03,4500,15000,8,nulo
 SM-53,Funda silicona Samsung A03s,4500,15000,6,nulo
@@ -907,8 +908,8 @@ AE-51,Cable plus economico,3000,6500,3,La rana
 AE-52,Cable TC 9A,5000,20000,22,Volt Pro
 AE-53,Cable TC 5A,4000,12000,13,Volt Pro
 AE-54,Cable VP TC-TC 200mm,7500,30000,13,Volt Pro
-AE-55,Cable VP TC-TC 9A,7500,25000,19,Volt Pro
-AE-56,Cable TC - TV8 4A,2500,10000,14,Volt Pro
+AE-55,Cable VP TC-TC 9A,7500,25000,18,Volt Pro
+AE-56,Cable TC - TV8 4A,2500,10000,13,Volt Pro
 AE-57,Cable TC - LGT 4A,2500,10000,18,Volt Pro
 AE-58,Cable TC 6A,6000,18000,33,Volt Pro
 AE-59,Cable TC 6A vp-213,2500,10000,38,Volt Pro
@@ -1594,7 +1595,7 @@ VTA-41.OPPO,V antiespia OPPO A58,2000,15000,60,Fabián rio negro
 VTA-41.REDMI,V antiespia Redmi Note 13 Pro+/Note 14 4G,2000,15000,59,Fabián rio negro
 VTA-42,V antiespia Redmi Note 13 Pro+/Note 13/Note 13 Pro/Note 14 4G,2000,15000,58,Fabián rio negro
 VTA-43,V antiespia Samsung A35/A36/A55/A56/S24FE/A26/A16/Redmi 15/Nubia Neo 3 GT 5G,2000,15000,15,Fabián rio negro
-VTA-44,V antiespia Samsung A56/A36,2000,15000,35,Fabián rio negro
+VTA-44,V antiespia Samsung A56/A36,2000,15000,33,Fabián rio negro
 VTA-45.HUAWEI,V antiespia Huawei Y9 Prime 2019/Y9S,2000,15000,20,Fabián rio negro
 VTA-45.HONOR,V antiespia HONOR 9X/PsmartZ,2000,15000,20,Fabián rio negro
 VTA-46.HONOR,V antiespia HONOR X8/VTG-01/VTB-15,2000,15000,20,Fabián rio negro
